@@ -1,3 +1,8 @@
+**/.ipynb_checkpoints/
+*.pyc
+*.pkl
+*.sav
+
 docs/
 DS0001/
 DS0002/
