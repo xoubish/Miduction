@@ -1,0 +1,2221 @@
+ICPSR 4652
+Terms of Use
+ICPSR Processing Notes
+ICPSR Variable Description and Frequencies
+    Case Identification
+        M2ID MIDUS 2 ID number
+        M2FAMNUM MIDUS 2 family number
+        SAMPLMAJ Major sample identification
+        B1STATUS Completion status of M2 respondents
+        B1PAGE_M2 Respondent's calculated age at MIDUS 2 Project 1 phone interview
+        B1PRAGE_2019 Respondent's calculated age at MIDUS 2 Project 1 phone interview, updated as of 8-5-2019
+        M2AGE_FLAG Flag indicates changes in M2 age, updated as of 8-5-2019
+        B1PBYEAR Respondent's birth year at MIDUS 2 Project 1 phone interview
+        B1PBYEAR_2019 Respondent's birth year at MIDUS 2 Project 1 phone interview, updated as of 8-5-2019
+        M2BYEAR_FLAG Flag indicates changes in M2 birth year, updated as of 8-5-2019
+        B1PRSEX Respondent's sex
+        B1PIDATE_MO Month of interview
+        B1PIDATE_YR Year of interview
+    Weights for Analysis
+        B1PWGHT1 M2 Main (RDD) random digit dialing Phone post-stratification weight - region x age x education
+        B1PWGHT2 M2 Main (RDD) random digit dialing Phone post-stratification weight - sex x age x education
+        B1PWGHT3 M2 Main (RDD) random digit dialing Phone post-stratification weight - race x age x education
+        B1PWGHT4 M2 Main (RDD) random digit dialing Phone post-stratification weight - region
+        B1PWGHT5 M2 Main (RDD) random digit dialing Phone post-stratification weight - sex
+        B1PWGHT6 M2 Main (RDD) random digit dialing Phone post-stratification weight - race
+        B1PWGHT7 M2 Main (RDD) random digit dialing Phone post-stratification weight - age
+        B1PWGHT8 M2 Main (RDD) random digit dialing Phone post-stratification weight - education
+        B1PWGHT9 M2 Main (RDD) random digit dialing phone post-stratification weight - marital status
+        B1PWGHT10 M2 Main (RDD) random digit dialing Phone post-stratification weight - sex x race x age x education
+    MIDUS 2 Phone Interview
+        Section A: Health
+            B1PA1 Physical health self-evaluated
+            B1PA2 Mental/emotional health self-evaluated
+            B1PA3 Health compared to others your age
+            B1PA4 Days unable to work because of health (30 days)
+            B1PA4A Reason unable to work (physical, mental, combination)
+            B1PA4BA Number days unable work due to physical health only
+            B1PA4BB Number days unable work due to mental health only
+            B1PA4BC Number days unable work due to physical and mental health
+            B1PA5 Days cut back work because of health (30 days)
+            B1PA5A Reason cut back on work (physical, mental, combination)
+            B1PA5BA Number days cut back due to physical health only
+            B1PA5BB Number days cut back due to mental health only
+            B1PA5BC Number days cut back due to mental and physical
+            B1PA6A History of stroke
+            B1PA6B History of serious head injury
+            B1PA6C History of Parkinson's disease
+            B1PA6D History of other neurological disorder
+            B1PA7 Heart trouble suspect/confirmed by doctor
+            B1PA7A Age doctor told you have heart problem
+            B1PA7BA Diagnosis - heart attack
+            B1PA7BB Diagnosis - angina
+            B1PA7BC Diagnosis - high blood pressure
+            B1PA7BD Diagnosis - valve disease, mitrovalve prolapse, aortic nsufficiency, bicuspid aortic valve
+            B1PA7BE Diagnosis - hole in heart, atrial septal defect (ASD), ventricular septal defect (VSD)
+            B1PA7BF Diagnosis - blocked/closed artery, coronary artery disease (CAD), coronary heart disease (CHD), ischemia
+            B1PA7BG Diagnosis - irregular/fast heart beat, arrhythmia
+            B1PA7BH Diagnosis - heart murmur
+            B1PA7BI Diagnosis - heart failure, congestive heart failure (CHF), enlarged heart
+            B1PA7BJ Diagnosis - other (specify)
+            B1PA7C Go to hospital for heart treatment/tests
+            B1PA7D Getting treatment for heart trouble now
+            B1PA8 Ever had heart attack
+            B1PA8A Year had first heart attack
+            B1PA9 Heart attack risk compared to others
+            B1PA9A Degree of higher risk for heart attack
+            B1PA9B Degree of lower risk for heart attack
+            B1PHRTRS Subjective heart attack risk
+            B1PHRTDX Subjective heart attack risk (binary)
+            B1PA10A Family heart attack - no one
+            B1PA10B Family heart attack - mother
+            B1PA10C Family heart attack - father
+            B1PA10D Family heart attack - brother
+            B1PA10E Family heart attack - half brother
+            B1PA10F Family heart attack - sister
+            B1PA10G Family heart attack - half sister
+            B1PA10H Family heart attack - child
+            B1PA11 How much worry about your heart
+            B1PA12 Takes aspirin to prevent heart conditions
+            B1PA13 Ever had major heart procedure
+            B1PA14 Anyone you know well had heart procedure
+            B1PA15 Would choose bypass or medication
+            B1PA16 How sure would choose bypass or medication
+            B1PA17 Chest pain walk uphill/hurry
+            B1PA18 Chest pain walk ordinary pace
+            B1PA19 When get chest pain stop/slow/continue
+            B1PA20 Does chest pain go away when stand still
+            B1PA21 How soon does chest pain go away
+            B1PA22 Where get chest pain/discomfort
+            B1PANGIN Angina class rating
+            B1PA23 Ever severe pain across front of chest
+            B1PA23A Number times severe pain front of chest
+            B1PA23B Talk to doctor about chest pain
+            B1PA23CA Chest pain - heart attack
+            B1PA23CB Chest pain - angina
+            B1PA23CC Chest pain - high blood pressure
+            B1PA23CD Chest pain - valve disease, mitrovalve prolapse, aortic nsufficiency, bicuspid aortic valve
+            B1PA23CE Chest pain - hole in heart, atrial septal defect (ASD), ventricular septal defect (VSD)
+            B1PA23CF Chest pain - blocked/closed artery, coronary artery disease (CAD), coronary heart disease (CHD), ischemia
+            B1PA23CG Chest pain - irregular/fast heart beat, arrhythmia
+            B1PA23CH Chest pain - heart murmur
+            B1PA23CI Chest pain - heart failure, congestive heart failure (CHF), enlarged heart
+            B1PA23CJ Chest pain - other (specify)
+            B1PA24 High blood pressure ever diagnosed
+            B1PA24A Number years ago told high blood pressure
+            B1PA24B Ever taken high blood pressure medicine
+            B1PA24C Now taking high blood pressure medicine
+            B1PA24D Using other treatment high blood pressure
+            B1PA24EA High blood pressure therapy - diet
+            B1PA24EB High blood pressure therapy - vitamins/minerals
+            B1PA24EC High blood pressure therapy - exercise
+            B1PA24ED High blood pressure therapy - herbal therapy
+            B1PA24EE High blood pressure therapy - meditation/relaxation
+            B1PA24EF High blood pressure therapy - other (enter treatment)
+            B1PA25NM Time since blood pressure test (number)
+            B1PA25IN Time since blood pressure test (month, year)
+            B1PA25A Last blood pressure (low, normal, high)
+            B1PA25BS Exact reading systolic blood pressure
+            B1PA25BD Exact reading diastolic blood pressure
+            B1PA26 Ever had cancer
+            B1PA27 Cancer risk compared to others
+            B1PA27A Degree of higher risk for cancer
+            B1PA27B Degree of lower risk for cancer
+            B1PCACRS Subjective Cancer Risk
+            B1PCACDX Subjective Cancer Risk (binary)
+            B1PA28A Breast cancer ever
+            B1PA28B Cervical cancer ever
+            B1PA28C Colon cancer ever
+            B1PA28D Lung cancer ever
+            B1PA28E Lymphoma/leukemia cancer ever
+            B1PA28F Ovarian cancer ever
+            B1PA28G Prostate cancer ever
+            B1PA28H Skin cancer/melanoma ever
+            B1PA28I Uterine cancer ever
+            B1PA28J Other cancer ever (specify)
+            B1PA28AA Age breast cancer diagnosed
+            B1PA28BB Age cervical cancer diagnosed
+            B1PA28CC Age colon cancer diagnosed
+            B1PA28DD Age lung cancer diagnosed
+            B1PA28EE Age lymphoma/leukemia cancer diagnosed
+            B1PA28FF Age ovarian cancer diagnosed
+            B1PA28GG Age prostate cancer diagnosed
+            B1PA28HH Age skin cancer/melanoma diagnosed
+            B1PA28II Age uterine cancer diagnosed
+            B1PA28JJ Age other cancer diagnosed
+            B1PA29 Cancer treatment/therapy currently
+            B1PA29AA Cancer therapy - surgery
+            B1PA29AB Cancer therapy - chemotherapy
+            B1PA29AC Cancer therapy - radiation therapy
+            B1PA29AD Cancer therapy - diet
+            B1PA29AE Cancer therapy - vitamins/minerals
+            B1PA29AF Cancer therapy - exercise
+            B1PA29AG Cancer therapy - herbal therapy
+            B1PA29AH Cancer therapy - medication/relaxation
+            B1PA29AI Cancer therapy - other (enter treatment)
+            B1PA30A Had cancer - no one
+            B1PA30B Had cancer - mother
+            B1PA30C Had cancer - father
+            B1PA30D Had cancer - brother
+            B1PA30E Had cancer - sister
+            B1PA30F Had cancer - child
+            B1PA31A Mother had breast cancer
+            B1PA31B Mother had cervical cancer
+            B1PA31C Mother had colon cancer
+            B1PA31D Mother had lung cancer
+            B1PA31E Mother had lymphoma/leukemia cancer
+            B1PA31F Mother had ovarian cancer
+            B1PA31H Mother had skin cancer/melanoma
+            B1PA31I Mother had uterine cancer
+            B1PA31J Mother had other cancer (specify)
+            B1PA32A Father had breast cancer
+            B1PA32C Father had colon cancer
+            B1PA32D Father had lung cancer
+            B1PA32E Father had lymphoma/leukemia cancer
+            B1PA32G Father had prostate cancer
+            B1PA32H Father had skin cancer/melanoma
+            B1PA32J Father had other cancer (specify)
+            B1PA33A Brother had breast cancer
+            B1PA33C Brother had colon cancer
+            B1PA33D Brother had lung cancer
+            B1PA33E Brother had lymphoma/leukemia cancer
+            B1PA33G Brother had prostate cancer
+            B1PA33H Brother had skin cancer/melanoma
+            B1PA33J Brother had other cancer (specify)
+            B1PA34A Sister had breast cancer
+            B1PA34B Sister had cervical cancer
+            B1PA34C Sister had colon cancer
+            B1PA34D Sister had lung cancer
+            B1PA34E Sister had lymphoma/leukemia cancer
+            B1PA34F Sister had ovarian cancer
+            B1PA34H Sister had skin cancer/melanoma
+            B1PA34I Sister had uterine cancer
+            B1PA34J Sister had other cancer (specify)
+            B1PA35A Child had breast cancer
+            B1PA35B Child had cervical cancer
+            B1PA35C Child had colon cancer
+            B1PA35D Child had lung cancer
+            B1PA35E Child had lymphoma/leukemia cancer
+            B1PA35F Child had ovarian cancer
+            B1PA35G Child had prostate cancer
+            B1PA35H Child had skin cancer/melanoma
+            B1PA35I Child had uterine cancer
+            B1PA35J Child had other cancer (specify)
+            B1PA36A Ever had hysterectomy
+            B1PA36AM Month had hysterectomy
+            B1PA36AY Year had hysterectomy
+            B1PA36B Had ovary removed (one, both, none)
+            B1PA36C Ovaries removed at same time
+            B1PA36DM Month first ovary removed
+            B1PA36DY Year first ovary removed
+            B1PA36EM Month second ovary removed
+            B1PA36EY Year second ovary removed
+            B1PA37 Age had first cigarette
+            B1PA38A Ever smoked cigarettes regularly
+            B1PA38B Age began to smoke regularly
+            B1PA39 Now smoke cigarettes regularly
+            B1PA40 Cigarettes per day during heaviest year (current smoker)
+            B1PA41 Ever tried to quit smoking
+            B1PA42 Age last smoked regularly
+            B1PA43 Cigarettes per day during heaviest year (ex-smoker)
+            B1PA44 Ever used pipe/cigars/snuff/chew
+            B1PA45A Who smoked - father
+            B1PA45B Who smoked - mother
+            B1PA45C Who smoked - other
+            B1PA46 In home anyone smoke/use tobacco current
+            B1PA47 At job anyone smoke/use tobacco ever
+            B1PA48 At job anyone smoke/use tobacco current
+            B1PA49 Age had first drink of alcohol
+            B1PA50 Had at least one drink (past month)
+            B1PA51 How often at least one drink (past month)
+            B1PA51A How many days per month (past month, if less than 1/week)
+            B1PA52 Number drinks on days when drank
+            B1PA53 Times had 5 or more drinks same occasion (past month)
+            B1PA54 When drank most, had at least one (frequency)
+            B1PA54A How many days per month (when most, if less than 1/week)
+            B1PA55 When drank most, number drinks when drank
+            B1PA56 Age start to drink that much (when most)
+            B1PA57 Number years drank that much (when most)
+            B1PA58 Lived with alcoholic during childhood
+            B1PA59 Ever married to/lived with alcoholic
+            B1PA60 Felt sad/depressed for 2 or more weeks (12 months)
+            B1PA61 Sad/depress lasted how long (2 weeks sad)
+            B1PA62 How often felt sad/depress (2 weeks sad)
+            B1PA63 Lose interest in most things (2 weeks sad)
+            B1PA64 Felt more tired/low energy (2 weeks sad)
+            B1PA65 Lost appetite (2 weeks sad)
+            B1PA65A Increased appetite (2 weeks sad)
+            B1PA66 More trouble falling asleep (2 weeks sad)
+            B1PA66A How often trouble fall sleep (2 weeks sad)
+            B1PA67 More trouble concentrating (2 weeks sad)
+            B1PA68 Felt down/no good/worthless (2 weeks sad)
+            B1PA69 Thought a lot about death (2 weeks sad)
+            B1PA70 Number weeks sad/depressed (12 months)
+            B1PA71MO Most recent month sad/depressed
+            B1PA71YR Most recent year sad/depressed
+            B1PDEPAF Depressed affect (continuous)
+            B1PDEPAD Depressed affect (binary)
+            B1PA72 Time lost interest 2 or more weeks (12 months)
+            B1PA73 How long loss interest lasted (2 weeks interest)
+            B1PA74 How often felt loss interest (2 weeks interest)
+            B1PA75 Felt more tired/low energy (2 weeks interest)
+            B1PA76 Lost appetite (2 weeks interest)
+            B1PA76A Increased appetite (2 weeks interest)
+            B1PA77 More trouble fall sleep (2 weeks interest)
+            B1PA77A How often trouble fall sleep (2 weeks interest)
+            B1PA78 More trouble concentrating (2 weeks interest)
+            B1PA79 Felt down/no good/worthless (2 weeks interest)
+            B1PA80 Thought a lot about death (2 weeks interest)
+            B1PA81 Number weeks lost interest (12 months)
+            B1PA82MO Most recent month lost interest
+            B1PA82YR Most recent year lost interest
+            B1PANHED Anhedonia (continuous)
+            B1PANHDX Anhedonia (binary)
+            B1PDEPRE Depressed Affect + Anhedonia (continuous)
+            B1PDEPDX Depressed Affect + Anhedonia (binary)
+            B1PA83 Worry more, less, about same as others
+            B1PA83A Worry a lot, somewhat, little more
+            B1PA84 Frequency of worrying (12 months)
+            B1PA84A How long worry lasts on days you worry
+            B1PA85 Worry about one thing or more than one
+            B1PA85A Different worries on mind at same time
+            B1PA86 Worry about things not likely to happen
+            B1PA86A Worry about things that are not serious
+            B1PA87 How often can't put worry out of mind
+            B1PA87A How often difficult to control worry
+            B1PA88A Restless because of worry (12 months)
+            B1PA88B Keyed up/on edge/nervous energy (12 months)
+            B1PA88C Irritable because of worry (12 months)
+            B1PA88D Trouble falling asleep because of worry (12 months)
+            B1PA88E Trouble staying asleep because of worry (12 months)
+            B1PA88F Trouble concentrating because of worry (12 months)
+            B1PA88G Trouble remembering because of worry (12 months)
+            B1PA88H Low on energy because of worry (12 months)
+            B1PA88I Tire easily because of worry (12 months)
+            B1PA88J Sore/aching muscles because of worry (12 months)
+            B1PA89 How much worry interferes with your life
+            B1PANXIE Anxiety Disorder (continuous)
+            B1PANXTD Anxiety Disorder (binary)
+            B1PA90 Have spell/attack (12 months)
+            B1PA90A Spell/attack for no reason (12 months)
+            B1PA91 Number attacks (12 months)
+            B1PA92 Attack happen when danger or center attention
+            B1PA92A Heart pounds during attacks
+            B1PA92B Tight/pain in chest during attacks
+            B1PA92C Sweat during attacks
+            B1PA92D Tremble/shake during attacks
+            B1PA92E Hot flashes/chills during attacks
+            B1PA92F Things seem unreal during attacks
+            B1PPANIC Panic Attack (continuous)
+            B1PPANDX Panic Attack (binary)
+        Section B: Education, Occupation, and Marital Status
+            B1PB1 Highest level of education completed
+            B1PB2 Age first worked for pay for 6 or more months
+            B1PB3A Current employment - working now
+            B1PB3B Current employment - self-employed
+            B1PB3C Current employment - looking for work; unemployed
+            B1PB3D Current employment - temporarily laid off
+            B1PB3E Current employment - retired
+            B1PB3F Current employment - homemaker
+            B1PB3G Current employment - full-time student
+            B1PB3H Current employment - part-time student
+            B1PB3I Current employment - maternity or sick leave (volunteered)
+            B1PB3J Current employment - permanently disabled (volunteered)
+            B1PB3K Current employment - other (specify)
+            B1PBWORK Current employment situation
+            B1PB4N Length of unemployment (number)
+            B1PB4M Length of unemployment (day, week, month, year)
+            B1PB5 Reason for current unemployment
+            B1PB6 Working for pay at the present time
+            B1PB7 Supervises others (current job)
+            B1PB7A Number people supervised (current job)
+            B1PB8 Employer or self-employed (current job)
+            B1POCC Respondent current occupation
+            B1PIND Respondent current industry
+            B1PTEDU Logit of proportion of persons completed at least some college as of 1990
+            B1PTEARN Logit of proportion of persons earning $14.30 + per hour in 1989
+            B1PTSEI Total-based 1990 Socio-Economic Index
+            B1PMEDU Logit of proportion of men completed at least some college as of 1990
+            B1PMEARN Logit of proportion of men earning $14.30 + per hour in 1989
+            B1PMSEI Male-based 1990 Socio-Economic Index
+            B1PFEDU Logit of proportion of women completed at least some college as of 1990
+            B1PFEARN Logit of proportion of women earning $14.30 + per hour in 1989
+            B1PFSEI Female-based 1990 Socio-Economic Index
+            B1POCMAJ Respondent's current occupation - major groups
+            B1PINDMJ Respondent's current industry - major groups
+            B1PSOC Respondent current SOC - Standard Occupational Classification
+            B1PB12 Hours work for pay at main job
+            B1PB12A Hours work at other jobs
+            B1PB13 Number nights away due to job (12 months)
+            B1PB14 Supervise others (last job)
+            B1PB14A Number people supervised (last job)
+            B1PB15 Employer or self-employed (last job)
+            B1POCCP Respondent last occupation
+            B1PINDP Respondent last industry
+            B1PTEDUP Prev - Logit of proportion of persons completed at least some college as of 1990
+            B1PTEARP Prev - Logit of proportion of persons earning $14.30 + per hour in 1989
+            B1PTSEIP Prev - Total-based 1990 Socio-Economic Index
+            B1PMEDUP Prev - Logit of proportion of men completed at least some college as of 1990
+            B1PMEARP Prev - Logit of proportion of men earning $14.30 + per hour in 1989
+            B1PMSEIP Prev - Male-based 1990 Socio-Economic Index
+            B1PFEDUP Prev - Logit of proportion of women completed at least some college as of 1990
+            B1PFEARP Prev - Logit of proportion of women earning $14.30 + per hour in 1989
+            B1PFSEIP Prev - Female-based 1990 Socio-Economic Index
+            B1POCPMJ Respondent's previous occupation - major groups
+            B1PPINMJ Respondent's previous industry - major groups
+            B1PB19 Marital status currently
+            B1PB20 Number times married altogether
+            B1PB21M Month married (first marriage)
+            B1PB21Y Year married (first marriage)
+            B1PB22 End in widow or divorce (first marriage)
+            B1PB23M Month spouse died (first marriage)
+            B1PB23Y Year spouse died (first marriage)
+            B1PB24M Month last live with spouse (first marriage)
+            B1PB24Y Year last live with spouse (first marriage)
+            B1PB25M Month divorce final (first marriage)
+            B1PB25Y Year divorce final (first marriage)
+            B1PB26M Month married (recent marriage)
+            B1PB26Y Year married (recent marriage)
+            B1PB27M Month last live with spouse (recent marriage)
+            B1PB27Y Year last live with spouse (recent marriage)
+            B1PB28M Month divorce final (recent marriage)
+            B1PB28Y Year divorce final (recent marriage)
+            B1PB29M Month spouse died (recent marriage)
+            B1PB29Y Year spouse died (recent marriage)
+            B1PB30 Cohabitation with partner currently
+            B1PB31N Length of cohabitation (number)
+            B1PB31M Length of cohabitation (day, week, month, year)
+            B1PPARTN Married or cohabitating
+            B1PB32Y Year spouse/partner born
+            B1PSAGE Age of spouse/partner
+            B1PB33 Spouse/partner highest level of education completed
+            B1PB34A Spouse/partner current employment - working
+            B1PB34B Spouse/partner current employment - self-employed
+            B1PB34C Spouse/partner current employment - looking for work; unemployed
+            B1PB34D Spouse/partner current employment - temporarily laid off
+            B1PB34E Spouse/partner current employment - retired
+            B1PB34F Spouse/partner current employment - homemaker
+            B1PB34G Spouse/partner current employment - full-time student
+            B1PB34H Spouse/partner current employment - part-time student
+            B1PB34I Spouse/partner current employment - maternity or sick leave (volunteered)
+            B1PB34J Spouse/partner current employment - permanently disabled (volunteered)
+            B1PB34K Spouse/partner current employment - other (specify)
+            B1PB34WK Spouse/partner current employment status
+            B1PB35N Spouse/partner length of unemployment (number)
+            B1PB35M Spouse/partner length of unemployment (day, week, month, year)
+            B1PB36 Spouse/partner reason for current unemployment
+            B1PB37 Spouse/partner currently working for pay
+            B1PB38 Spouse/partner supervises others on main job
+            B1PB39 Spouse/partner has employer or is self-employed
+            B1POCCS Spouse/partner occupation
+            B1PINDS Spouse/partner industry
+            B1PTEDUS Spouse - logit of proportion of persons completed at least some college as of 1990
+            B1PTEARS Spouse - logit of proportion of persons earning $14.30 + per hour in 1989
+            B1PTSEIS Spouse - total-based 1990 Socio-Economic Index
+            B1PMEDUS Spouse - logit of proportion of men completed at least some college as of 1990
+            B1PMEARS Spouse - logit of proportion of men earning $14.30 + per hour in 1989
+            B1PMSEIS Spouse - male-based 1990 Socio-Economic Index
+            B1PFEDUS Spouse - logit of proportion of women completed at least some college as of 1990
+            B1PFEARS Spouse - logit of proportion of women earning $14.30 + per hour in 1989
+            B1PFSEIS Spouse - female-based 1990 Socio-Economic Index
+            B1PSOCMJ Spousal occupation - major groups
+            B1PSINMJ Spousal industry - major groups
+        Section C: Household Roster & Children
+            B1PC1 Pregnant currently?
+            B1PC2 Number of living children
+            B1PC3 Any children no longer living
+            B1PC4 Number of household members besides children or self
+            B1PKHSIZ Number of living children (B1PC2) + number of household members (B1PC4)
+            B1PKIDHH Number of respondent's children living in household
+            B1PHHSIZE Total number of individuals living in household
+            B1PC6 Anyone else in household last 12 months not mentioned before
+            B1PCHA1 Age: child/household member #1
+            B1PCHX1 Sex: child/household member #1
+            B1PCHR1 Relation: child/household member #1
+            B1PCMB1 Month of birth or adoption: child #1
+            B1PCYB1 Year of birth or adoption: child #1
+            B1PHHA1 Age at adoption: child #1
+            B1PCHC1 In respondent's care at least 5 years: foster or partner's child #1
+            B1PCHH1 Lives in household: child #1
+            B1PCDD1 Has disability/mental problem: child #1
+            B1PCDT1 Condition disability or mental problem: child #1
+            B1PCDP1 Depression long or single: child #1
+            B1PCDA1 Age disability/mental problem began: child #1
+            B1PCDX1 Professional diagnosis mental: child #1
+            B1PCXT1 Type mental diagnosis: child #1
+            B1PCDO1 Any other condition: child #1
+            B1PCHA2 Age: child/household member #2
+            B1PCHX2 Sex: child/household member #2
+            B1PCHR2 Relation: child/household member #2
+            B1PCMB2 Month of birth or adoption: child #2
+            B1PCYB2 Year of birth or adoption: child #2
+            B1PHHA2 Age at adoption: child #2
+            B1PCHC2 In respondent's care at least 5 years: foster or partner's child #2
+            B1PCHH2 Lives in household: child #2
+            B1PCDD2 Has disability/mental problem: child #2
+            B1PCDT2 Condition disability or mental problem: child #2
+            B1PCDP2 Depression long or single: child #2
+            B1PCDA2 Age disability/mental problem began: child #2
+            B1PCDX2 Professional diagnosis mental: child #2
+            B1PCXT2 Type mental diagnosis: child #2
+            B1PCDO2 Any other condition: child #2
+            B1PCHA3 Age: child/household member #3
+            B1PCHX3 Sex: child/household member #3
+            B1PCHR3 Relation: child/household member #3
+            B1PCMB3 Month of birth or adoption: child #3
+            B1PCYB3 Year of birth or adoption: child #3
+            B1PHHA3 Age at adoption: child #3
+            B1PCHC3 In respondent's care at least 5 years: foster or partner's child #3
+            B1PCHH3 Lives in household: child #3
+            B1PCDD3 Has disability/mental problem: child #3
+            B1PCDT3 Condition disability or mental problem: child #3
+            B1PCDP3 Depression long or single: child #3
+            B1PCDA3 Age disability/mental problem began: child #3
+            B1PCDX3 Professional diagnosis mental: child #3
+            B1PCXT3 Type mental diagnosis: child #3
+            B1PCDO3 Any other condition: child #3
+            B1PCHA4 Age: child/household member #4
+            B1PCHX4 Sex: child/household member #4
+            B1PCHR4 Relation: child/household member #4
+            B1PCMB4 Month of birth or adoption: child #4
+            B1PCYB4 Year of birth or adoption: child #4
+            B1PHHA4 Age at adoption: child #4
+            B1PCHC4 In respondent's care at least 5 years: foster or partner's child #4
+            B1PCHH4 Lives in household: child #4
+            B1PCDD4 Has disability/mental problem: child #4
+            B1PCDT4 Condition disability or mental problem: child #4
+            B1PCDP4 Depression long or single: child #4
+            B1PCDA4 Age disability/mental problem began: child #4
+            B1PCDX4 Professional diagnosis mental: child #4
+            B1PCDO4 Any other condition: child #4
+            B1PCHA5 Age: child/household member #5
+            B1PCHX5 Sex: child/household member #5
+            B1PCHR5 Relation: child/household member #5
+            B1PCMB5 Month of birth or adoption: child #5
+            B1PCYB5 Year of birth or adoption: child #5
+            B1PHHA5 Age at adoption: child #5
+            B1PCHC5 In respondent's care at least 5 years: foster or partner's child #5
+            B1PCHH5 Lives in household: child #5
+            B1PCDD5 Has disability/mental problem: child #5
+            B1PCDT5 Condition disability or mental problem: child #5
+            B1PCDP5 Depression long or single: child #5
+            B1PCDA5 Age disability/mental problem began: child #5
+            B1PCDX5 Professional diagnosis mental: child #5
+            B1PCXT5 Type mental diagnosis: child #5
+            B1PCDO5 Any other condition: child #5
+            B1PCHA6 Age: child/household member #6
+            B1PCHX6 Sex: child/household member #6
+            B1PCHR6 Relation: child/household member #6
+            B1PCMB6 Month of birth or adoption: child #6
+            B1PCYB6 Year of birth or adoption: child #6
+            B1PHHA6 Age at adoption: child #6
+            B1PCHC6 In respondent's care at least 5 years: foster or partner's child #6
+            B1PCHH6 Lives in household: child #6
+            B1PCDD6 Has disability/mental problem: child #6
+            B1PCDT6 Condition disability or mental problem: child #6
+            B1PCDA6 Age disability/mental problem began: child #6
+            B1PCDX6 Professional diagnosis mental: child #6
+            B1PCDO6 Any other condition: child #6
+            B1PCHA7 Age: child/household member #7
+            B1PCHX7 Sex: child/household member #7
+            B1PCHR7 Relation: child/household member #7
+            B1PCMB7 Month of birth or adoption: child #7
+            B1PCYB7 Year of birth or adoption: child #7
+            B1PHHA7 Age at adoption: child #7
+            B1PCHC7 In respondent's care at least 5 years: foster or partner's child #7
+            B1PCHH7 Lives in household: child #7
+            B1PCDD7 Has disability/mental problem: child #7
+            B1PCDT7 Condition disability or mental problem: child #7
+            B1PCDA7 Age disability/mental problem began: child #7
+            B1PCDO7 Any other condition: child #7
+            B1PCHA8 Age: child/household member #8
+            B1PCHX8 Sex: child/household member #8
+            B1PCHR8 Relation: child/household member #8
+            B1PCMB8 Month of birth or adoption: child #8
+            B1PCYB8 Year of birth or adoption: child #8
+            B1PHHA8 Age at adoption: child #8
+            B1PCHC8 In respondent's care at least 5 years: foster or partner's child #8
+            B1PCHH8 Lives in household: child #8
+            B1PCDD8 Has disability/mental problem: child #8
+            B1PCDT8 Condition disability or mental problem: child #8
+            B1PCDA8 Age disability/mental problem began: child #8
+            B1PCDX8 Professional diagnosis mental: child #8
+            B1PCDO8 Any other condition: child #8
+            B1PCHA9 Age: child/household member #9
+            B1PCHX9 Sex: child/household member #9
+            B1PCHR9 Relation: child/household member #9
+            B1PCMB9 Month of birth or adoption: child #9
+            B1PCYB9 Year of birth or adoption: child #9
+            B1PHHA9 Age at adoption: child #9
+            B1PCHC9 In respondent's care at least 5 years: foster or partner's child #9
+            B1PCHH9 Lives in household: child #9
+            B1PCDD9 Has disability/mental problem: child #9
+            B1PCDT9 Condition disability or mental problem: child #9
+            B1PCDA9 Age disability/mental problem began: child #9
+            B1PCDX9 Professional diagnosis mental: child #9
+            B1PCXT9 Type mental diagnosis: child #9
+            B1PCDO9 Any other condition: child #9
+            B1PCHA10 Age: child/household member #10
+            B1PCHX10 Sex: child/household member #10
+            B1PCHR10 Relation: child/household member #10
+            B1PCMB10 Month of birth or adoption: child #10
+            B1PCYB10 Year of birth or adoption: child #10
+            B1PCHH10 Lives in household: child #10
+            B1PCDD10 Has disability/mental problem: child #10
+            B1PCDT10 Condition disability or mental problem: child #10
+            B1PCDP10 Depression long or single: child #10
+            B1PCDA10 Age disability/mental problem began: child #10
+            B1PCDO10 Any other condition: child #10
+            B1PCHA11 Age: child/household member #11
+            B1PCHX11 Sex: child/household member #11
+            B1PCHR11 Relation: child/household member #11
+            B1PCMB11 Month of birth or adoption: child #11
+            B1PCYB11 Year of birth or adoption: child #11
+            B1PCHC11 In respondent's care at least 5 years: foster or partner's child #11
+            B1PCHH11 Lives in household: child #11
+            B1PCDD11 Has disability/mental problem: child #11
+            B1PCDT11 Condition disability or mental problem: child #11
+            B1PCDA11 Age disability/mental problem began: child #11
+            B1PCDO11 Any other condition: child #11
+            B1PCHA12 Age: child/household member #12
+            B1PCHX12 Sex: child/household member #12
+            B1PCHR12 Relation: child/household member #12
+            B1PCMB12 Month of birth or adoption: child #12
+            B1PCYB12 Year of birth or adoption: child #12
+            B1PCHC12 In respondent's care at least 5 years: foster or partner's child #12
+            B1PCHH12 Lives in household: child #12
+            B1PCDD12 Has disability/mental problem: child #12
+            B1PCHA13 Age: child/household member #13
+            B1PCHX13 Sex: child/household member #13
+            B1PCHR13 Relation: child/household member #13
+            B1PCMB13 Month of birth or adoption: child #13
+            B1PCYB13 Year of birth or adoption: child #13
+            B1PCHH13 Lives in household: child #13
+            B1PCDD13 Has disability/mental problem: child #13
+            B1PCHA14 Age: child/household member #14
+            B1PCHX14 Sex: child/household member #14
+            B1PCHR14 Relation: child/household member #14
+            B1PCMB14 Month of birth or adoption: child #14
+            B1PCYB14 Year of birth or adoption: child #14
+            B1PCHH14 Lives in household: child #14
+            B1PCDD14 Has disability/mental problem: child #14
+            B1PCHA15 Age: child/household member #15
+            B1PCHX15 Sex: child/household member #15
+            B1PCHR15 Relation: child/household member #15
+            B1PCMB15 Month of birth or adoption: child #15
+            B1PCYB15 Year of birth or adoption: child #15
+            B1PCHH15 Lives in household: child #15
+            B1PCDD15 Has disability/mental problem: child #15
+            B1PCHA16 Age: child/household member #16
+            B1PCHX16 Sex: child/household member #16
+            B1PCHR16 Relation: child/household member #16
+            B1PCMB16 Month of birth or adoption: child #16
+            B1PCYB16 Year of birth or adoption: child #16
+            B1PCHH16 Lives in household: child #16
+            B1PCDD16 Has disability/mental problem: child #16
+            B1PCHA17 Age: child/household member #17
+            B1PCHX17 Sex: child/household member #17
+            B1PCHR17 Relation: child/household member #17
+            B1PCMB17 Month of birth or adoption: child #17
+            B1PCYB17 Year of birth or adoption: child #17
+            B1PCHH17 Lives in household: child #17
+            B1PCDD17 Has disability/mental problem: child #17
+            B1PCHA18 Age: child/household member #18
+            B1PCHX18 Sex: child/household member #18
+            B1PCHR18 Relation: child/household member #18
+            B1PCHA19 Age: child/household member #19
+            B1PCHX19 Sex: child/household member #19
+            B1PCHR19 Relation: child/household member #19
+            B1PCHA20 Age: child/household member #20
+            B1PCHX20 Sex: child/household member #20
+            B1PCHR20 Relation: child/household member #20
+            B1PCHA21 Age: child/household member #21
+            B1PCHX21 Sex: child/household member #21
+            B1PCHR21 Relation: child/household member #21
+            B1PCHM1N Number of adult child (18+) at home [biological, step, adopted, and partner's child]
+            B1PCHM2N Number of adult child (18+) at home [all types including foster and other child]
+            B1PCHM1X Having adult child(ren) living at home [biological, step, adopted, and partner's child]
+            B1PCHM2X Having adult child(ren) living at home [all types including foster and other child]
+        Section D: Caregiving
+            B1PD1 Given personal care to others (12 months)
+            B1PD2 To whom care given most
+            B1PD3 Sex of care recipient
+            B1PD4 Condition of care recipient
+            B1PD5M Month started giving care
+            B1PD5Y Year started giving care
+            B1PD7 Still giving care
+            B1PD8A Stopped giving care reason one
+            B1PD8B Stopped giving care reason two
+            B1PD9 Care recipient lives in household
+            B1PD10 Give care bathe/dress/eat/bathroom
+            B1PD11 Give care getting around inside/outside
+            B1PD12 Give care shop/cook/housework/laundry
+            B1PD13 Give care money/phone/medications
+            B1PD14 Number weeks given care (12 months)
+            B1PD15 Weekly hours given care (12 months)
+            B1PD16 Ever given care before
+            B1PD17 Ever given care before for 1 or more months
+            B1PD18 Number times given personal care in life
+            B1PD19N Total time given care (number)
+            B1PD19M Total time given care (years, months)
+            B1PD20 Grandparent
+            B1PD21 Given care to grandchildren
+            B1PD22 Number years responsible for grandchildren
+        Section E: Living Arrangements
+            B1PE1 Lived in institution ever
+            B1PE1A1 Lived in boarding school ever
+            B1PE1A2 Lived in college dorm ever
+            B1PE1A3 Lived in prison ever
+            B1PE1A4 Lived in hospital or nursing home ever
+            B1PE1A5 Lived in armed forces barracks ever
+            B1PE1A6 Lived in rooming house ever
+            B1PE1A7 Lived in other institution
+            B1PE1BN Total time lived in institution (number)
+            B1PE1BM Total time lived in institution (day, week, month, year)
+            B1PE2 Homeless since past interview
+            B1PE2AN Number of times homeless (number)
+            B1PE2AM Number of times homeless (day, week, month, year)
+            B1PE3 No phone since past interview
+            B1PE3AN No phone since past interview (number)
+            B1PE3AM No phone since past interview (day, week, month, year)
+        Section F: Race and Ethnicity
+            B1PF1 Spanish/Hispanic/Latino descent
+            B1PF2A Ethnic group #1
+            B1PF2B Ethnic group #2
+            B1PF2C Ethnic group #3
+            B1PF2_1 B1PF2 recode - American Indian/Native American
+            B1PF2_3 B1PF2 recode - Canada
+            B1PF2_4 B1PF2 recode - Costa Rica
+            B1PF2_5 B1PF2 recode - Cuba
+            B1PF2_6 B1PF2 recode - Dominican Republic
+            B1PF2_7 B1PF2 recode - El Salvador
+            B1PF2_9 B1PF2 recode - Haiti
+            B1PF2_10 B1PF2 recode - Honduras
+            B1PF2_11 B1PF2 recode - Jamaica
+            B1PF2_12 B1PF2 recode - Mexico
+            B1PF2_13 B1PF2 recode - Nicaragua
+            B1PF2_14 B1PF2 recode - Panama
+            B1PF2_15 B1PF2 recode - Puerto Rico
+            B1PF2_17 B1PF2 recode - Trinidad
+            B1PF2_18 B1PF2 recode - Central American/Caribbean
+            B1PF2_22 B1PF2 recode - Brazil
+            B1PF2_24 B1PF2 recode - Colombia
+            B1PF2_30 B1PF2 recode - Czech
+            B1PF2_31 B1PF2 recode - England
+            B1PF2_32 B1PF2 recode - France
+            B1PF2_33 B1PF2 recode - Germany
+            B1PF2_34 B1PF2 recode - Greece
+            B1PF2_35 B1PF2 recode - Hungary
+            B1PF2_36 B1PF2 recode - Ireland
+            B1PF2_37 B1PF2 recode - Italy
+            B1PF2_38 B1PF2 recode - Norway
+            B1PF2_39 B1PF2 recode - Poland
+            B1PF2_40 B1PF2 recode - Portugal
+            B1PF2_41 B1PF2 recode - USSR-Russia
+            B1PF2_42 B1PF2 recode - Scotland
+            B1PF2_43 B1PF2 recode - Spain
+            B1PF2_44 B1PF2 recode - Sweden
+            B1PF2_45 B1PF2 recode - Netherlands
+            B1PF2_46 B1PF2 recode - Yugoslavia
+            B1PF2_47 B1PF2 recode - East Europe
+            B1PF2_48 B1PF2 recode - West Europe
+            B1PF2_50 B1PF2 recode - China
+            B1PF2_51 B1PF2 recode - India
+            B1PF2_52 B1PF2 recode - Japan
+            B1PF2_53 B1PF2 recode - Korea
+            B1PF2_54 B1PF2 recode - Philippines
+            B1PF2_56 B1PF2 recode - Taiwan
+            B1PF2_57 B1PF2 recode - Thailand
+            B1PF2_58 B1PF2 recode - Asia
+            B1PF2_66 B1PF2 recode - Africa
+            B1PF2_69 B1PF2 recode - Iraq
+            B1PF2_70 B1PF2 recode - Israel
+            B1PF2_71 B1PF2 recode - Lebanon
+            B1PF2_74 B1PF2 recode - Mideast
+            B1PF2_96 B1PF2 recode - other (Specify)
+            B1PF3 Ethnic group best describes background
+            B1PF3_1 B1PF3 recode - ethnic group best describes
+            B1PF4 Closely identify with same ethnicity
+            B1PF5 Prefer to be with same ethnicity
+            B1PF6 Important to marry same ethnicity
+            B1PF7A Racial origins #1
+            B1PF7B Racial origins #2
+            B1PF7C Racial origins #3
+            B1PF7D Racial origins #4
+            B1PF8A Racial background #1
+            B1PF8B Racial background #2
+            B1PF8_A Which best describes your race?
+            B1PF9 How closely identify with same race
+            B1PF10 How much prefer to be with same race
+            B1PF11 How important to marry same race
+            B1PF12 US citizen
+            B1PF12A How closely identify as an American
+            B1PF12B Citizenship country
+        Section G: Life Satisfaction
+            B1PG1 Satisfied with life at present
+            B1PG2 Control over life in general at present
+            B1PG3 Satisfied with self at present
+            B1PG4 Rate contribution to others (whole life)
+            B1PG5 Disappointed by achievement (agree, disagree)
+            B1PG5A Disappointed by achievement (agree/disagree level)
+            B1PG6 Outgoing describes you
+            B1PG7 Worrying describes you
+            B1PG8 Curious describes you
+            B1PG9 Optimistic describes you
+    Questionnaire 1
+        Section A: Your Health
+            B1SA1 Rate health current
+            B1SA2 Rate health ten years ago
+            B1SA3 Rate health ten years future
+            B1SA4 Rate control over health
+            B1SA5 Rate thought/effort put into health
+            B1SSATIS Life Satisfaction (5-item version)
+            B1SSATIS2 Life Satisfaction (6-item version)
+            B1SA6A Compare energy now to 5 years ago
+            B1SA6B Compare fitness now to 5 years ago
+            B1SA6C Compare physique/figure now to 5 years ago
+            B1SA6D Compare weight now to 5 years ago
+            B1SA6E Compare memory now to 5 years ago
+            B1SA7A Compare overall health to others your age
+            B1SA7B Compare memory to others your age
+            B1SA7C Compare vision to others your age
+            B1SA7D Compare hearing to others your age
+            B1SA8A Keeping healthy depends on things I do
+            B1SA8B Things I can do to reduce heart attack risk
+            B1SA8C Things I can do to reduce cancer risk
+            B1SA8D I work hard at trying to stay healthy
+            B1SA8E Getting better is in doctor?s hands
+            B1SA8F Difficult to get good medical care
+            B1SHLOCS Health Locus of Control - self
+            B1SHLOCO Health Locus of Control - others
+            B1SA9A Often aware of various things in my body
+            B1SA9B Sudden loud noises really bother me
+            B1SA9C Hate to be too hot/too cold
+            B1SA9D Quick to sense hunger contractions
+            B1SA9E Low pain tolerance
+            B1SAMPLI Somatic Amplification
+            B1SA10A Headaches frequency (30 days)
+            B1SA10B Backaches frequency (30 days)
+            B1SA10C Sweat frequency (30 days)
+            B1SA10D Irritability frequency (30 days)
+            B1SA10E Hot flushes/flashes frequency (30 days)
+            B1SA10F Aches/joint stiffness frequency (30 days)
+            B1SA10G Falling/staying sleep frequency (30 days)
+            B1SA10H Leaking urine frequency (30 days)
+            B1SA10I Intercourse pain/discomfort frequency (30 days)
+            B1SA10J Extremities aches/pain frequency (30 days)
+            B1SA11A Asthma/bronchitis/emphysema ever (12 months)
+            B1SA11B Tuberculosis ever (12 months)
+            B1SA11C Other lung problems ever (12 months)
+            B1SA11D Joint/bone diseases ever (12 months)
+            B1SA11E Sciatica/lumbago/backache ever (12 months)
+            B1SA11F Skin trouble persistent ever (12 months)
+            B1SA11G Thyroid disease ever (12 months)
+            B1SA11H Hay fever ever (12 months)
+            B1SA11I Stomach trouble ever (12 months)
+            B1SA11J Urinary/bladder problem ever (12 months)
+            B1SA11K Constipated all/most ever (12 months)
+            B1SA11L Gall bladder trouble ever (12 months)
+            B1SA11M Foot trouble persistent ever (12 months)
+            B1SA11N Varicose veins ever (12 months)
+            B1SA11O AIDS/HIV ever (12 months)
+            B1SA11P Lupus/autoimmune disorder ever (12 months)
+            B1SA11Q Gum/mouth trouble persistent ever (12 months)
+            B1SA11R Teeth trouble persistent ever (12 months)
+            B1SA11S High blood pressure/hypertension ever (12 months)
+            B1SA11T Anxiety/depression ever (12 months)
+            B1SA11U Alcohol/drug problem ever (12 months)
+            B1SA11V Migraine headaches ever (12 months)
+            B1SA11W Chronic sleep problems ever (12 months)
+            B1SA11X Diabetes/high blood sugar ever (12 months)
+            B1SA11Y Neurological disorder ever (12 months)
+            B1SA11Z Stroke ever (12 months)
+            B1SA11AA Ulcer ever (12 months)
+            B1SA11BB Hernia ever (12 months)
+            B1SA11CC Piles/hemorrhoids ever (12 months)
+            B1SA11DD Swallowing problems ever (12 months)
+            B1SCHROX Having any chronic conditions (12 months)
+            B1SCHRON Number chronic conditions (12 months)
+            B1SA12A RX hypertension ever (30 days)
+            B1SA12AY RX hypertension frequency (30 days)
+            B1SA12B RX diabetes ever (30 days)
+            B1SA12BY RX diabetes frequency (30 days)
+            B1SA12C RX cholesterol ever (30 days)
+            B1SA12CY RX cholesterol frequency (30 days)
+            B1SA12D RX heart condition ever (30 days)
+            B1SA12DY RX heart condition frequency (30 days)
+            B1SA12E RX lung problems ever (30 days)
+            B1SA12EY RX lung problems frequency (30 days)
+            B1SA12F RX ulcer ever (30 days)
+            B1SA12FY RX ulcer frequency (30 days)
+            B1SA12G RX arthritis ever (30 days)
+            B1SA12GY RX arthritis frequency (30 days)
+            B1SA12H RX hormone therapy ever (30 days)
+            B1SA12HY RX hormone therapy frequency (30 days)
+            B1SA12I RX birth control ever (30 days)
+            B1SA12IY RX birth control frequency (30 days)
+            B1SA12J RX headaches ever (30 days)
+            B1SA12JY RX headaches frequency (30 days)
+            B1SA12K RX anxiety/depression ever (30 days)
+            B1SA12KY RX anxiety/depression frequency (30 days)
+            B1SA12L RX pain ever (30 days)
+            B1SA12LY RX pain frequency (30 days)
+            B1SRXMEX Took any RX medicine (30 days)
+            B1SRXMED Total numbers RX medicine taking (30 days)
+            B1SA13A Taken aspirin ever (30 days)
+            B1SA13AY Taken aspirin frequency (30 days)
+            B1SA13B Taken acetaminophen ever (30 days)
+            B1SA13BY Taken acetaminophen frequency (30 days)
+            B1SA13C Taken ibuprofen ever (30 days)
+            B1SA13CY Taken ibuprofen frequency (30 days)
+            B1SA13D Taken naproxen ever (30 days)
+            B1SA13DY Taken naproxen frequency (30 days)
+            B1SA14A Takes multi-vitamins regularly
+            B1SA14B Takes vitamin C regularly
+            B1SA14C Takes iron regularly
+            B1SA14D Takes calcium regularly
+            B1SA14E Takes St. John's regularly
+            B1SA14F Takes gingko biloba regularly
+            B1SA14G Takes echinacea regularly
+            B1SA14H Takes other supplement regularly
+            B1SA14I Takes garlic regularly
+            B1SA14J Takes feverfew regularly
+            B1SA14K Takes ephedra/ma huang regularly
+            B1SA14L Takes saw palmetto regularly
+            B1SA14M Takes glucosamine/chondroitin regularly
+            B1SA14N Takes fish oil regularly
+            B1SA14O Takes flaxseed regularly
+            B1SSPLMX Takes any supplements regularly
+            B1SSPLMN Total numbers of supplements taking
+            B1SA15 Has chronic pain/persists beyond normal
+            B1SA16 Pain interfered with activity (past week)
+            B1SA17 Pain interfered with mood (past week)
+            B1SA18 Pain interfered with relations (past week)
+            B1SA19 Pain interfered with sleep (past week)
+            B1SA20 Pain interfered with enjoyment (past week)
+            B1SA21A Head primary pain located
+            B1SA21B Neck primary pain located
+            B1SA21C Back primary pain located
+            B1SA21D Arms primary pain located
+            B1SA21E Legs primary pain located
+            B1SA21F Shoulders primary pain located
+            B1SA21G Hips primary pain located
+            B1SA21H Knees primary pain located
+            B1SA21I Other location primary pain located
+            B1SA22 Seen physician/professional about pain
+            B1SA23 Pain diagnosis by physician
+            B1SA24A Felt so sad nothing could cheer frequency (30 days)
+            B1SA24B Felt nervous frequency (30 days)
+            B1SA24C Felt restless frequency (30 days)
+            B1SA24D Felt hopeless frequency (30 days)
+            B1SA24E Felt everything was effort frequency (30 days)
+            B1SA24F Felt worthless frequency (30 days)
+            B1SA24G Felt lonely frequency (30 days)
+            B1SA24H Felt afraid frequency (30 days)
+            B1SA24I Felt jittery frequency (30 days)
+            B1SA24J Felt irritable frequency (30 days)
+            B1SA24K Felt ashamed frequency (30 days)
+            B1SA24L Felt upset frequency (30 days)
+            B1SA24M Felt angry frequency (30 days)
+            B1SA24N Felt frustrated frequency (30 days)
+            B1SA25 More or less than usual negative feelings (30 days)
+            B1SNEGAF Negative Affect (Parallel M1 items)
+            B1SNEGPA Negative Affect from PANAS (MIDUS 2 new)
+            B1SA26A Felt cheerful frequency (30 days)
+            B1SA26B Felt good spirits frequency (30 days)
+            B1SA26C Felt extremely happy frequency (30 days)
+            B1SA26D Felt calm and peaceful frequency (30 days)
+            B1SA26E Felt satisfied frequency (30 days)
+            B1SA26F Felt full of life frequency (30 days)
+            B1SA26G Felt close to others frequency (30 days)
+            B1SA26H Felt belong frequency (30 days)
+            B1SA26I Felt enthusiastic frequency (30 days)
+            B1SA26J Felt attentive frequency (30 days)
+            B1SA26K Felt proud frequency (30 days)
+            B1SA26L Felt active frequency (30 days)
+            B1SA26M Felt confident frequency (30 days)
+            B1SA27 More or less than usual positive feelings (30 days)
+            B1SPOSAF Positive Affect (Parallel M1 items)
+            B1SPOSPA Positive Affect from PANAS (MIDUS 2 new)
+            B1SA28A Health limits lifting/carrying groceries
+            B1SA28B Health limits bathing/dressing self
+            B1SA28C Health limits climb several flight stair
+            B1SA28D Health limits climb one flight of stairs
+            B1SA28E Health limits bending/kneeling/stooping
+            B1SA28F Health limits walking more than one mile
+            B1SA28G Health limits walking several blocks
+            B1SA28H Health limits walking one block
+            B1SA28I Health limits vigorous activity
+            B1SA28J Health limits moderate activity
+            B1SBADL1 Basic Activity of Daily Living (2-item version)
+            B1SBADL2 Basic Activity of Daily Living (3-item version)
+            B1SMADL Intermediate Activity of Daily Living
+            B1SA29A Short breath hurry ground/walk slight hill
+            B1SA29B Short breath walk with peer level ground
+            B1SA29C Short breath walk own pace level ground
+            B1SA29D Short breath washing/dressing
+            B1SDYSPN Progressive levels of dyspnea
+            B1SA30A Vigorous job activity frequency (summer)
+            B1SA30B Vigorous job activity frequency (winter)
+            B1SA30C Vigorous chores activity frequency (summer)
+            B1SA30D Vigorous chores activity frequency (winter)
+            B1SA30E Vigorous leisure activity frequency (summer)
+            B1SA30F Vigorous leisure activity frequency (winter)
+            B1SA31A Moderate job activity frequency (summer)
+            B1SA31B Moderate job activity frequency (winter)
+            B1SA31C Moderate chores activity frequency (summer)
+            B1SA31D Moderate chores activity frequency (winter)
+            B1SA31E Moderate leisure activity frequency (summer)
+            B1SA31F Moderate leisure activity frequency (winter)
+            B1SA32A Light job activity frequency (summer)
+            B1SA32B Light job activity frequency (winter)
+            B1SA32C Light chores activity frequency (summer)
+            B1SA32D Light chores activity frequency (winter)
+            B1SA32E Light leisure activity frequency (summer)
+            B1SA32F Light leisure activity frequency (winter)
+            B1SA33A Read books/magazines/news (frequency)
+            B1SA33B Do word games (frequency)
+            B1SA33C Play cards/other games (frequency)
+            B1SA33D Attend lectures/courses (frequency)
+            B1SA33E Writing (frequency)
+            B1SA33F Use computer (frequency)
+            B1SA34A Could learn friend's Zip Code if forgot
+            B1SA34B Intellectual decline inevitable as age
+            B1SA34C Ask salesperson how much saved with discount
+            B1SA34D Older I get, harder it is to think clear
+            B1SA34E Long as exercise my mind, be on top
+            B1SA34F Mental acuity bound to decline
+            B1SA34G Understand instructions after explained
+            B1SA34H Don't remember things as well as used to
+            B1SA34I Not much can do to keep memory from down
+            B1SINTAG Personality in Intellectual Aging Context
+            B1SA35 Waist around navel (inches)
+            B1SA36 Hips at widest point (inches)
+            B1SWSTHI Waist-to-Hip Ratio
+            B1SA37A Height (feet)
+            B1SA37B Height (inches)
+            B1SA38 Perception of weight (over, under, etc)
+            B1SA39 Weight current (pounds)
+            B1SA40 Weight 1 year ago (pounds)
+            B1SA41 Weight 10 years ago (pounds)
+            B1SA42 Number times lost 10 pounds or more (10 years)
+            B1SA43A Lose 10 pounds because of health problem
+            B1SA43B Lose 10 pounds by diet or exercise
+            B1SA43C Lose 10 pounds by other reason
+            B1SBMI Body Mass Index
+            B1SA44 Anesthesia ever
+            B1SA45 Anesthesia most recent year
+            B1SA46 Number times hospitalized overnight (12 months)
+            B1SA47 Total number nights in hospital (12 months)
+            B1SA48A Private clinic usual healthcare place
+            B1SA48B HMO usual healthcare place
+            B1SA48C Public clinic usual healthcare place
+            B1SA48D Outpatient hospital usual healthcare place
+            B1SA48E Emergency room usual healthcare place
+            B1SA48F Urgent care usual healthcare place
+            B1SA48G Other place usual healthcare place
+            B1SA48H No usual healthcare place
+            B1SA49 Most often visited healthcare place
+            B1SA50A Family doctor seen for healthcare
+            B1SA50B Obstetrician/gynecologist seen for healthcare
+            B1SA50C Internist seen for healthcare
+            B1SA50D Chiropractor seen for healthcare
+            B1SA50E Physician's assistant/nurse practitioner seen for healthcare
+            B1SA50F Other professional seen for healthcare
+            B1SA50G Homeopathic seen for healthcare
+            B1SA50H No one in particular seen for healthcare
+            B1SA51 Most seen healthcare professional
+            B1SA52 Needed med care, couldn't get it (12 months)
+            B1SA53A Number times physical routine exam (12 months)
+            B1SA53B Number times dental routine exam (12 months)
+            B1SA53C Number times optical routine exam (12 months)
+            B1SA53D Number times urgent care (12 months)
+            B1SA53E Number times scheduled treatment/surgery (12 months)
+            B1SUSEMD Number times seeing medical doctor (12 months)
+            B1SA54A Number times psychiatrist for mental health (12 months)
+            B1SA54B Number times general doctor for mental health (12 months)
+            B1SA54C Number times counselor for mental health (12 months)
+            B1SA54D Number times religious for mental health (12 months)
+            B1SUSEMH Number times saw mental health professional (12 months)
+            B1SA55A Ever attended substance problems group
+            B1SA55AY First age substance problems group
+            B1SA55AZ Number times substance problems group
+            B1SA55B Ever attended emotional problems group
+            B1SA55BY First age attended emotional problems group
+            B1SA55BZ Number times attended emotional problems group
+            B1SA55C Ever attended eating problems group
+            B1SA55CY First age eating problems group
+            B1SA55CZ Number times eating problems group
+            B1SA55D Ever attended loss of loved one group
+            B1SA55DY First age attended loss of loved one group
+            B1SA55DZ Number times attended loss of loved one group
+            B1SA55E Ever attended life transitions group
+            B1SA55EY First age attended life transitions group
+            B1SA55EZ Number times attended life transitions group
+            B1SA55F Ever attended survivors group
+            B1SA55FY First age attended survivors group
+            B1SA55FZ Number times attended survivors group
+            B1SA55G Ever attended physical disabilities group
+            B1SA55GY First age attended physical disabilities group
+            B1SA55GZ Number times attended physical disabilities group
+            B1SA55H Ever attended parent support group
+            B1SA55HY First age attended parent support group
+            B1SA55HZ Number times attended parent support group
+            B1SA55I Ever attended family with illness group
+            B1SA55IY First age attended family with illness group
+            B1SA55IZ Number times attended family with illness group
+            B1SA55J Ever attended family with emotional/substance group
+            B1SA55JY First age attended family with emotional/substance group
+            B1SA55JZ Number times attended family with emotional/substance group
+            B1SA55K Ever attended other self-help/support group
+            B1SA55KY First age attend other self-help/support group
+            B1SA55KZ Number times attend other self-help/support group
+            B1SA56A Acupuncture frequency (12 months)
+            B1SA56B Biofeedback frequency (12 months)
+            B1SA56C Chiropractor frequency (12 months)
+            B1SA56D Energy healing frequency (12 months)
+            B1SA56E Physical/occupational therapy frequency (12 months)
+            B1SA56F Exercise/movement therapy frequency (12 months)
+            B1SA56G Herbal therapy frequency (12 months)
+            B1SA56H High dose mega-vitamins frequency (12 months)
+            B1SA56I Homeopathy frequency (12 months)
+            B1SA56J Hypnosis frequency (12 months)
+            B1SA56K Imagery techniques frequency (12 months)
+            B1SA56L Massage therapy frequency (12 months)
+            B1SA56M Prayer/other spiritual frequency (12 months)
+            B1SA56N Relaxation/mediation frequency (12 months)
+            B1SA56O Physician prescribed diet frequency (12 months)
+            B1SA56P Weight control diet frequency (12 months)
+            B1SA56Q Special diet frequency (12 months)
+            B1SA56R Spiritual healing by others frequency (12 months)
+            B1SA56S Other non-traditional therapy frequency (12 months)
+            B1SA57A Hours of sleep on workdays
+            B1SA57B Minutes of sleep on workdays
+            B1SA58A Hours of sleep on non-workdays
+            B1SA58B Minutes of sleep on non-workdays
+            B1SA59A Hours usually takes to fall asleep
+            B1SA59B Minutes usually takes to fall asleep
+            B1SA60 Number times nap for 5 minutes or more (per week)
+            B1SA61A Trouble fall asleep (frequency)
+            B1SA61B Wake up during the night (frequency)
+            B1SA61C Wake up too early (frequency)
+            B1SA61D Feel unrested during the day (frequency)
+            B1SA62A Used sedatives on own ever (12 months)
+            B1SA62B Used tranquilizers on own ever (12 months)
+            B1SA62C Used stimulants on own ever (12 months)
+            B1SA62D Used painkillers on own ever (12 months)
+            B1SA62E Used depress medications on own ever (12 months)
+            B1SA62F Used inhalants on own ever (12 months)
+            B1SA62G Used marijuana/hashish on own ever (12 months)
+            B1SA62H Used cocaine/crack on own ever (12 months)
+            B1SA62I Used LSD/other hallucinogens on own ever (12 months)
+            B1SA62J Used heroin on own ever (12 months)
+            B1SA63 Number times substance more than intended (12 months)
+            B1SA64 Number times substance effects at work/etc (12 months)
+            B1SA65A Substance increased chance of hurt (12 months)
+            B1SA65B Emotional problems from substance (12 months)
+            B1SA65C Strong desire for substance (12 months)
+            B1SA65D A month or more a lot time using substance (12 months)
+            B1SA65E Needed more substance to get effect (12 months)
+            B1SA66A Emotional problems from drinking (12 months)
+            B1SA66B Desire/urge from drinking (12 months)
+            B1SA66C A month or more much time drinking (12 months)
+            B1SA66D Had drink more to get effects (12 months)
+            B1SALCOH Alcohol problem (12 months)
+            B1SA67 Number times alcohol more than intended (12 months)
+            B1SA68 Number times alcohol effects at work/etc (12 months)
+        Section B: Health Question for Women
+            B1SB1 Had menstrual period in last year
+            B1SB2A Medication stopped menstrual period
+            B1SB2B Pregnancy stopped menstrual period
+            B1SB2C Severe weight loss stopped menstrual period
+            B1SB2D Menopause stopped menstrual period
+            B1SB2E Hysterectomy stopped menstrual period
+            B1SB3 Year of last menstrual period (irregular)
+            B1SB4 Had menstrual period last 3 months (regular)
+            B1SB5A Month of last menstrual period (regular)
+            B1SB5B Day of last menstrual period (regular)
+            B1SB5C Year of last menstrual period (regular)
+            B1SB6 Number days between periods less predict now
+            B1SB7 Menstrual flow lighter, heavier, same
+            B1SB8A1 Birth control name and dosage
+            B1SB8A2 Taking birth control currently
+            B1SB8A3 Taken birth control in past
+            B1SB8A4 Number years taken birth control
+            B1SB8B1 Fertility drugs name and dosage
+            B1SB8B2 Taking fertility drugs currently
+            B1SB8B3 Taken fertility drugs in past
+            B1SB8B4 Number years taken fertility drugs
+            B1SB8C1 Other female hormones name and dosage
+            B1SB8C2 Taking other female hormones currently
+            B1SB8C3 Taken other female hormones in past
+            B1SB8C4 Number years taken other female hormones
+            B1SB9 Doctor who prescribed other female hormones
+            B1SB10 Gender of doctor prescribed other female hormones
+            B1SB11A Hot flashes reason for other female hormones
+            B1SB11B Vaginal dryness reason for other female hormones
+            B1SB11C Regulate periods reason for other female hormones
+            B1SB11D Prevent osteoporosis reason for other female hormones
+            B1SB11E Prevent heart disease reason for other female hormones
+            B1SB11F Improve memory reason for other female hormones
+            B1SB11G Endometriosis reason for other female hormones
+            B1SB11H Ovary removed reason for other female hormones
+            B1SB11I Other reason for other female hormones
+            B1SB12A Month start taking other female hormones
+            B1SB12B Year start taking other female hormones
+            B1SB13A Month stop taking other female hormones
+            B1SB13B Year stop taking other female hormones
+            B1SB14A No symptoms reason for stop other female hormones
+            B1SB14B Concern risks reason for stop other female hormones
+            B1SB14C Try else reason for stop other female hormones
+            B1SB14D Other reason for stop other female hormones
+            B1SB15 Discuss stopping other female hormones with doctor
+            B1SB16 Provider recommended stop other female hormones
+            B1SB17A Pain relievers for menopausal symptoms
+            B1SB17B Sleeping pills for menopausal symptoms
+            B1SB17C Cream/jellies for menopausal symptoms
+            B1SB17D Soy/flaxeed for menopausal symptoms
+            B1SB17E Plants for menopausal symptoms
+            B1SB17F Gingko biloba for menopausal symptoms
+            B1SB17G Other supplements for menopausal symptoms
+            B1SB18 Relief or regret menstrual periods stop
+            B1SB19A Worry about infertility as get older
+            B1SB19B Worry about less attractive as get older
+            B1SB19C Worry about illness as get older
+        Section C: Health Insurance
+            B1SC1 Covered by healthcare insurance currently
+            B1SC2A Reason - can't afford premium
+            B1SC2B Reason - lost job
+            B1SC2C Reason - spouse or parent lost job
+            B1SC2D Reason - divorced or separated
+            B1SC2E Reason - spouse or parent died
+            B1SC2F Reason - became ineligible
+            B1SC2G Reason - employer doesn't/stopped offer
+            B1SC2H Reason - became part time
+            B1SC2I Reason - benefits ran out
+            B1SC2J Reason - insurance company refused
+            B1SC2K Reason - lost Medicaid or Medical Assistance eligibility
+            B1SC2L Reason - other
+            B1SC3A Respondent - insurer directly provides health insurance
+            B1SC3B Respondent - employer provides health insurance
+            B1SC3C Respondent - spouse/partner's employer provides health insurance
+            B1SC3D Respondent - union provides health insurance
+            B1SC3E Respondent - spouse/partner's union provides health insurance
+            B1SC3F Respondent - medicare provides health insurance
+            B1SC3G Respondent - medicaid/other provide health insurance
+            B1SC3H Respondent - military provides health insurance
+            B1SC4 Respondent - has dental health care insurance
+            B1SC5 Respondent - any RX medications covered by health insurance
+            B1SC6 Respondent - mental health visits covered by health insurance
+            B1SC7A Employer health insurance available
+            B1SC7B Spouse/partner's employer health insurance available
+            B1SC7C Union health insurance available
+            B1SC7D Spouse/partner's union health insurance available
+            B1SC8A Medicare health insurance available
+            B1SC8B Medicaid health insurance available
+            B1SC8C Military health insurance available
+            B1SC9A Spouse/partner - insurer directly provides health insurance
+            B1SC9B Spouse/partner - respondent's employer provides health insurance
+            B1SC9C Spouse/partner - spouse/partner's own employer provides health insurance
+            B1SC9D Spouse/partner - respondent's union provides health insurance
+            B1SC9E Spouse/partner - spouse/partner's own union provides health insurance
+            B1SC9F Spouse/partner - medicare provides health insurance
+            B1SC9G Spouse/partner - medicaid/other provides health insurance
+            B1SC9H Spouse/partner - military provides health insurance
+            B1SC10 Spouse/partner - has dental health care insurance
+            B1SC11 Spouse/partner - any RX medications covered by health insurance
+            B1SC12 Spouse/partner - mental health visits covered by health insurance
+        Section D: Parents' Health
+            B1SD1 Biological mother still alive
+            B1SD1A Age of biological mother
+            B1SD1B Rate physical health of biological mother
+            B1SD1C Death of biological mother (year)
+            B1SD1D Mother's age at time of death
+            B1SD2 Biological father still alive
+            B1SD2A Age of biological father
+            B1SD2B Rate physical health of biological father
+            B1SD2C Death of biological father (year)
+            B1SD2D Father's age at time of death
+        Section E: Personal Beliefs
+            B1SE1A Not afraid to voice opinions in opposition
+            B1SE1B In charge of situation in which I live
+            B1SE1C Not interested activities expand horizons
+            B1SE1D Most see me as loving/affectionate
+            B1SE1E Live life day by day, don't think about future
+            B1SE1F Pleased with how life turned out
+            B1SE1G Decisions nor influenced by others doing
+            B1SE1H Demands of everyday life often get me down
+            B1SE1I Experience challenge how think important
+            B1SE1J Maintaining close relationships difficult
+            B1SE1K Have sense of direction/purpose in life
+            B1SE1L Feel positive/confident about self
+            B1SE1M Influenced by people with strong opinions
+            B1SE1N Don't fit in with people and community
+            B1SE1O Haven't improved as person over years
+            B1SE1P Few close friends to share concerns with
+            B1SE1Q No good sense of what try to accomplish
+            B1SE1R Others gotten more out of life than I
+            B1SE1S Confidence in my opinions even if contrary
+            B1SE1T Good managing daily responsibilities
+            B1SE1U Developed a lot as person over time
+            B1SE1V Enjoy conversations with family/friends
+            B1SE1W Daily activities seem trivial and unimportant
+            B1SE1X Life most aspects of my personality
+            B1SE1Y Difficult voice opinion on controversial
+            B1SE1Z Overwhelmed by my responsibilities
+            B1SE1AA Life process of learning/changing/growth
+            B1SE1BB Others describe me as giving/share time
+            B1SE1CC Enjoy make plans for future and make real
+            B1SE1DD Disappointed about achievements in life
+            B1SE1EE Worry about what others think of me
+            B1SE1FF Difficult arranging life in satisfying way
+            B1SE1GG Gave up try making improvements long ago
+            B1SE1HH No experience warm and trusting relationships
+            B1SE1II Actively carry out plans I set for self
+            B1SE1JJ Self attitude not as positive as others
+            B1SE1KK Judge self by what I think is important
+            B1SE1LL Able to build lifestyle to my liking
+            B1SE1MM Don't enjoy situations require change ways
+            B1SE1NN I can trust friends and they can trust me
+            B1SE1OO Some wander aimlessly, but not me
+            B1SE1PP Feel good when compare myself to friends
+            B1SE1QQ Done all there is to do in life
+            B1SPWBA1 Autonomy (Psychological Well-Being 3-item)
+            B1SPWBE1 Environmental Mastery (Psychological Well-Being 3-item)
+            B1SPWBG1 Personal Growth (Psychological Well-Being 3-item)
+            B1SPWBR1 Positive Relations with Others (Psychological Well-Being 3-item)
+            B1SPWBU1 Purpose in Life (Psychological Well-Being 3-item)
+            B1SPWBS1 Self-Acceptance (Psychological Well-Being 3-item)
+            B1SPWBA2 Autonomy (Psychological Well-Being 7-item)
+            B1SPWBE2 Environmental Mastery (Psychological Well-Being 7-item)
+            B1SPWBG2 Personal Growth (Psychological Well-Being 7-item)
+            B1SPWBR2 Positive Relations with Others (Psychological Well-Being 7-item)
+            B1SPWBU2 Purpose in Life (Psychological Well-Being 7-item)
+            B1SPWBS2 Self-Acceptance (Psychological Well-Being 7-item)
+            B1SE2A Autonomy important for good life
+            B1SE2B Good job important for good life
+            B1SE2C Learning/growth important for good life
+            B1SE2D Life's pleasures important for good life
+            B1SE2E Enough money important for good life
+            B1SE2F Extra money important for good life
+            B1SE2G Faith important for good life
+            B1SE2H Giving to community important for good life
+            B1SE2I Love/care for self important for good life
+            B1SE2J Physical fitness important for good life
+            B1SE2K Positive attitude important for good life
+            B1SE2L Family relations important for good life
+            B1SE2M Friend relations important for good life
+            B1SE2N Relax/peace important for good life
+            B1SE2O Absence of illness important for good life
+            B1SE2P Sense of accomplish important for good life
+            B1SE2Q Sense of purpose important for good life
+            B1SE3 Rank standing in community on ladder
+            B1SE4A Little can do to change important things
+            B1SE4B Helpless dealing with problems of life
+            B1SE4C Do just about anything I set my mind to
+            B1SE4D Others determine what I can and cannot do
+            B1SE4E What happens in life is beyond my control
+            B1SE4F When really want something, find way
+            B1SE4G Many things interfere with what I want do
+            B1SE4H Whether I get what want is in own hands
+            B1SE4I Little control over things happen to me
+            B1SE4J Really no way I can solve problems I have
+            B1SE4K Feel pushed around in life
+            B1SE4L Happens to me in future depends on me
+            B1SMASTE Personal Mastery
+            B1SCONST Perceived Constraints
+            B1SCTRL Sense of Control (Mastery + Constraints)
+            B1SE4M No better/worse than others
+            B1SE4N Take positive attitude toward self
+            B1SE4O Feel no good at all at times
+            B1SE4P Able to do things as well as most people
+            B1SE4Q Wish have more respect for myself
+            B1SE4R On the whole, I'm satisfied with myself
+            B1SE4S Certainly feel useless at times
+            B1SESTEE Self-esteem
+            B1SE4T Act same way no matter who I'm with
+            B1SE4U Enjoy being unique/different from others
+            B1SE4V My happiness depends on happiness of others
+            B1SE4W Relations more important than accomplish
+            B1SE4X Able to care of self is primary concern
+            B1SE4Y Important to listen to others' opinions
+            B1SINTER Self-Construal - Interdependence
+            B1SINDEP Self-Construal - Independence
+            B1SE5A Choose goals - Focus or keep options open
+            B1SE5B Reach goals - Practice skill or opportunities
+            B1SE5C Have no skill for goal - Seek or reconsider
+            B1SE5D Difficult - change circumstances or hang tough
+            B1SE5E Approach physical health - stay fit or don't worry
+            B1SE6A Outgoing describes you how well
+            B1SE6B Helpful describes you how well
+            B1SE6C Moody describes you how well
+            B1SE6D Organized describes you how well
+            B1SE6E Self-confident describes you how well
+            B1SE6F Friendly describes you how well
+            B1SE6G Warm describes you how well
+            B1SE6H Worrying describes you how well
+            B1SE6I Responsible describes you how well
+            B1SE6J Forceful describes you how well
+            B1SE6K Lively describes you how well
+            B1SE6L Caring describes you how well
+            B1SE6M Nervous describes you how well
+            B1SE6N Creative describes you how well
+            B1SE6O Assertive describes you how well
+            B1SE6P Hardworking describes you how well
+            B1SE6Q Imaginative describes you how well
+            B1SE6R Softhearted describes you how well
+            B1SE6S Calm describes you how well
+            B1SE6T Outspoken describes you how well
+            B1SE6U Intelligent describes you how well
+            B1SE6V Curious describes you how well
+            B1SE6W Active describes you how well
+            B1SE6X Careless describes you how well
+            B1SE6Y Broad minded describes you how well
+            B1SE6Z Sympathetic describes you how well
+            B1SE6AA Talkative describes you how well
+            B1SE6BB Sophisticated describes you how well
+            B1SE6CC Adventurous describes you how well
+            B1SE6DD Dominant describes you how well
+            B1SE6EE Thorough describes you how well
+            B1SAGENC Agency Personality Trait
+            B1SAGREE Agreeableness Personality Trait
+            B1SEXTRA Extraversion Personality Trait
+            B1SNEURO Neuroticism Personality Trait
+            B1SCONS1 Conscientiousness Personality Trait (Parallel M1 items)
+            B1SCONS2 Conscientiousness Personality Trait (M1 items + 1 additional)
+            B1SOPEN Openness Personality Trait
+            B1SE7A Like spend free time with friends, rather than alone
+            B1SE7B Faced with decision, weigh possibilities
+            B1SE7C Seek friend when unhappy, rather than alone
+            B1SE7D Fun/exciting to be in an earthquake
+            B1SE7E In social situation, like else to lead
+            B1SE7F Like think things over before doing them
+            B1SE7G People often try to take advantage of me
+            B1SE7H I am a warm person, not cool/distant
+            B1SE7I When angry I am ready to hit someone
+            B1SE7J Effective talking people into things
+            B1SE7K My mood often goes up and down
+            B1SE7L Keep working on problems after others give up
+            B1SE7M Opposed censor because against free speech
+            B1SE7N I'm very good at influencing people
+            B1SE7O I like to try difficult things
+            B1SE7P More successful if people didn't make difficulty
+            B1SE7Q Usually find ways to liven up my day
+            B1SE7R I like hard work
+            B1SE7S People often say mean things about me
+            B1SE7T Enjoy hurting by saying mean things
+            B1SE7U People should obey moral law more strict
+            B1SE7V Fun learning to walk tightrope
+            B1SE7W Get upset/tense when think about day
+            B1SE7X Minor setbacks irritate me too much
+            B1SE7Y I am a cautious person
+            B1SE7Z Don't like religious authority overturned
+            B1SE7AA Life is a great adventure
+            B1SE7BB When people insult me, try to get even
+            B1SE7CC Often prefer not have others around me
+            B1SE7DD When make decisions, others turn to me
+            B1SE7EE Sometimes just like to hit someone
+            B1SE7FF Set very high standards for self in work
+            B1SE7GG Have something exciting to look forward
+            B1SE8 Dislike rapids or waiting more
+            B1SE8A Level dislike rapids or waiting more
+            B1SE9 Dislike lions or not get into circus
+            B1SE9A Level dislike lions or not get into circus
+            B1SMPQWB Well-Being (Multidimensional Personality)
+            B1SMPQSP Social Potency (Multidimensional Personality)
+            B1SMPQAC Achievement (Multidimensional Personality)
+            B1SMPQSC Social Closeness (Multidimensional Personality)
+            B1SMPQSR Reactivity (Multidimensional Personality)
+            B1SMPQAG Aggression (Multidimensional Personality)
+            B1SMPQAL Alienation (Multidimensional Personality)
+            B1SMPQCN Control (Multidimensional Personality)
+            B1SMPQTR Traditionalism (Multidimensional Personality)
+            B1SMPQHA Harm Avoidance (Multidimensional Personality)
+            B1SE10A In uncertain times, usually expect best
+            B1SE10B Something can go wrong for me, it will
+            B1SE10C Optimistic about my future
+            B1SE10D Hardly ever expect things to go my way
+            B1SE10E Rarely count on good things happen to me
+            B1SE10F Expect more good things happen than bad
+            B1SOPTIM Life Orientation Test (LOT): Optimism
+            B1SPESSI Life Orientation Test (LOT): Pessimism
+            B1SORIEN Life Orientation Test (LOT) Optimism Overall: Optimism + Pessimism
+            B1SE11A Ever repeated school year
+            B1SE11B Ever sent away from home
+            B1SE11C Ever had parent out of job
+            B1SE11D Ever parent drank caused problems
+            B1SE11E Ever parent drugs caused problems
+            B1SE11F Ever dropped out of school
+            B1SE11G Ever suspended/expelled from school
+            B1SE11H Ever flunked out of school
+            B1SE11I Ever fired from a job
+            B1SE11J Ever no job for long time
+            B1SE11K Ever parent died
+            B1SE11L Ever parents divorced
+            B1SE11M Ever spouse/partner engaged in infidelity
+            B1SE11N Ever significant in-law difficulties
+            B1SE11O Ever sibling died
+            B1SE11P Ever child died
+            B1SE11Q Ever child experienced life-threatening
+            B1SE11R Ever lost home to fire/flood/etc
+            B1SE11S Ever physically assaulted
+            B1SE11T Ever sexually assaulted
+            B1SE11U Ever serious legal difficulties/prison
+            B1SE11V Ever jail detention
+            B1SE11W Ever bankruptcy declared
+            B1SE11X Ever financial loss unrelated to work
+            B1SE11Y Ever welfare
+            B1SE11Z Ever entered armed forces
+            B1SE11AA Ever experienced combat
+            B1SE11A1 Respondent's age repeated school year
+            B1SE11A3 Repeated school year effect (initial)
+            B1SE11A4 Repeated school year effect (long-run)
+            B1SE11B1 Respondent's age sent away from home
+            B1SE11B3 Sent away from home effect (initial)
+            B1SE11B4 Sent away from home effect (long-run)
+            B1SE11C1 Respondent's age had parent out of job
+            B1SE11C3 Parent out of job effect (initial)
+            B1SE11C4 Parent out of job effect (long-run)
+            B1SE11D1 Respondent's age parent drank caused problems
+            B1SE11D3 Parent drank problems effect (initial)
+            B1SE11D4 Parent drank problems effect (long-run)
+            B1SE11E1 Respondent's age parent drugs caused problems
+            B1SE11E3 Parent drug problems effect (initial)
+            B1SE11E4 Parent drug problems effect (long-run)
+            B1SE11F1 Respondent's age dropped out of school
+            B1SE11F3 Dropped out of school effect (initial)
+            B1SE11F4 Dropped out of school effect (long-run)
+            B1SE11G1 Respondent's age suspended/expelled from school
+            B1SE11G3 Suspended/expelled effect (initial)
+            B1SE11G4 Suspended/expelled effect (long-run)
+            B1SE11H1 Respondent's age flunked out of school
+            B1SE11H3 Flunked out of school effect (initial)
+            B1SE11H4 Flunked out of school effect (long-run)
+            B1SE11I1 Respondent's age fired from a job
+            B1SE11I3 Fired from a job effect (initial)
+            B1SE11I4 Fired from a job effect (long-run)
+            B1SE11J1 Respondent's age no job for long time
+            B1SE11J3 No job for long time effect (initial)
+            B1SE11J4 No job for long time effect (long-run)
+            B1SE11K1 Respondent's age parent died
+            B1SE11K3 Parent died effect (initial)
+            B1SE11K4 Parent died effect (long-run)
+            B1SE11L1 Respondent's age parents divorced
+            B1SE11L3 Parents divorced effect (initial)
+            B1SE11L4 Parents divorced effect (long-run)
+            B1SE11M1 Respondent's age spouse/partner engaged in infidelity
+            B1SE11M3 Spouse/partner infidelity effect (initial)
+            B1SE11M4 Spouse/partner infidelity effect (long-run)
+            B1SE11N1 Respondent's age significant in-law difficulties
+            B1SE11N3 Significant in-law difficulties effect (initial)
+            B1SE11N4 Significant in-law difficulties effect (long-run)
+            B1SE11O1 Respondent's age sibling died
+            B1SE11O3 Sibling died effect (initial)
+            B1SE11O4 Sibling died effect (long-run)
+            B1SE11P1 Respondent's age child died
+            B1SE11P3 Child died effect (initial)
+            B1SE11P4 Child died effect (long-run)
+            B1SE11Q1 Respondent's age child experienced life-threatening
+            B1SE11Q3 Child life-threatening effect (initial)
+            B1SE11Q4 Child life-threatening effect (long-run)
+            B1SE11R1 Respondent's age lost home to fire/flood/etc
+            B1SE11R3 Lost home fire/flood/etc effect (initial)
+            B1SE11R4 Lost home fire/flood/etc effect (long-run)
+            B1SE11S1 Respondent's age physically assaulted
+            B1SE11S3 Physically assaulted effect (initial)
+            B1SE11S4 Physically assaulted effect (long-run)
+            B1SE11T1 Respondent's age sexually assaulted
+            B1SE11T3 Sexually assaulted effect (initial)
+            B1SE11T4 Sexually assaulted effect (long-run)
+            B1SE11U1 Respondent's age serious legal difficulties/prison
+            B1SE11U3 Legal difficulties/prison effect (initial)
+            B1SE11U4 Legal difficulties/prison effect (long-run)
+            B1SE11V1 Respondent's age jail detention
+            B1SE11V3 Jail detention effect (initial)
+            B1SE11V4 Jail detention effect (long-run)
+            B1SE11W1 Respondent's age bankruptcy declared
+            B1SE11W3 Bankruptcy declared effect (initial)
+            B1SE11W4 Bankruptcy declared effect (long-run)
+            B1SE11X1 Respondent's age financial loss unrelated to work
+            B1SE11X3 Financial loss unrelated to work effect (initial)
+            B1SE11X4 Financial loss unrelated to work effect (long-run)
+            B1SE11Y1 Respondent's age welfare
+            B1SE11Y3 Welfare effect (initial)
+            B1SE11Y4 Welfare effect (long-run)
+            B1SE11Z1 Respondent's age entered armed forces
+            B1SE11Z3 Entered armed forces effect (initial)
+            B1SE11Z4 Entered armed forces effect (long-run)
+            B1SE11AW Respondent's age experienced combat
+            B1SE11AY Experienced combat effect (initial)
+            B1SE11AZ Experienced combat effect (long-run)
+            B1SE12A Where there's a will there's a way
+            B1SE12B Do what can to change for better
+            B1SE12C If expectation not being met, lower them
+            B1SE12D To avoid disappointments, don't set goals too high
+            B1SE12E Learn meaningful from difficult situation
+            B1SE12F Relieved when let go of responsibilities
+            B1SE12G Even when feel too much, get it all done
+            B1SE12H Find different way of looking at things
+            B1SE12I Remind myself I can't do everything
+            B1SE12J When problems, don't give up until solve them
+            B1SE12K Rarely give up even when get tough
+            B1SE12L Can't get want, assume goals unrealistic
+            B1SE12M When go wrong, usually find bright side
+            B1SE12N Find positive even in worst situations
+            B1SE12O Like to make plans for future
+            B1SE12P Know what I want out of life
+            B1SE12Q I live one day at a time
+            B1SE12R Helpful to set goals for near future
+            B1SE12S Too many things today to worry about tomorrow
+            B1SE12T Past helps me figure out what do present
+            B1SE12U No use in thinking about past because nothing can be done
+            B1SE12V Bad happens, think how could prevented
+            B1SE12W Good at figuring how things turn out
+            B1SE12X No sense in planning too far ahead
+            B1SE12Y Don't like ask others for help unless have to
+            B1SE12Z Asking others comes naturally for me
+            B1SE12AA When goal decided, keep in mind benefits
+            B1SE12BB Cannot solve problem alone, ask others for help
+            B1SE12CC Can't attain goal in any way, let go
+            B1SE12DD Impossible attain goal, try not to blame myself
+            B1SE12EE Decided on something, avoid distract
+            B1SE12FF Obstacles in way, get help from others
+            B1SE12GG Stop thinking/let go unattainable goal
+            B1SE12HH Something didn't work out, try not to think about
+            B1SE12II Difficult goals, mind how good will feel
+            B1SE12JJ Difficulties too great, ask others advice
+            B1SE12KK Can't attain goal, think about other goals
+            B1SE12LL Worry a lot when expect important event
+            B1SE12MM Keep harmony with others and surroundings
+            B1SPERSI Persist in Goal Striving (Primary Control)
+            B1SREAPP Positive Reappraisal (Secondary Control)
+            B1SCHANG Lower Aspirations (Secondary Control)
+            B1SSPCTR Selective Primary Control
+            B1SCPCTR Compensatory Primary Control
+            B1SSSCTR Selective Secondary Control
+            B1SCSCDE Disengage (Compensatory Secondary Control)
+            B1SCSCSP Self Protect (Compensatory Secondary Control)
+            B1SCSCAG Adjustment of Goals (Compensatory Secondary Control)
+            B1SDIREC Self Directedness and Planning
+            B1STODAY Live for Today
+            B1SINSGH Insight into Past
+            B1SFORSG Foresight and Anticipation
+            B1SSUFFI Self-Sufficiency
+            B1SE13A Grow as a person (stressful event)
+            B1SE13B Efforts do thing about it (stressful event)
+            B1SE13C Make plan of action (stressful event)
+            B1SE13D Let emotions out (stressful event)
+            B1SE13E Say this isn't real (stressful event)
+            B1SE13F Admit cannot deal with it and quit (stressful event)
+            B1SE13G Eat more than usual (stressful event)
+            B1SE13H See in different light (stressful event)
+            B1SE13I Take action to rid (stressful event)
+            B1SE13J Strategy what to do (stressful event)
+            B1SE13K Really aware of upset (stressful event)
+            B1SE13L Refuse believe happen (stressful event)
+            B1SE13M Give up trying (stressful event)
+            B1SE13N Eat favorite foods (stressful event)
+            B1SE13O Look for good (stressful event)
+            B1SE13P Direct action (stressful event)
+            B1SE13Q Think how best handle (stressful event)
+            B1SE13R Let my feelings out (stressful event)
+            B1SE13S Pretend hasn't happened (stressful event)
+            B1SE13T Give up attempt (stressful event)
+            B1SE13U Learn something new (stressful event)
+            B1SE13V One step at a time (stressful event)
+            B1SE13W Think hard what steps (stressful event)
+            B1SE13X Express emotional distress (stressful event)
+            B1SE13Y Act as hasn't happened (stressful event)
+            B1SE13Z Reduce effort solving (stressful event)
+            B1SREINT Positive Reinterpretation (Problem Focused Coping)
+            B1SACTIV Active Coping (Problem Focused Coping)
+            B1SPLAN Planning (Problem Focused Coping)
+            B1SVENT Venting of Emotion (Emotion Focused Coping)
+            B1SDENIA Denial (Emotion Focused Coping)
+            B1SDISEN Behavioral Disengagement (Emotion Focused Coping)
+            B1SFDCOP Use Food to Cope
+            B1SPRCOP Problem Focused Coping
+            B1SEMCOP Emotion Focused Coping
+            B1SE14 Age feel like most of the time
+            B1SE15 Age would like to be
+            B1SE16 Age men enter middle age
+            B1SE17 Age men no longer middle age
+            B1SE18 Age women enter middle age
+            B1SE19 Age women no longer middle age
+    Questionnaire 2
+        Section F: Work
+            B1SF1 Rate current work situation
+            B1SF2 Rate work situation 10 years ago
+            B1SF3 Rate work situation 10 years future
+            B1SF4 Rate amount control over work situation
+            B1SF5 Rate thought/effort put into work
+            B1SF6 Age first worked paid job 6 months or more
+            B1SF7 Number years employed at least 6 months of year
+            B1SF8 Number years full-time employed
+            B1SF9A Unemployed longest period (numbers)
+            B1SF9B Unemployed longest period (weeks, months, years)
+            B1SF10 Main reason unemployed during longest period
+            B1SF11A 2003 employment status (full, part, no work)
+            B1SF11AS 2003 employment status (full-time student)
+            B1SF11B 2002 employment status (full, part, no work)
+            B1SF11BS 2002 employment status (full-time student)
+            B1SF11C 2001 employment status (full, part, no work)
+            B1SF11CS 2001 employment status (full-time student)
+            B1SF11D 2000 employment status (full, part, no work)
+            B1SF11DS 2000 employment status (full-time student)
+            B1SF11E 1999 employment status (full, part, no work)
+            B1SF11ES 1999 employment status (full-time student)
+            B1SF11F 1998 employment status (full, part, no work)
+            B1SF11FS 1998 employment status (full-time student)
+            B1SF11G 1997 employment status (full, part, no work)
+            B1SF11GS 1997 employment status (full-time student)
+            B1SF11H 1996 employment status (full, part, no work)
+            B1SF11HS 1996 employment status (full-time student)
+            B1SF11I 1995 employment status (full, part, no work)
+            B1SF11IS 1995 employment status (full-time student)
+            B1SF11J 1994 employment status (full, part, no work)
+            B1SF11JS 1994 employment status (full-time student)
+            B1SF12A Work paid number weeks (12 months)
+            B1SF12B Unemployed number weeks (12 months)
+            B1SF12C Unpaid leave number weeks (12 months)
+            B1SF12D Not working or looking number weeks (12 months)
+            B1SF13 Work for pay currently
+            B1SF14A Work days in average week (frequency)
+            B1SF14B Work evenings in average week (frequency)
+            B1SF14C Work nights in average week (frequency)
+            B1SF14D Work weekends in average week (frequency)
+            B1SF15A Time begin job (hour)
+            B1SF15B Time begin job (minute)
+            B1SF15C Time begin job (am/pm)
+            B1SF16A Time end job (hour)
+            B1SF16B Time end job (minute)
+            B1SF16C Time end job (am/pm)
+            B1SF17A Job commute time (hours)
+            B1SF17B Job commute time (minutes)
+            B1SF18 Problem with someone at work (12 months)
+            B1SF19 Other ongoing stress at work (12 months)
+            B1SF20 Chances could keep job for next 2 years
+            B1SF21 Job effect on physical health
+            B1SF22 Job effect on emotional/mental health
+            B1SF23A Physical effort at job
+            B1SF23B Lift 50 or more pounds at job
+            B1SF23C Lift 10-50 pounds at job
+            B1SF23D Lift up to 10 pounds at job
+            B1SF23E Crouch, stoop, kneel at job
+            B1SF23F Stand for long time at job
+            B1SF23G Use stairs/inclines at job
+            B1SF23H Walk at job
+            B1SF23I Sit for long time at job
+            B1SF23J Reach at job
+            B1SF23K Fingers grasp/handle things at job
+            B1SF23L Work on computer at job
+            B1SF23M Use eyes for inspecting things at job
+            B1SF23N Use eyes for reading at job
+            B1SF24 Accident/injury risk at job (10 years)
+            B1SF25 Time injured at job (10 years)
+            B1SF26 Seriousness of job injury (10 years)
+            B1SF27A Job reduces effort to activities at home
+            B1SF27B Job stress makes irritable at home
+            B1SF27C Job makes too tired to do things at home
+            B1SF27D Job problems distract you at home
+            B1SF27E Job helps to deal with issues at home
+            B1SF27F Job makes you more interesting at home
+            B1SF27G Job makes you better companion at home
+            B1SF27H Job skills useful at home
+            B1SF27I Home responsibilities reduce job effort
+            B1SF27J Personal worries distract you at job
+            B1SF27K Home chores prevent sleep to do job
+            B1SF27L Home stress makes irritable at job
+            B1SF27M Talk someone at home helps job problems
+            B1SF27N Providing home makes work harder at job
+            B1SF27O Home love makes you confident at job
+            B1SF27P Home helps to relax for next workday
+            B1SPOSWF Positive Work to Family Spillover
+            B1SNEGWF Negative Work to Family Spillover
+            B1SPOSFW Positive Family to Work Spillover
+            B1SNEGFW Negative Family to Work Spillover
+            B1SF28A Work intensively at job
+            B1SF28B Learn new things at job
+            B1SF28C Work demands high skill level
+            B1SF28D Initiate things at job
+            B1SF28E Choice how to do work tasks
+            B1SF28F Choice what tasks to do at work
+            B1SF28G Say in work decisions
+            B1SF28H Say in planning work environment
+            B1SF28I Job provides variety interesting things
+            B1SF28J Work demands hard to combine
+            B1SF28K So involved in work forget time
+            B1SF29A Too many demands at job (12 months)
+            B1SF29B Control amount of time at tasks at job (12 months)
+            B1SF29C Time to get everything done at job (12 months)
+            B1SF29D Lot of interruptions at job (12 months)
+            B1SJCSD Skill Discretion (Job Characteristics)
+            B1SJCDA Decision Authority (Job Characteristics)
+            B1SJCDS Demands Scale (Job Characteristics)
+            B1SF30A Coworker help/support
+            B1SF30B Coworker listen to work-related problems
+            B1SF30C Supervisor gives needed information
+            B1SF30D Supervisor help/support
+            B1SF30E Supervisor listen to work-related problems
+            B1SJCCS Coworker Support (Job Characteristics)
+            B1SJCSS Supervisor Support (Job Characteristics)
+            B1SF31A Unfairly given jobs no one else wanted
+            B1SF31B Watched more closely at job than others
+            B1SF31C Boss uses ethnic/racial/sexual slurs
+            B1SF31D Coworkers use ethnic/racial/sexual slurs
+            B1SF31E Ignored/not taken seriously by boss
+            B1SF31F Coworker promoted before you
+            B1SJOBDI Chronic Job Discrimination
+            B1SF32A Feel cheated about good job chances
+            B1SF32B Feel pride for work at job
+            B1SF32C Others respect my work at job
+            B1SF32D Others have more rewarding jobs
+            B1SF32E Had opportunities as good as others
+            B1SF32F Others have better jobs than me
+            B1SPIWOR Perceived Inequality in Work
+            B1SF33A Too many demands at home (12 months)
+            B1SF33B Control amount of time at tasks at home (12 months)
+            B1SF33C Time to get everything done at home (12 months)
+            B1SF33D Lot of interruptions at home (12 months)
+            B1SF34A Feel pride about work at home
+            B1SF34B Feel others respect my work at home
+            B1SF34C Paid work more rewarding than home work
+            B1SF35A Feel pride about unpaid work in community
+            B1SF35B Feel others respect my community work
+            B1SF35C Paid work more rewarding than volunteer
+        Section G: Finances
+            B1SG1 Rate current financial situation
+            B1SG2 Rate financial situation 10 years ago
+            B1SG3 Rate financial situation 10 years future
+            B1SG4 Rate control over financial situation
+            B1SG5 Rate thought/effort into financial situation
+            B1SG6 Money to meet needs (more, enough, not enough)
+            B1SG7 How difficult to pay monthly bills
+            B1SG8A Respondent's wages last calendar year
+            B1SG8B Respondent's pension income last calendar year
+            B1SG8C Respondent's social security income last calendar year
+            B1SG9A Spouse/partner's wages last calendar year
+            B1SG9B Spouse/partner's pension income last calendar year
+            B1SG9C Spouse/partner's Social Security income last calendar year
+            B1SG10A Other family's wages last calendar year
+            B1SG10B Other family's pension income last calendar year
+            B1SG10C Other family's social security income last calendar year
+            B1SG11A Supplemental Security Income (12 months)
+            B1SG11B Social Security Disability Insurance (12 months)
+            B1SG11C General Assistance (12 months)
+            B1SG11D Food Stamps (12 months)
+            B1SG11E Temporary Assistance for Needy Families (12 months)
+            B1SG11F Other state welfare programs (12 months)
+            B1SG11G Unemployment benefits (12 months)
+            B1SG11H Other disability benefits (12 months)
+            B1SG11I Veteran's benefits (12 months)
+            B1SG11J Received no government or public assistance (12 months)
+            B1SG12 Total household income from government assistance (12 months)
+            B1SRINC1 Respondent's income from wage, pension, social security, and other sources
+            B1SSINC1 Spouse/partner's income from wage, pension, social security, and other sources
+            B1SHINC1 Other household members' income from wage, pension, social security, and other sources
+            B1SEARN1 Household income from wages
+            B1SPNSN1 Household income from pension
+            B1SSEC1 Household income from social security
+            B1STINC1 Household total income from wage, pension, social security, and other sources
+            B1SG13 Respondent employer/union pension plan currently
+            B1SG13A Current worth of respondent's pension savings
+            B1SG14 Respondent has own traditional/Keogh/Roth IRA account
+            B1SG14A Current worth of respondent's IRA account
+            B1SG15 Respondent has other pension/retirement plans
+            B1SG15A Current worth of respondent's other pension plans
+            B1SG16 Spouse/partner employer/union pension plan currently
+            B1SG16A Current worth of spouse/partner's pension plan
+            B1SG17 Own or rent home
+            B1SG17A How much home would sell for
+            B1SG17B Current home is mobile home
+            B1SG18 Own business/farm
+            B1SG18A How much business/farm would sell for
+            B1SG18B Amount owed on business/farm
+            B1SG19 Any money in stocks/bonds/CDs/mutual funds
+            B1SG19A Worth of stocks/bonds/CDs/mutual funds
+            B1SG20 Any income from rental property
+            B1SG20A Income from rental property last calendar year
+            B1SG21 Inherited anything worth $1000 or more
+            B1SG21A Year received largest inheritance payment
+            B1SG21B Amount of largest inheritance received
+            B1SG22 Any life insurance including individual/group
+            B1SG22A Amount beneficiaries would receive if died
+            B1SG23 Money left or owed if cashed in and paid off debt
+            B1SG24A Amount you would owe
+            B1SG24B Amount you would have
+            B1SG25A Home mortgage amount owed
+            B1SG25B Home improvement/equity amount owed
+            B1SG25C Other real estate loans amount owed
+            B1SG25D Business/farm loans amount owed
+            B1SG25E Vehicle loans amount owed
+            B1SG25F Credit cards/charge accounts amount owed
+            B1SG25G Installment loans for purchases amount owed
+            B1SG25H Educational loans amount owed
+            B1SG25I Other personal loans amount owed
+        Section H: Community Involvement
+            B1SH1 Rate current contribution to others welfare
+            B1SH2 Rate contribution to others welfare 10 years ago
+            B1SH3 Rate contribution to others welfare 10 years future
+            B1SH4 Rate control over contribution to others welfare
+            B1SH5 Rate thought/effort into contribution to others welfare
+            B1SH6A Made unique contributions to society
+            B1SH6B Important skills to pass along to others
+            B1SH6C Many people come to you for advice
+            B1SH6D Feel other people need you
+            B1SH6E Good influence on others' lives
+            B1SH6F Like to teach things to people
+            B1SGENER Loyola Generativity Scale
+            B1SH7A Volunteer hospital/nursing home (hours/month)
+            B1SH7B Volunteer school/other youth related work (hours/month)
+            B1SH7C Volunteer political organization/causes (hours/month)
+            B1SH7D Volunteer other organization/causes (hours/month)
+            B1SH8A Attend meeting unions/professional groups (numbers/month)
+            B1SH8B Attend meeting sports/social groups (numbers/month)
+            B1SH8C Attend meeting other groups (numbers/month)
+            B1SH9A Give spouse/partner emotional support (hours/month)
+            B1SH9B Give parents emotional support (hours/month)
+            B1SH9C Give in-laws emotional support (hours/month)
+            B1SH9D Give children emotional support (hours/month)
+            B1SH9E Give other family/friends emotional support (hours/month)
+            B1SH9F Give anyone else emotional support (hours/month)
+            B1SH10A Receive emotional support spouse/partner (hours/month)
+            B1SH10B Receive emotional support parents (hours/month)
+            B1SH10C Receive emotional support in-laws (hours/month)
+            B1SH10D Receive emotional support children (hours/month)
+            B1SH10E Receive emotional support other family/friends (hours/month)
+            B1SH10F Receive emotional support anyone else (hours/month)
+            B1SH11A Give unpaid assistance parents (hours/month)
+            B1SH11B Give unpaid assistance in-laws (hours/month)
+            B1SH11C Give unpaid assistance children (hours/month)
+            B1SH11D Give unpaid assistance other family/friends (hours/month)
+            B1SH11E Give unpaid assistance anyone else (hours/month)
+            B1SH12A Receive unpaid assistance parents (hours/month)
+            B1SH12B Receive unpaid assistance in-laws (hours/month)
+            B1SH12C Receive unpaid assistance children (hours/month)
+            B1SH12D Receive unpaid assistance other family/friends (hours/month)
+            B1SH12E Receive unpaid assistance community volunteers (hours/month)
+            B1SH12F Receive unpaid assistance religious groups (hours/month)
+            B1SH12G Receive unpaid assistance other organization (hours/month)
+            B1SH12H Receive unpaid assistance government groups (hours/month)
+            B1SH13A Financial support to parents (dollars/month)
+            B1SH13B Financial support to in-laws (dollars/month)
+            B1SH13C Financial support to children (dollars/month)
+            B1SH13D Financial support to other family/friends (dollars/month)
+            B1SH13E Financial support to any other individuals (dollars/month)
+            B1SH13F Financial support to religious groups (dollars/month)
+            B1SH13G Financial support to political organizations (dollars/month)
+            B1SH13H Financial support to other organizations (dollars/month)
+            B1SH14A Financial support from parents (dollars/month)
+            B1SH14B Financial support from in-laws (dollars/month)
+            B1SH14C Financial support from children (dollars/month)
+            B1SH14D Financial support from other family/friends (dollars/month)
+            B1SH14E Financial support from religious groups (dollars/month)
+            B1SH14F Financial support from other non-governmental organizations (dollars/month)
+            B1SH14G Financial support from any government group (dollars/month)
+            B1SH15A Lived with aging parent (12 months)
+            B1SH15B Lived with adult children (12 months)
+            B1SH15C Lived with grandchildren (12 months)
+            B1SH15D Lived with other friends/family (12 months)
+            B1SH16A World is too complex for me
+            B1SH16B Do not feel I belong to community
+            B1SH16C People who do a favor expect nothing
+            B1SH16D Have something valuable to give world
+            B1SH16E World is becoming better place
+            B1SH16F Feel close to others in community
+            B1SH16G Daily activities not worthwhile for community
+            B1SH16H Cannot make sense of world
+            B1SH16I Society stopped making progress
+            B1SH16J People do not care about others problems
+            B1SH16K Community is source of comfort
+            B1SH16L Easy to predict society future
+            B1SH16M Society not improving for people like me
+            B1SH16N Believe people are kind
+            B1SH16O Have nothing important for society
+            B1SSWBMS Meaningfulness of Society (Social Well-Being)
+            B1SSWBSI Social Integration (Social Well-Being)
+            B1SSWBAO Acceptance of Others (Social Well-Being)
+            B1SSWBSC Social Contribution (Social Well-Being)
+            B1SSWBSA Social Actualization (Social Well-Being)
+            B1SH16P Important to help people who I know well
+            B1SH16Q Not happy if friend in trouble
+            B1SH16R Moved by another person's hardship
+            B1SH16S Important to be sympathetic others
+            B1SH16T My sympathy has its limits
+            B1SSYMP Sympathy scale
+        Section I: Your Neighborhood
+            B1SI1 Contact with neighbors (frequency)
+            B1SI2 Conversation/get together with neighbor (frequency)
+            B1SI3 Years lived in current neighborhood
+            B1SI4 Years lived in this state
+            B1SI5 Own home outright, mortgage, or rent
+            B1SI6A Safe alone in neighborhood daytime
+            B1SI6B Safe alone in neighborhood at night
+            B1SI6C Home as nice as most people
+            B1SI6D Proud of my home
+            B1SI6E Can call neighbor for help if needed
+            B1SI6F Others live in better neighborhood
+            B1SI6G Neighbors trust each other
+            B1SI6H Do not like to invite others to home
+            B1SI6I Buildings/streets kept in good repair
+            B1SI6J Feel good about home/neighborhood
+            B1SI6K Neighborhood is kept clean
+            B1SI6L Hopeless to improve home/neighborhood
+            B1SHOMET Perceived Quality of Neighborhood
+            B1SPIHOM Perceived Inequality in Home
+            B1SI7 State most like to live next 10 years
+        Section J: Social Networks
+            B1SJ1 Contact with family members (frequency)
+            B1SJ2A Family members really care about you
+            B1SJ2B Family members understand way you feel
+            B1SJ2C Rely on family for help with problem
+            B1SJ2D Open up to family about worries
+            B1SJ2E Really care about family members
+            B1SJ2F Understand way family feels
+            B1SJ2G Family members make too many demands
+            B1SJ2H Family members criticize you
+            B1SJ2I Family members let you down
+            B1SJ2J Family members get on your nerves
+            B1SKINPO Support from Family
+            B1SKINNE Strain from Family
+            B1SFAMSO Family Affectual Solidarity
+            B1SPKINS Providing Support for Family
+            B1SJ3 Contact with friends (frequency)
+            B1SJ4A Friends really care about you
+            B1SJ4B Friends understand way you feel
+            B1SJ4C Rely on friends for help with problem
+            B1SJ4D Open up to friends about worries
+            B1SJ4E Friends make too many demands on you
+            B1SJ4F Friends criticize you
+            B1SJ4G Friends let you down
+            B1SJ4H Friends get on your nerves
+            B1SFDSPO Support from Friends
+            B1SFDSNE Strain from Friends
+            B1SFDSOL Friendship Affectual Solidarity
+            B1SJ5 Friends/relative asks for advice/help
+            B1SJ6 You ask friend/relative for advice/help
+            B1SJ7SA Spouse/partner chronic disease/disability (12 months)
+            B1SJ7SB Spouse/partner frequent minor illnesses (12 months)
+            B1SJ7SC Spouse/partner emotional problems (12 months)
+            B1SJ7SD Spouse/partner alcohol/substance problems (12 months)
+            B1SJ7SE Spouse/partner financial problems (12 months)
+            B1SJ7SF Spouse/partner school/work problems (12 months)
+            B1SJ7SG Spouse/partner difficult find/keep job (12 months)
+            B1SJ7SH Spouse/partner marital/relationship problems (12 months)
+            B1SJ7SI Spouse/partner legal problems (12 months)
+            B1SJ7SJ Spouse/partner difficult get along with others (12 months)
+            B1SJ7PA Parents chronic disease/disability (12 months)
+            B1SJ7PB Parents frequent minor illnesses (12 months)
+            B1SJ7PC Parents emotional problems (12 months)
+            B1SJ7PD Parents alcohol/substance problems (12 months)
+            B1SJ7PE Parents financial problems (12 months)
+            B1SJ7PF Parents school/work problems (12 months)
+            B1SJ7PG Parents difficult find/keep job (12 months)
+            B1SJ7PH Parents marital/relationship problems (12 months)
+            B1SJ7PI Parents legal problems (12 months)
+            B1SJ7PJ Parents difficult get along with others (12 months)
+            B1SJ7CA Children chronic disease/disability (12 months)
+            B1SJ7CB Children frequent minor illnesses (12 months)
+            B1SJ7CC Children emotional problems (12 months)
+            B1SJ7CD Children alcohol/substance problems (12 months)
+            B1SJ7CE Children financial problems (12 months)
+            B1SJ7CF Children school/work problems (12 months)
+            B1SJ7CG Children difficult find/keep job (12 months)
+            B1SJ7CH Children marital/relationship problems (12 months)
+            B1SJ7CI Children legal problems (12 months)
+            B1SJ7CJ Children difficult get along with others (12 months)
+        Section K: Children
+            B1SK1 Rate current relationship with children
+            B1SK2 Rate relationship with children 10 years ago
+            B1SK3 Rate relationship with children 10 years future
+            B1SK4 Rate control over relationship with children
+            B1SK5 Rate thought/effort relationship with children
+            B1SK6A Feel good about opportunities for children
+            B1SK6B Family life with children more negative
+            B1SK6C Problems with children caused shame
+            B1SK6D No resources for fun things with children
+            B1SK6E Do for children as much as others
+            B1SK6F Pride about what able to do for children
+            B1SPIFAM Perceived Inequality in Family
+            B1SK7A1 Respondent stop working to care for children
+            B1SK7A2 Spouse/partner stop working to care for children
+            B1SK7B1 Respondent cut back hours to care for children
+            B1SK7B2 Spouse/partner cut back hours to care for children
+            B1SK7C1 Respondent work longer hours meet child needs
+            B1SK7C2 Spouse/partner work longer hours meet child needs
+            B1SK7D1 Respondent switch to different job for children
+            B1SK7D2 Spouse/partner switch to different job for children
+            B1SK8 Days respondent change schedule for childcare
+            B1SK9 Days spouse/partner change schedule for childcare
+            B1SK10 Provide childcare stressful (school year)
+            B1SK11 Provide childcare stressful (summer)
+        Section L: Marriage of Close Relationship
+            B1SL1 Rate current marriage/relationship
+            B1SL2 Rate marriage/relationship 10 years ago
+            B1SL3 Rate marriage/relationship 10 years future
+            B1SL4 Rate control over marriage/relationship
+            B1SL5 Rate thought/effort marriage/relationship
+            B1SL6 Describe marital relationship
+            B1SL7 Relationship in trouble (12 months)
+            B1SL8 Chances eventually separate from spouse/partner
+            B1SL9A Disagree about money matters with spouse/partner
+            B1SL9B Disagree about household tasks with spouse/partner
+            B1SL9C Disagree about leisure activities with spouse/partner
+            B1SMARRS Marital Risk
+            B1SSPDIS Spouse/Partner Disagreement
+            B1SL10 Good talk with spouse/partner (frequency)
+            B1SL11A Spouse/partner really cares about you
+            B1SL11B Spouse/partner understands way you feel
+            B1SL11C Spouse/partner appreciates you
+            B1SL11D Rely spouse/partner for help with serious problem
+            B1SL11E Open up to spouse/partner about worries
+            B1SL11F Can relax, be yourself around spouse/partner
+            B1SL11G Spouse/partner makes too many demands on you
+            B1SL11H Spouse/partner makes you feel tense
+            B1SL11I Spouse/partner argues with you
+            B1SL11J Spouse/partner criticizes you
+            B1SL11K Spouse/partner lets you down
+            B1SL11L Spouse/partner gets on your nerves
+            B1SSPEMP Support from Spouse/Partner
+            B1SSPCRI Strain from Spouse/Partner
+            B1SSPSOL Spouse/Partner Affectual Solidarity
+            B1SL12 Who does more household chores
+            B1SL13 Respondent does household chores (hours/week)
+            B1SL14 Spouse/partner does household chores (hours/week)
+            B1SL15 How fair are household chores to respondent
+            B1SL16 How fair are household chores to spouse/partner
+            B1SL17A Make decisions with spouse/partner as a team
+            B1SL17B Talk with spouse/partner makes things better
+            B1SL17C Talk with spouse/partner before make plans
+            B1SL17D Ask spouse/partner for advice about issues
+            B1SSPDEC Spouse/Partner Decision Making
+            B1SL18 Describe spouse/partner physical health currently
+            B1SL19 Describe spouse/partner mental health currently
+            B1SL20 Spouse/partner currently working for pay, either full-time or part-time?
+            B1SL21 Hours per week spouse/partner works at main job
+            B1SL22 Hours per week spouse/partner works at other job
+            B1SL23A Spouse/partner works days in average week (frequency)
+            B1SL23B Spouse/partner works evenings in average week (frequency)
+            B1SL23C Spouse/partner works nights in average week (frequency)
+            B1SL23D Spouse/partner works weekends in average week (frequency)
+            B1SL24A Spouse/partner time begin job (hour)
+            B1SL24B Spouse/partner time begin job (minute)
+            B1SL24C Spouse/partner time begin job (am/pm)
+            B1SL25A Spouse/partner time end job (hour)
+            B1SL25B Spouse/partner time end job (minute)
+            B1SL25C Spouse/partner time end job (am/pm)
+            B1SL26A Spouse/partner job commute time (hours)
+            B1SL26B Spouse/partner job commute time (minutes)
+            B1SL27 Spouse/partner chances could keep job for next two years
+        Section M: Sexuality
+            B1SM1 Rate sexual aspect of life currently
+            B1SM2 Rate sexual aspect of life 10 years ago
+            B1SM3 Rate sexual aspect of life 10 years future
+            B1SM4 Rate control over sexual aspect of life
+            B1SM5 Rate thought/effort sexual aspect of life
+            B1SM6 Describe sexual orientation
+            B1SM7 Number of sex partners (past year)
+            B1SM8 Sex frequency (past 6 months)
+            B1SM9 Sexual expression important part of relationship
+            B1SM10 Sexual relationship include emotional intimacy
+            B1SM11 Pain/discomfort in sexual interactions
+            B1SM12 Pleasure in sexual interactions
+        Section N: Religion and Spirituality
+            B1SN1A Religious preference 1st choice
+            B1SN1B Religious preference 2nd choice
+            B1SN1C Religious preference 3rd choice
+            B1SN1AX Other is a Christian religion
+            B1SN2A How religious are you
+            B1SN2B How spiritual are you
+            B1SN2C Religion important in your life
+            B1SN2D Spirituality important in your life
+            B1SN2E Religious instruction important for children
+            B1SN2F Identify with your religious group
+            B1SN2G Prefer people of same religion
+            B1SN2H Important to marry in same religion
+            B1SN2I Important celebrate with religious community
+            B1SSPIRI Spirituality
+            B1SRELID Religious Identification
+            B1SN3A Pray in private (frequency)
+            B1SN3B Meditate or chant (frequency)
+            B1SN3C Read Bible or religious literature (frequency)
+            B1SRELPR Private Religious Practices
+            B1SN3D Attend religious/spiritual services (frequency)
+            B1SN3E Attend church/temple activities (frequency)
+            B1SN4 Explore different religions or stick to one
+            B1SN5 Ever been born again
+            B1SN6 Bible is actual Word of God
+            B1SN7 Have religious community/congregation
+            B1SN8A If ill, congregation would help
+            B1SN8B If problem, congregation would comfort
+            B1SN8C Congregation makes too many demands
+            B1SN8D Congregation criticizes you
+            B1SRELSU Religious Support
+            B1SN9A Seek comfort through religion when problem
+            B1SN9B Look to religious beliefs make decisions
+            B1SN9C Make sense situation without God
+            B1SN9D Wonder if God has abandoned me
+            B1SN9E Feel God is punishing me for sins
+            B1SN9F Look to God for strength/support/guidance
+            B1SN9G Work with God as partners
+            B1SN9H Life is part of larger spiritual force
+            B1SRELCA Religious/Spiritual Coping A
+            B1SRELCB Religious/Spiritual Coping B
+            B1SN10A Feeling of deep inner peace (frequency/day)
+            B1SN10B Moved by beauty of life (frequency/day)
+            B1SN10C Strong connection to all life (frequency/day)
+            B1SN10D Sense of deep appreciation (frequency/day)
+            B1SN10E Sense of caring for others (frequency/day)
+            B1SSPRTE Daily Spiritual Experiences
+            B1SN11A More engaged in moment because religion
+            B1SN11B Sensitive to others feelings because religion
+            B1SN11C Receptive to new ideas because religion
+            B1SN11D Better listener because religion
+            B1SN11E More patient because religion
+            B1SN11F More aware of environment because religion
+            B1SN11G More tolerant differences because religion
+            B1SN11H Aware different ways to solve problems because religion
+            B1SN11I Perceive in new ways because religion
+            B1SMNDFU Mindfulness
+        Section P: Discrimination
+            B1SP1A Higher education discouraged (times)
+            B1SP1B Denied scholarship (times)
+            B1SP1C Not hired for a job (times)
+            B1SP1D Not given job promotion (times)
+            B1SP1E Fired (times)
+            B1SP1F Prevented from rent/buying home (times)
+            B1SP1G Prevented remain in neighborhood (times)
+            B1SP1H Hassled by police (times)
+            B1SP1I Denied a bank loan (times)
+            B1SP1J Denied or provided inferior medical care (times)
+            B1SP1K Denied or provided inferior service (times)
+            B1SLFEDI Summary - Lifetime Discrimination
+            B1SP2A Treated with less courtesy than others (frequency)
+            B1SP2B Treated with less respect than others (frequency)
+            B1SP2C Receive poorer service than others (frequency)
+            B1SP2D People think you are not smart (frequency)
+            B1SP2E People act afraid of you (frequency)
+            B1SP2F People think you are dishonest (frequency)
+            B1SP2G People think you not as good as they are (frequency)
+            B1SP2H Called names or insulted (frequency)
+            B1SP2I Threatened/harassed (frequency)
+            B1SDAYDI Daily Discrimination
+            B1SP3A Age main reason for discrimination
+            B1SP3B Gender main reason for discrimination
+            B1SP3C Race main reason for discrimination
+            B1SP3D Ethnicity main reason for discrimination
+            B1SP3E Religion main reason for discrimination
+            B1SP3F Height/weight main reason for discrimination
+            B1SP3G Appearance main reason for discrimination
+            B1SP3H Physical disability main reason for discrimination
+            B1SP3I Sexual orientation main reason for discrimination
+            B1SP3J Other main reason for discrimination
+            B1SP4 Discrimination interfered with having full life
+            B1SP5 Life has been harder because of discrimination
+        Section Q: Life Overall
+            B1SQ1 Rate life overall currently
+            B1SQ2 Rate life overall ten years ago
+            B1SQ3 Rate life overall ten years future
+            B1SQ4 Rate control over life
+            B1SQ5 Rate thought/effort into life overall
+            B1SQ6 Rate your day today

@@ -1,0 +1,224 @@
+Variable Name,Label
+M2ID,MIDUS 2 ID number
+M2FAMNUM,MIDUS 2 Family number
+SAMPLMAJ,Major sample identification
+B1PAGE_M2,Respondent's calculated age at MIDUS 2 Project 1 phone interview
+B1PRAGE_2019,"Respondent's calculated age at MIDUS 2 Project 1 phone interview, updated as of 2019"
+B1PRSEX,Respondent's sex
+B3PIDATE_MO,Month of interview
+B3PIDATE_YR,Year of interview
+B3TWLIFP,Word List Immediate flagged problematic?
+B3TWLI1,Word List Immediate: Recalled word 1
+B3TWLI2,Word List Immediate: Recalled word 2
+B3TWLI3,Word List Immediate: Recalled word 3
+B3TWLI4,Word List Immediate: Recalled word 4
+B3TWLI5,Word List Immediate: Recalled word 5
+B3TWLI6,Word List Immediate: Recalled word 6
+B3TWLI7,Word List Immediate: Recalled word 7
+B3TWLI8,Word List Immediate: Recalled word 8
+B3TWLI9,Word List Immediate: Recalled word 9
+B3TWLI10,Word List Immediate: Recalled word 10
+B3TWLI11,Word List Immediate: Recalled word 11
+B3TWLI12,Word List Immediate: Recalled word 12
+B3TWLI13,Word List Immediate: Recalled word 13
+B3TWLI14,Word List Immediate: Recalled word 14
+B3TWLI15,Word List Immediate: Recalled word 15
+B3TWLI16,Word List Immediate: Recalled word 16
+B3TWLI17,Word List Immediate: Recalled word 17
+B3TWLI18,Word List Immediate: Recalled word 18
+B3TWLI19,Word List Immediate: Recalled word 19
+B3TWLI20,Word List Immediate: Recalled word 20
+B3TWLI21,Word List Immediate: Recalled word 21
+B3TWLI22,Word List Immediate: Recalled word 22
+B3TWLI23,Word List Immediate: Recalled word 23
+B3TWLI24,Word List Immediate: Recalled word 24
+B3TWLI25,Word List Immediate: Recalled word 25
+B3TWLI26,Word List Immediate: Recalled word 26
+B3TWLITU,Word List Immediate: Total unique words recalled
+B3TWLITR,Word List Immediate: Total repetitions
+B3TWLITI,Word List Immediate: Total intrusions
+B3TDBFP,Digits Backward flagged problematic?
+B3TDBS,Digits Backward: highest number digits recall
+B3TCTFFP,Category Fluency flagged problematic?
+B3TCTFLU,Category Fluency: Total unique items
+B3TCTFLR,Category Fluency: Total repetitions
+B3TCTFLI,Category Fluency: Total intrusions
+B3TNSFP,Number Series flagged problematic?
+B3TNS1,Number Series 1: Response
+B3TNS2,Number Series 2: Response
+B3TNS3,Number Series 3: Response
+B3TNS4,Number Series 4: Response
+B3TNS5,Number Series 5: Response
+B3TNS1C,Number Series 1: Correct?
+B3TNS2C,Number Series 2: Correct?
+B3TNS3C,Number Series 3: Correct?
+B3TNS4C,Number Series 4: Correct?
+B3TNS5C,Number Series 5: Correct?
+B3TNSTOT,Number Series: Total correct
+B3TBKFP,Backward Counting flagged problematic?
+B3TBKCT,Backward Counting: Last number reached
+B3TBKERR,Backward Counting: Number of errors
+B3TBKTOT,Backward Counting: Total number counted Correctly (100-(B3TBKCT+B3TBKERR))
+B3TWLDFP,Word List Delayed flagged problematic?
+B3TWLD1,Word List Delayed: Recalled word 1
+B3TWLD2,Word List Delayed: Recalled word 2
+B3TWLD3,Word List Delayed: Recalled word 3
+B3TWLD4,Word List Delayed: Recalled word 4
+B3TWLD5,Word List Delayed: Recalled word 5
+B3TWLD6,Word List Delayed: Recalled word 6
+B3TWLD7,Word List Delayed: Recalled word 7
+B3TWLD8,Word List Delayed: Recalled word 8
+B3TWLD9,Word List Delayed: Recalled word 9
+B3TWLD10,Word List Delayed: Recalled word 10
+B3TWLD11,Word List Delayed: Recalled word 11
+B3TWLD12,Word List Delayed: Recalled word 12
+B3TWLD13,Word List Delayed: Recalled word 13
+B3TWLD14,Word List Delayed: Recalled word 14
+B3TWLD15,Word List Delayed: Recalled word 15
+B3TWLD16,Word List Delayed: Recalled word 16
+B3TWLD17,Word List Delayed: Recalled word 17
+B3TWLD18,Word List Delayed: Recalled word 18
+B3TWLD19,Word List Delayed: Recalled word 19
+B3TWLD20,Word List Delayed: Recalled word 20
+B3TWLD21,Word List Delayed: Recalled word 21
+B3TWLD22,Word List Delayed: Recalled word 22
+B3TWLD23,Word List Delayed: Recalled word 23
+B3TWLD24,Word List Delayed: Recalled word 24
+B3TWLD25,Word List Delayed: Recalled word 25
+B3TWLD26,Word List Delayed: Recalled word 26
+B3TWLDTU,Word List Delayed: Total unique words recalled
+B3TWLDTR,Word List Delayed: Total repetitions
+B3TWLDTI,Word List Delayed: Total intrusions
+B3TWLF,Word List: Proportion forgot between immediate and delayed
+B3TCOMPZ1,Zscore BTACT Composite Score - computed for MIDUS national sample only (N=4206)
+B3TEMZ1,Zscore Episodic Memory - computed for MIDUS national sample only (N=4206)
+B3TEFZ1,Zscore Executive Functioning - computed for MIDUS national sample only (N=4206)
+B3TCOMPZ2,Zscore BTACT Composite Score - computed for Milwaukee sample only (N=306)
+B3TEMZ2,Zscore Episodic Memory - computed for Milwaukee sample only (N=306)
+B3TEFZ2,Zscore Executive Functioning - computed for Milwaukee sample only (N=306)
+B3TCOMPZ3,Zscore BTACT Composite Score - computed for complete sample (MIDUS + Milwaukee; N=4512)
+B3TEMZ3,Zscore Episodic Memory - computed for complete sample (MIDUS + Milwaukee; N=4512)
+B3TEFZ3,Zscore Executive Functioning - computed for complete sample (MIDUS + Milwaukee; N=4512)
+B3TSWN1,SGST: normal single-task trial 1
+B3TSWN2,SGST: normal single-task trial 2
+B3TSWN3,SGST: normal single-task trial 3
+B3TSWN4,SGST: normal single-task trial 4
+B3TSWN5,SGST: normal single-task trial 5
+B3TSWN6,SGST: normal single-task trial 6
+B3TSWN7,SGST: normal single-task trial 7
+B3TSWN8,SGST: normal single-task trial 8
+B3TSWN9,SGST: normal single-task trial 9
+B3TSWN10,SGST: normal single-task trial 10
+B3TSWN11,SGST: normal single-task trial 11
+B3TSWN12,SGST: normal single-task trial 12
+B3TSWN13,SGST: normal single-task trial 13
+B3TSWN14,SGST: normal single-task trial 14
+B3TSWN15,SGST: normal single-task trial 15
+B3TSWN16,SGST: normal single-task trial 16
+B3TSWN17,SGST: normal single-task trial 17
+B3TSWN18,SGST: normal single-task trial 18
+B3TSWN19,SGST: normal single-task trial 19
+B3TSWN20,SGST: normal single-task trial 20
+B3TSWR1,SGST: reverse single-task trial 1
+B3TSWR2,SGST: reverse single-task trial 2
+B3TSWR3,SGST: reverse single-task trial 3
+B3TSWR4,SGST: reverse single-task trial 4
+B3TSWR5,SGST: reverse single-task trial 5
+B3TSWR6,SGST: reverse single-task trial 6
+B3TSWR7,SGST: reverse single-task trial 7
+B3TSWR8,SGST: reverse single-task trial 8
+B3TSWR9,SGST: reverse single-task trial 9
+B3TSWR10,SGST: reverse single-task trial 10
+B3TSWR11,SGST: reverse single-task trial 11
+B3TSWR12,SGST: reverse single-task trial 12
+B3TSWR13,SGST: reverse single-task trial 13
+B3TSWR14,SGST: reverse single-task trial 14
+B3TSWR15,SGST: reverse single-task trial 15
+B3TSWR16,SGST: reverse single-task trial 16
+B3TSWR17,SGST: reverse single-task trial 17
+B3TSWR18,SGST: reverse single-task trial 18
+B3TSWR19,SGST: reverse single-task trial 19
+B3TSWR20,SGST: reverse single-task trial 20
+B3TSWX1,SGST: mixed-task trial 1 'normal...green'
+B3TSWX2,SGST: mixed-task trial 2 'red'
+B3TSWX3,SGST: mixed-task trial 3 'green'
+B3TSWX4,SGST: mixed-task trial 4 'reverse...red'
+B3TSWX5,SGST: mixed-task trial 5 'red'
+B3TSWX6,SGST: mixed-task trial 6 'green'
+B3TSWX7,SGST: mixed-task trial 7 'red'
+B3TSWX8,SGST: mixed-task trial 8 'red'
+B3TSWX9,SGST: mixed-task trial 9 'normal...red'
+B3TSWX10,SGST: mixed-task trial 10 'green'
+B3TSWX11,SGST: mixed-task trial 11 'red'
+B3TSWX12,SGST: mixed-task trial 12 'green'
+B3TSWX13,SGST: mixed-task trial 13 'green'
+B3TSWX14,SGST: mixed-task trial 14 'red'
+B3TSWX15,SGST: mixed-task trial 15 'reverse...green'
+B3TSWX16,SGST: mixed-task trial 16 'green'
+B3TSWX17,SGST: mixed-task trial 17 'red'
+B3TSWX18,SGST: mixed-task trial 18 'green'
+B3TSWX19,SGST: mixed-task trial 19 'normal...green'
+B3TSWX20,SGST: mixed-task trial 20 'red'
+B3TSWX21,SGST: mixed-task trial 21 'green'
+B3TSWX22,SGST: mixed-task trial 22 'green'
+B3TSWX23,SGST: mixed-task trial 23 'red'
+B3TSWX24,SGST: mixed-task trial 24 'reverse...green'
+B3TSWX25,SGST: mixed-task trial 25 'green'
+B3TSWX26,SGST: mixed-task trial 26 'red'
+B3TSWX27,SGST: mixed-task trial 27 'green'
+B3TSWX28,SGST: mixed-task trial 28 'red'
+B3TSWX29,SGST: mixed-task trial 29 'normal...red'
+B3TSWX30,SGST: mixed-task trial 30 'green'
+B3TSWX31,SGST: mixed-task trial 31 'red'
+B3TSWX32,SGST: mixed-task trial 32 'green'
+B3TSTN,SGST: normal single-task number correct
+B3TSVN,SGST: normal single-task number invalid
+B3TSPN,SGST: normal single-task percent correct
+B3TSMN,SGST: normal single-task median reaction time
+B3TSTR,SGST: reverse single-task number correct
+B3TSVR,SGST: reverse single-task number invalid
+B3TSPR,SGST: reverse single-task percent correct
+B3TSMR,SGST: reverse single-task median reaction time
+B3TSMB,"SGST: mean (B3TSMN, B3TSMR)"
+B3TSTXNO,SGST: mixed-task normal nonswitch trials number correct
+B3TSVXNO,SGST: mixed-task normal nonswitch trials number invalid
+B3TSPXNO,SGST: mixed-task normal nonswitch trials percent correct
+B3TSTXRO,SGST: mixed-task reverse nonswitch trials number correct
+B3TSVXRO,SGST: mixed-task reverse nonswitch trials number invalid
+B3TSPXRO,SGST: mixed-task reverse nonswitch trials percent correct
+B3TSTXBO,SGST: mixed-task nonswitch trials number correct
+B3TSVXBO,SGST: mixed-task nonswitch trials number invalid
+B3TSPXBO,SGST: mixed-task nonswitch trials percent correct
+B3TSTXNS,SGST: mixed-task normal switch trials number correct
+B3TSVXNS,SGST: mixed-task normal switch trials number invalid
+B3TSPXNS,SGST: mixed-task normal switch trials percent correct
+B3TSTXRS,SGST: mixed-task reverse switch trials number correct
+B3TSVXRS,SGST: mixed-task reverse switch trials number invalid
+B3TSPXRS,SGST: mixed-task reverse switch trials percent correct
+B3TSTXBS,SGST: mixed-task switch trials number correct
+B3TSVXBS,SGST: mixed-task switch trials number invalid
+B3TSPXBS,SGST: mixed-task switch trials percent correct
+B3TSTXBB,SGST: all mixed-task number correct
+B3TSVXBB,SGST: all mixed-task number invalid
+B3TSPXBB,SGST: all mixed-task percent correct
+B3TSMXNO,SGST: mixed-task normal nonswitch median reaction time
+B3TSMXRO,SGST: mixed-task reverse nonswitch median reaction time
+B3TSMXBO,SGST: mixed-task nonswitch trials median reaction time
+B3TSMXNS,SGST: mixed-task normal switch median reaction time
+B3TSMXRS,SGST: mixed-task reverse switch median reaction time
+B3TSMXBS,SGST: mixed-task switch trials median reaction time
+B3TSMXBB,"SGST: mean (B3TSMXBO, B3TSMXBS)"
+B3TSCGBA,"SGST: General Switch Cost, absolute (B3TSMXBB-B3TSMB)"
+B3TSCGBR,"SGST: General Switch Cost, relative (B3TSCGBA/B3TSMB)"
+B3TSCGNA,"SGST: General Switch Cost (normal), absolute [mean(B3TSMXNO, B3TSMXNS)-B3TSMN]"
+B3TSCGNR,"SGST: General Switch Cost (normal), relative (B3TSCGNA/B3TSMN)"
+B3TSCGRA,"SGST: General Switch Cost (reverse), absolute [mean(B3TSMXRO, B3TSMXRS)-B3TSMR]"
+B3TSCGRR,"SGST: General Switch Cost (reverse), relative (B3TSCGRA/B3TSMR)"
+B3TSCLBA,"SGST: Local Switch Cost, absolute (B3TSMXBS-B3TSMXBO)"
+B3TSCLBR,"SGST: Local Switch Cost, relative (B3TSCLBA/B3TSMXBO)"
+B3TSCLNA,"SGST: Local Switch Cost (normal), absolute (B3TSMXNS-B3TSMXNO)"
+B3TSCLNR,"SGST: Local Switch Cost (normal), relative (B3TSCLNA/B3TSMXNO)"
+B3TSCLRA,"SGST: Local Switch Cost (reverse), absolute (B3TSMXRS-B3TSMXRO)"
+B3TSCLRR,"SGST: Local Switch Cost (reverse), relative (B3TSCLRA/B3TSMXRO)"
+B3TSFV,SGST: Filter invalid cases
+B3TSFC,SGST: Filter cases with low accuracy or extreme latencies
