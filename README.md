@@ -2,24 +2,33 @@
 
 **Midlife crisis? Nah — just some data science.**
 
-This project dives into the MIDUS 2 dataset to see how personality traits (think Big Five: extraversion, neuroticism, etc.) line up with things like financial satisfaction, life satisfaction, and mental health. Basically: can your personality predict how well life’s going?
+This project explores how personality traits relate to life outcomes using the MIDUS 2 dataset — a big national study about how adults in the U.S. are doing in terms of health, happiness, and money. We’re asking things like: *Can your personality shape your satisfaction with life? Or your finances?*
+
+## The Big Five (no psych degree needed)
+
+We focus on the **Big Five** personality traits — a popular model in psychology:
+
+- **Extraversion** – outgoing, social, talkative
+- **Neuroticism** – anxious, moody, easily upset
+- **Agreeableness** – kind, cooperative, warm
+- **Conscientiousness** – organized, responsible, hardworking
+- **Openness to Experience** – curious, imaginative, open-minded
+
+Each person in the dataset has scores on these traits based on questionnaires.
 
 ## What's in here?
 
 We:
-- Load and clean data from the MIDUS 2 study (ICPSR 04652)
-- Use UMAP to reduce those juicy personality variables into 2D space
-- Color-code the plots by self-reported “success” metrics (like money and life satisfaction)
-- Try to answer questions like: *are chill, responsible people doing better?*
+- Load and clean MIDUS 2 data (ICPSR 04652)
+- Use UMAP (a dimensionality reduction tool) to turn personality traits into 2D visual maps
+- Color the maps by “success” variables like financial satisfaction and emotional well-being
 
 ## Data
 
-- Data comes from the **MIDUS 2 Biomarker Project**, downloaded via ICPSR.
-- Due to licensing, the raw data isn’t included here. You’ll need to get it yourself if you want to run the code.
+- Source: MIDUS 2 Biomarker Project (ICPSR)
+- Raw data not included — you’ll need to download it yourself from ICPSR and agree to their terms
 
 ## Requirements
-
-You'll need Python and some usual suspects:
 
 ```bash
 pip install pandas numpy matplotlib seaborn umap-learn pyreadstat scikit-learn
