@@ -2,7 +2,8 @@
 *.pyc
 *.pkl
 *.sav
-
+me/shoob*
+me/conver*
 docs/
 DS0001/
 DS0002/
