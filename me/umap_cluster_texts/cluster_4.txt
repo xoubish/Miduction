@@ -1,0 +1,339 @@
+I have some time-series image data that I want to improve the resolution of, I only have the higher resolution image of a co-add, how do I use it to improve the resolution of single epochs
+what is the definition of a point source, does it depend on the resolution and pixel scale
+where in wcs can i read the pixel scale
+i don't get the experiment because one would expect the outputs to be similar, and it gets interesting if they are not, not when they are
+what factor boost is possible with super resolution latest DL networks give me reference
+is this correct: More centrally concentrated light profiles in NISP compared to VIS, more so in the disk dominated structures.
+this is part of the uncertainty quantification section of the proposal my aim is to show that output of network is not just a number but a posterior, try again
+how about not trying to figure out why and confirm and instead do the correct normalization
+change use to utilize and mention two redshift bins at z~1.5 and z~2
+why would I make a film with 300 fps if human eye can only recognize around 60fps
+dont mention the first, its not that important, instead maybe mention the long term effort I have worked on this from initial steps of simulating the effect before the mission was launched to calibration with first data and with continuous evolving of codes as new data comes in
+what is the spectral resolution of deimos keck
+lets go slower, lets only focus on HST/JWST/Euclid for now. first, why should i bring them to the same pixel scale
+any issues in this caption: Augmenting a missing band in the photometric catalog using \textbf{Left}:linear Interpolation and \textbf{Right:} the SOM. The top panels show contours on the scatter plots of the predicted vs. real F098W magnitudes of a test subsample and the bottom panels show a Gaussian regression fit to the delta magnitudes. It is clear both methods predict the missing fluxes with reasonable accuracy although there is less scatter when using the SOM.
+great give me 16x9 high resolution
+how about a paper that compares lephare or phosphoros output to specz
+instead of structures like tensors say hdf5
+how does normalization of time series help with machine learning is it considered feature scaling, how?
+Inference time for one image over 500 timesteps: 1.94 seconds
+This part works well. Lets now get to giving these data to the RNN to fill in the gaps
+ok I have the 40 pixels of nisp correponding to 66 pixels of NIRCam
+there was a paper on super resolution which introduction started with  it has all been said before but here we go again or something similar
+impossible to see the lines plotted and the agns
+and can we ensure that all low flux/low wavelength and all highflux/high wavelength have the same length
+forget simulated, the idea is to do this for Euclid, starting with Q1 data (which is the first quick data release) and then over the three years of the proposed work more data will become available so we fine tune and test
+if i only have diffusion loss, that means a super resolution with no prior on anything? how does that work
+improve the below paragraph add in 128 as size of cutout and The image preprocessing workflow begins by retrieving coordinates from an astronomical catalog, which guide the extraction of multi-band cutouts from both low and high-resolution images. These cutouts are then saved in HDF5 files. This setup allows for efficient batch processing by dataloaders built in PyTorch, ensuring the data is ready for training deep learning models.
+maybe take the last sentence on two modes after varying fluence levels and say the 5-7 fluence levels for each mode cover the dynamic range that each mode will have given their different exposure times (not exactly as this say it better)
+then add a paragraph about quantization error of som and how we decided on the 75x75 size from the elbow etc
+tell me a paragraph about ztf time-series or light curve data
+This is great but lets not use clarity as its not scientific and as we may do more than just super resolution and try denoising as well let's stick to image enhancement
+is it possible to map part of the data to the same projected manifold, maybe a plot of the underlying manifold with this same projection but then map on top a subset of data mapper = umap.UMAP(n_neighbors=7,min_dist=0.9,metric='manhattan',random_state=7).fit(data)
+is this a good super resolution?
+no but this selection waspointing to those redshift ranges
+what is a peak signal to noise ratio in an image
+say betteR Thank you, Anahita. I was not sure if you guys run this validation of Relflux on WD part manually or with the absolute flux run. I think before, Jeff used to correct only the WD spectra with this RFX solution but if I am mistaken or easier to wait for Daniele's run we should.
+now suggest papers for super resolution with deep learning
+what is the u-net doing? is it before or after diffusion, is upsampling before passing through the bottleneck?
+If I have a recurrent neural net for missing gaps in time series data how do I incorporate conformal to get uncertainty on predictions
+the prediction from the model should have the same time series data structure
+say better As detailed in the table above, these datasets offer a range of depth and allow for quantification of performance as a function of depth of the high resolution data.
+see for example in photoz papers that use som they always use observed SED to measure redshift from it, this is not too different is it
+Does a high temporal resolution also cause aliasing like spatial
+is the psnr also weighted by errors, meaning i care about regions in the spectra which are high s/n
+what is dpi in png
+how to plot the result, low res, high res, super res
+is this true: With custom cost functions we also ensure preserving the flux in the pixel space of our network.
+If a model is decoder only how did it learn the lower dimensional embedding to generate from
+can the condition come from the learned latent space of the high res data from that foundation model I trained
+whats the output resolution before processing?
+is this a good way of normalizing?
+is what i said true? what is the scale factor of super resolution deep learning networks
+still not super clear to me how this works. Lets say I have learned distribution of images with CNNs and spectra with transformers based networks in a foundation model, how do I attach the diffusion model to it where I input nisp low resolution and output HST for example
+help me choose between the midus datasets given what i want to do. I think having more datapoints and more labels help
+where did sSFR measurement come from
+buy metacalibration itself relies on shape measurements still needs more precision with reference from that paper
+what are other benefits of gaussian process regression of time series data
+I don't want to use spatial measurements at all in the begining
+In the output unified grid I want to have timeseries of different lengths for each of the five variables. Lets say I want to have [7,7,7,5,5] length of data for zg,zr,zi,w1,w2 respectively
+how long does it take for inference with a super resolution deep learning model on a 400 pixel image
+how does increasing the sample size improve H0 measurement precision from SBF
+how to say this a bit longer for a couple line report The non-linearity inverse coefficients have been measured using the PV data, ingested into the archive and delivered to SIM.
+explain normalizing flows to me as simple as possible
+what is hct in the blood count test
+['WAVELENGTH', 'SIGNAL', 'MASK', 'QUALITY', 'VAR', 'NDITH']
+does the model normalize the data somewhere?
+say better: section 3.3.2 This experiment can imply that the n=100 training sample does not cover the data distribution well. One can generate figures such as Figure 5, on randomly drawn sample of different sizes (e.g., n=100, n=1000) and see if they cover at least this parameter space of morphologies. Also while the density of the data space is mentioned in places, a generative network might not need to replicate the density but the range.
+I mean in training I have a low resolution and high resolution which I try to match
+can I do the same kind of model on two bands at the same time so instead of [28x28] into [64x64] doing a [2x28x28] into a [2x64x64]
+great just change it to 16x9 and a very high resolution
+first say the second part and then their redshift distribution
+how are jwst grism redshifts measured for example in jades
+what spectral lines does UVEX cover? can it cover lyman alpha
+no i agree its right change, but i worry about comparing fluxes now i mean i worried about this before but given there was no relation with redshift on the manifold i thought its not deriving a big effect
+here is how linear flux is approximated, give it to me in latex
+improve: Unification of time arrays shown for the same two objects from Figure \ref{fig:sample_lightcurve}. ZTF g,r and WISE W1,W2 bands are shown as examples with Gaussian Process Regression (solid lines and shades) and nearest-neighbor linear interpolation (dashed lines).
+say better: reprocessing of HST observations to mimic Euclid observations
+next we should logically get to the systematics related to shape measurement or redshift that can lead to not meeting this precision needed, do you know how the nyquist shannon sampling can relate to reconstructing a shape distorted by shear+psf+ ...
+reference for this Data Integration: Temporal alignment facilitates the integration of multiple time series data streams, which is essential in multidisciplinary studies or when combining datasets from different sensors or sources. For example, in environmental science, aligning data from various monitoring stations can provide a more comprehensive understanding of climate patterns.
+say this better: The left panel of Figure \ref{fig:sample} presents the redshift distribution along with the sub-samples and labels that constitute Sample A.
+change this part:  The choice of metric in UMAP is fundamental as it determines how distances between data points are calculated, thereby directly influencing the structure of the data as visualized in reduced dimensions.
+how would a uv detector defer from an infrared one, what steps are different in a data pipeline
+what do you mean by capture the spectral information
+so in the training i still need a low res and a high res??
+what is different if the same architecture the same latent space and same sample is used, why should any output be different
+can I run an image enhancement network if I dont have a higher resolution sample to train on
+I think spec['WAVELENGTH'] is already in angstroms and by doing *u.angstrom it becoms A2
+how is the sampling rate measured?
+what was HST's resolution in uv
+the two below are good, and i want some thing like extending to Euclid data in the title
+when you measure e1,e2 with get moments in galsim, how does it know the pixel scale
+tell me details of the galex data pipeline
+fix: While the trends in sample origins shown in Figure \ref{fig:umapztfw-sample} are influenced by redshift to some extent, clustering of UV, optical, and WISE variables is still evident. While the two classes of CLAGN might be statistically distinct, there's an obvious less pronounced clustering of them due to their redshift distribution. The TDE's still cluster tightly towards the edge of the manifold.
+if I have a one d array rather an image and want to do super resolution what do you suggest
+make this email more polite I passed your comment along on trying to stick to the real spectra and have less of a landscape shape, but I guess its not super easy from a graphists point of view to add spectra to the poster (changed version below). I could saw in the previous one some OII/Hb .... If you prefer this one let me know otherwise we go with the previous one.
+how about clip for feature alignment and diffusion model on aligned feature
+I have this gaussian process regression fit as below:                         kernel = 1.0 * RBF(length_scale=len(x_ztf)/len(x2))                         gp = GaussianProcessRegressor(kernel=kernel, alpha=dy2**2)                         gp.fit(X, y2)                         obj_newy[l],obj_newdy[l] = gp.predict(x_ztf, return_std=True) when there is no y it goes to 0 is it possible to change somehow that it stays where it was in previous x
+when calculating psnr in a galaxy cutout where the galaxy maybe fills 20% of the image and the rest is sky background or noise does psnr still represnt something meaningul
+paraphrase and say better the same idea, the overall idea is to say metric matters, euclidean simple and default but we also test with manhattan and dtw and we show how dtw works better in separating features in figure
+perfect just change the uncertainty quantification section to what it was
+in the code below add a precondition on redshift3 to be between 0.2 and 0.3 before merging the two into a final
+is superresolution a supervised task if I have both low and high resolution data in training lets say a gan
+My input are of different sizes how can the network deal with that, lets say I have a datapoint A where A1 has measurements in t=[1,3,5,10] and A2 has t=[1,3,7,8,9,10], A3 in t=[1,10,100,1000,2000,2500], and so on
+how to do full inference and plot super resolution use code above
+What ml can be used to measure local density given a spread of data
+note that there are real features (e.g., emission lines) in these spectra and not just noise
+basically the padded times and fluxes are what is being filled by the RNN so output of network should have the same data shape
+build a super resolution on top of a foundation model
+if this can be written with a better flow or grammer fix it: A new set of inverse nonlinearity coefficients has been delivered to OU-SIM consistent with the latest used by OU-NIR for DR1. This includes both photo and spectro mode and compared to the previous version, both have a newer code which removes outiers before fitting the ramp and photo mode also includes extra fluence levels.
+does this mention super resolution in spatial, wavelength, or time dimension?
+should upsample come after the unet or before
+ok he has a point, but doesnt k-correction increase or decrease the flux? if I normalize and its single band would that even matter
+what is the R (spectral resolution) of euclid grism and what is it for jwst nirspec
+so the whole idea of the model was to do super resolution on the low flux (500) to bring it up to the high resolution (2500) but now the reconstructed i see is the short length, why
+and for adding noise now if add_noise is on, a constant value is added to flux lets make it more like real noise that is not constant, how do you change it
+perfect, maybe make the section a bit more general. So one can use this diffusion model structure to do resolution or wavelength transfer, for example if I input Euclid NISP grism it learns from Keck spectra or overall from that learned latent space and increases resolution in wavelength direction and if I want to do spatial resolution enhancement i say what band to what band
+lets say the model is not heavy, the image is 20x20 and i have a decent pgu
+Given all I told you about the proposed idea, what architecture would you use to enhance IR resolution and improve its psf by learning from HST in the same wavelengths and from VIS instrument which is in the optical but has a better resolution
+drwxr-xr-x 2 shemmati euclid 6144 Mar 11 18:08 checkpoints/
+what can i say instead of subsample mathing or domain matching, what are the right terms. What the works did were to match the data that was observed to those from theory or models using mapping to the same reduced dimension manifold
+i basically want to give that lower res grism which we interpolated to a 3500 grid as input and see it with more information
+how much resources do i approximately need for computation in development and deployment of a super resolution deep learning network be quantitative. Give me estimates if I have gigabytes or terabytes of data
+whats spatial resolution of euclid nisp
+These combined effects result in a nonlinear relationship between the incident photon flux and the measured signal in H2RG detectors.   combine sentence above  with  The measured signal in a H2RG pixel is increasingly nonlinear with increasing charge-filling level of that pixel, independent of wavelength.
+I want the model to take in all bands together because the change in different bands are correlated for each individual objec
+I am working on a super resolution on 1D spectra, and  I want to define a custom cost function rather than doing a chi2 on all pixels, I want to concentrate on emission lines only, so maybe give a wavelength range of where to measure the difference between true and enhanced, can you give me a code and maybe suggestion of better ideas
+from the dataloader the [k,0,18:-18,18:-18] and [k,1,18:-18,18:-18] would be low resolution and [k,2,:,:] and [k,3,:,:] would be high res
+is gaussian progress regression parametric or non parametric
+give similar examples to me in very high resolution
+cross modality matching, let's say I want to input a nisp image and get a corresponding hst image in f160W with these diffusion structure is it possible?
+a function to bin and smooth spectra given its wavelength and flux
+from 164 to the size there is an interpolation, isnt there a better way
+so no need to upsample first or is that somewhere in the model
+does the rnn model you wrote ignore the padded values
+no it already has those measurements it now kind of suggest we measured it
+papers on reviews of deep learning super resolution
+ok lets change the project a bit. lets say I want to do super resolution on images from one telescope, and I have another telescope that has higher resolution but it has seen only some part of the sky. I can train a conditional gan to do the super resolution or on the other hand i can do clip learn a shared embedding and then do a super resolution which is better
+how to decide whether a quantification error is good enough for clustering
+say better: The SPIDER sample, being an originally x-ray selected, covers the whole map, with the ones with no broadline in their spectra being more clustered towards the lower variability compared to the rest.
+the model should get an individual object to predict its missing fluxes
+no I am trying to do pie-chart style, but just showing how my labels are in that embedding thing
+how about a comment like section 3.3.2 More detail on PSNR might be helpful. For instance are the galaxy cutouts normalized, is the PSNR calculated over the whole cutout or on the galaxy, would learning the background alone effect the PSNR, is this a good measure.
+how does minimum distance and number of neighbors change the umap result
+I want to query sdss for quasars and I have a query as below: query = f"SELECT TOP {num} specObjID, ra, dec, z FROM SpecObj \ WHERE ( z > 0.001 AND z < {zmax} AND class='QSO' AND zWARNING=0 ) \ ORDER BY NEWID()" but with this when I plot histogram of z, its skewed towards z=1 I want a more or less flat distribution over redshift how do i do that
+I have some grism spectra which have low spectral resolution and some higher spectral resolution  spectra from jwst nisp. I have pair observations for about a 1000 objects but its really hard to see any correlation by eye between the two sets as even the higher resolution one is quite noisy. what can i do? I had in mind to learn the transfer function between the two so I can create the higher resolution when i dont have it, but its noisy
+say this better: Yes I remember about discussing this at the Rome meeting. We started discussion on this at the NIR meeting today. It will not be a lot of hassle if we can use the same data product as the NL coefficients and just change the name/metadata for the inverse ones. SIM should then be able to use these as NIR calibration products. And do you have a strict deadline on the SIM side not sure when before DR1 would be exactly.
+i still dont understand, what does the cosine scheduler do then, i add noise in different time steps then denoise when?
+is each flattened patch of image in a vit similar to a word in NLP?
+whats the pixel scale of euclid nisp
+now explain in simple terms how this orthonomial fit is different from a simple polynomial fit
+how does surface brightness fluctuations work as a distance estimator in simplest terms
+which one is better,  i want to upsample before learning ofcourse
+I worked on calibration code for NISP detectors: https://www.euclid-ec.org/public/mission/nisp/
+HDF5 raw read time: 0.023 seconds for 100 images
+improve wording: Our architecture requires a reverse co-adding process that divides the high-resolution Spitzer images into single-epoch frames, similar to those in the WISE time series, for training purposes.
+what was the Ha coverage in euclid grism
+what are the wavelengths of hst uv bandpasses
+how about : Similar to Figure \ref{fig:umapw1-main} but this figure is color-coded according to different AGN labels. The bottom right panel displays the origin labels for all objects in Sample A, while the remaining panels are 2D histograms, each representing the distribution of individual labels.
+The whole aim of the project is to do gap filling with RNN help me build the architecture, Each input has observations in 5 different variables (zg,zr,zi,w1,w2) and each of these variables are time series data meaning there is a time value and flux value at that time. Now the times that these measurements are taken and the number of points are not the same and I want the network to output in a fixed and unified grid
+correct grammer or if sentences are wiered fix: In Figure \ref{fig:umapw1-main} we show the UMAPs of WISE W1 band alone. As expected from our preprocessing, we see no trend in mean brightness (left panel), given that we only used one band in manifold learning no strong spatial relation with redshift either (middle panel), but we do see a strong trend in the mean fractional variation.
+dont worry too much about the question i asked you about shape be bold and think out of the box, how would it help if euclid could have jwst resolution
+i think there might be a bug in plot its plotting the same spectra over and over
+what is good dpi to save for a science paper png figure
+improve: Similar to Figure \ref{fig:umapw1-main} now trained on the ZTF+WISE bands. Given the number of bands covering more of the SED, the redshift trend is now visible in the middle panel, and the trend with mean fractional variation becomes less prominent.
+what is the depth of 2MASS in J band
+can I say flux level rises instead
+but my manifold has no gradient with redshift
+how about: Separation of different labels of Sample A is shown on UMAPs. Parameters here are similar to Figure \ref{fig:umapw1-main}. The bottom right panel displays the origin labels for all objects in Sample A, while the remaining panels are 2D histograms, each representing the distribution of individual labels.
+I just copied this upsampler and still 36 x36 what should i change
+I like to do a diffusion based inpainting using clip embeddings as a condition.
+actually maybe its best to regrid high_res and low_res separately into a common grid using their wavelength first, then start this more uniformly.
+change mp4 to mov without lowering resolution
+improve this: We show reduced projection of the learned manifolds built from WISE W1 band of Sample A, with different distant metrics (columns) and preprocessing (rows). All maps are color-coded by the mean fractional variation of the light-curve, a parameter with a high spatial trend to highlight the effect of choice.
+help me with a diffusion based super resolution network where input size is 20x20 and output is 34x34
+now give me a code to see statistics of lengths of high and low res spectra, I want to decide on the grid resolution and size
+can you read this paper: https://arxiv.org/pdf/1706.09901.pdf and tell me where they got the photometric redshifts from
+which programs made their nirspec data public
+say better: we handle the time grid unification with interpolating the light-curves to a new grid. We do the interpolation first using a nearest neighbor linear interpolation and compare it with a Gaussian process regression. Figure 2 shows both methods on two ZTF and WISE bands.
+nonlinearity/saturation is one part of it another is detector to detector flux calibration over the focal plane and all of these have to meet the mission science requirement dictated by characterizatoin of dark energy. on the software front this had to run with ppo s in IAL and there are separate validatoin pipelines etc  not sure what would matter enough to mention keep the impressive ones that will get me a job and remove the rest
+put euclid and roman in paranthesis as before
+where does high resolution image come into play
+so its peak of the distribution
+Ok when data is synthesized to fill in gaps in filters, it means that it is increasing resolution in the wavelength dimension. So mention that the synthetic data will be serving increasing the resolution which can be spatial (e.g., WISE to Spitzer), wavelength (e.g., filling gaps in broadband filters) or in time dimension ( e.g., Panstarrs or GAIA to ZTF)
+it mentions also that adding nisp doesnt help with morphologies right?
+is this caption clear: We show UMAPs constructed from the WISE W1 band of Sample A, categorized by different distance metrics (columns) and preprocessing methods (rows). All maps are color-coded by the mean fractional variation (increasing from dark blue to yellow) of the lightcurves, a parameter selected for its pronounced spatial trend, to emphasize the impact of the chosen methodologies.
+help me with writing a conditional diffusion model to go from noisy low resolution 28x28 image cutouts in two channels to a 64x64 high resolution image in two channel. I already made an hdf5 file for sample
+no so grism is coming from first df, new is the combined
+i thought thermal is not much of an issue in the uv
+so before cutting the combined df wavelengths to 1-5 micron all the low res were the same size of 674 now they are of different sizes, whats the best solution to still have that same resolution and the range of wavelength fixed
+what does the paper say about higher median sersic in nisp compared to vis
+if we do nearest neighbor linear interpolation of data before feeding it to a manifold learning is it better to use manhattan or euclidean distanc
+what does a non parametric fit really mean
+so when I want to use the superresolution the idea is that the high res doesnt exist for all objects, so I want to be able to just get low res and increase its resolution, would it be possible with a dataloader you defined this way
+wait what is global normalization? I care about error in each spectrum to know where the emission lines are and where its just noise so loss function is meaningful so I dont want to lose that per spectrum
+now what if I add in prior from other images (lets say other telescopes with sharper psfs) can the network then learn to sharpen the PSF as well as improving the pixel scale?
+say to the band with highest number of data points?
+can i take normalize image function out of this loop?
+not exactly to apply, maybe something like we model the nonlinearity per pixel with a polynomial as ... where the degree of the polynomial is limited by the number of available flux levels in addition to ensuring: FLINEAR(FNONLINEAR = 0) = 0.
+take the by resolving key emission lines such as dis... before this enhancement will not only
+return the data structure as needed for the RNN
+understood, so mpv might not be precise because the fit is not great but its still closer to real mpv than the mean
+what is the approximate cost of developing training and fine tuning a diffusion based deep learning image super resolution network on GPUs on aws
+how about: While Spitzer data does not cover the entire sky or offer the time-domain capability, it provides deeper observations with three times the resolution of WISE at the same wavelengths. A factor easily handled by super resolution DL models which  are optimal at 2-4 times upscaling.
+yes i want all that is needed, from data loading, preprocessing (if normalization is needed), upsampling, ...
+no change the normalization you mentioned
+which noises dominate in the uv and mcps
+how to measure ellipticities with GALsim'
+did newer technology come for uv detection after mcp or is it still state of the art
+my dataset will have a higher resolution lower noise deeper is precision a good word to use?
+how do I use a conditional diffusion model for super resolution, where I have low resolution and high resolution image in training  and in using the model only the low resolution
+is this correct: I don't think identifying areas of the space is meaningless. And we dont need to compare runs, very similar to any DL which uses a training set to build that latent space, you compile a sample and build your umap on it, then map any new point to it if you wish, if not you can always make a new umap, or retrain/finetune your autoencoder to improve that latent space.
+add a sentence below that super resolution networks handle this scale factor optimally While Spitzer data does not cover the entire sky or offer the time-domain capability, it provides deeper observations with three times the resolution of WISE at the same wavelengths.
+is a wide format imaging detector correct?
+i dont want to start from pure noise, i want to input the low res image in inference and do a super resolution
+what spectral resolution is needed for halpha and nii to be separated
+give me a diffusion model super resolution that works with my data size
+what is the quantization error in som and how is it a measure of how good it represents the data
+for the jwst i have 60 mili arc second pixels how do they compare
+change dictated in sentence below to something less extreme like we decided on them:the bounds on the coefficients were dictated by the histogram of measured coefficients on ground.
+paraphrase: the virtue of Fvar is that it adjusts the fractional variation downwards to account for the effect of random errors
+how does resolution and wavelength depend on each other
+is this better, or doing a super resolution downstream task conditioning on clip shared latent space embedding
+does this now work with my 500 2500 resolutions or changes are needed
+differently sampled might be understood by mistake that it is a frequency sampling issue while it actually means taken in different ways
+its not part of the sir_calibration
+is there a downside to upsample + conv2d
+what size cutout is reasonable for image enhancement super resolution
+no so i have already interpolated low res to a grid of high, it was 500 initially, so 2500 is my high
+lets say the whole panel is 100x100 and detectors are about 22 pixels at a side, but they are not equaly spaced, I have to look at a 100x100 mask which says 0 or 1 for detector or not, from continuity i should identify each detector and smooth it then go to next
+how does the architecture of a super resolution with diffusion look like and how do i input both low res data and the clip aligned latent space
+does choice of these parameter depend on noise in data
+give me estimates if the data size for inference is 100 terabytes and I want to make a mosaic of all the enhanced images
+does this read well now? We show UMAPs constructed from the WISE W1 band of Sample A, categorized by different distance metrics (columns) and preprocessing methods (rows). The maps are color-coded by the mean fractional variation of the lightcurves, with values increasing from dark blue to yellow, a parameter selected for its strong spatial trend, to highlight the effects of the chosen methodologies.
+what do you suggest for deep learning super resolution for 1d data
+what does normalize embedding do
+if get_corrections is a class function can I just use it inside another class function as              corrected_flux,corrected_var = get_correction(spectrum,self._fn)
+and then when you change from n=100 to n=1000000 you are increasing chances of less probable data points to be included, instead you can sample the data distribtion in a better way that to try to learn the density if i make sense
+what is the resolution of wise
+how about: We have delivered the data product documentation for relative flux scaling, which has been merged with the DM10 project. This documentation (https://gitlab.euclid-sgs.uk/ST-DM/data-product-doc/-/blob/Devel_DM10/sirdpd/dpcards/sir_relativefluxscaling.rst?ref_type=heads) outlines the procedure taken to derive the solution, the inputs needed, the modules relying on it as well as a format and validation of the product.
+how do i know the number of pixels if I go with a 16x9 page setup
+what if the prior high resolution data does not exist, if its in the reverse process how to handle it when we only have low res data
+Inference time for one image (single step): 0.0024 seconds
+is psnr a good measure for sweep optimization for super resolution
+lets go step by step, I prefer to have a shared latent space and each mode separate so that if any of them are missing I can use the others to predict
+how to add a downstream task of super resolution on  a foundation model that has learned a latent space from multi modal data with various resolutions using contrastive learning
+Can our eyes ability to see 30-60 frames per second see temporal aliasing for fast moving objects
+how was hst wfc3 uv detector pipeline
+add somewhere that we get quantization error of 0.84 and 0.77 respectively for the two mentioned redshift ranges
+on the calibration side, what order is right and why, cosmic ray rejection, background subtraction, flat fielding, bad pixel and saturation photometric calibration
+I want to do gap filling with RNN on a two dimentional time series data meaning I have 5 variables each of which are time series with different timing but as they are related I want to learn them together. I would like to give as input this data that has missing parts and lower time resolution at parts and get a unified output with a defined resolution and time vector in each of the 5 variables. Help me do it
+how about not doing diffusion? so what i care about in these spectra are emission lines or other features that are in between all the noise, but the distance between the emissions are important for example distance between hydrogen lines can be learned etc
+if I want to make my network deeper should I add the hidden? and what is reasonable num_layers
+but if its a normal fit, then how are the mean mpv different
+can I use this below but somehow connect it to that learned latent space
+reference for generative ai super resolution
+what can I use instead of variances
+The primary set of metrics being relied on for performance evaluation come from Probability         Density Function (PDF) fits to the digitized dark current signal.  The fits produce the Most         Probable Value (MPV) and 1-sigma spread of each distribution.  The distributions are almost like         a normal distribution but skewed because of warm and hot pixels.
+is this good? Dataset-wide normalization: mean=0.000, std=0.000
+i don't have a condition, I have a super resolution so my input is the condition
+I think the nisp ones i used are on a 0.1"/pixel mosaic
+ok lets say i have a clip and train it on two modes HST and JWST. Each of them have a number of filters. After training can I use the clip in a downstream task to fill in missing data for an object that has 2 bands instead of 5 bands jwst
+no something like these combined effects result in a nonlinear relationship between the incident photon flux and the measured signal with an increasing effect independent of wavelength
+say this better for academic figure caption: maps are color-coded with mean fractional variation as it shows the strong spatial trend and shows the choice of parameters for manifold learning best
+If i can get ddpm to work i like it as it might help denoise even the high res, it might be worth trying to use the cnn in the denoising unet core? and your other suggestions
+I need a higher super resolution of the image I uploaded
+what value of sersic approximately separates early from late types
+I cant or dont want to change the plotting here, can i write more consistently the output of Euclid_functions instead
+how about: The non-linearity inverse coefficients were measured using the PV data. The coefficients/covariances/failed masks for both photo and Spectro modes have been ingested into the archive and subsequently delivered to SIM for integration and further analysis.
+so redshift in sample 2 is all ok because is almost all local, but in sample 1 it goes from about z~ 0.2 to 1 if we look at WISE1 observed where in restframe are we covering
+Can I design a custom RNN architecture that does the data imputation itself so I can give in data of different size as input
+instead of the preprocessing change architecture so it handles data with different sizes
+for spectrum1,spectrum2 in spectra,spectra2: how to
+how would a better spatial resolution help with transient phenomena
+but if they are from different telescopes and i dont have a high res in that same mode, what do i do
+what about learning a shared lower dimension embedding from the two modes (grism and spectra) and then given a grism being able to generate the spectra
+lets say galaxy images are normalized, in that case is the peak always 1 and then mse mostly sky?
+I think it makes more sense to add these to the last sentence here The linear flux \( F_{\text{LINEAR}} \) is then directly derived from \( \beta_1 \), which corresponds to the coefficient of the first-order term in the polynomial expansion.
+ok now we have to explain how we estimate the linear flux wait for me to provide a document on that
+improve this caption:Same as Figure \ref{fig:umapw1-main} color coded with contribution from different AGN labels. The bottom right panel shows the origin label of all objects in Sample A and the rest of the panels are binned 2d histograms of individual labels.
+can you have them in order of wavelength
+what if we do normalize each spectrum independtly
+function to smooth the high res without rebinning
+is there a good reference for temporal alignment in time series data
+this might not be super easy but can we identify clusters in this space and then colorcode each by average response in that cluser in each category/subplot?
+can one run umap with wasserstein distance
+thanks. can you give me more details on uv vs optical and nir detector differences and how it affects the pipelines. For example a ccd or a h2rg or a Mcp?
+what is a good reference for feature scaling
+question was is it possible to train a foundation model on different images go to an embedding in latent space and then use images with lower resolution to improve their resolution as a downstream task
+what types of feature scaling exist for time series data and is it different with normalization
+so in the plot what is the output? is it super resolution given the input low res? or is it the noise model
+say better: In our dataset we have spitzer data to different depths (see Table below) which allows us to also examine the performance of the network based on depth.
+citation for  masked region prediction
+the model you gave me did not have Diffusion1D does that also need change? if so change and add to the model.py
+can I condition an image enhancement network on a high resolution image
+say better: Is this Andreas's notebook? point me to it and I will add Euclid, if its not already in the multitude of spectroscopic euclid notebooks we have
+no instead of another time say someone else from euclid
+this is still slow, is there a faster way, like reading each fits image once and making some sort of border file that a coordinate can be compared to?
+change it to a 16x9 and a high resolution
+so I want the model to be able to do super resolution after trained, so it can get the low res and predict the super res
+what is the spatial resolution of SPHEREx
+ok now if I use AI superresolution on an image do I change the fwhm, the pixel scale, the sampling rate or both?
+I am not asking for code now, but the predicted fluxes are all less so I thought maybe some normalization is missed somewhere in data builder
+and how do you connect an "embedding" it need not be always of lower dimension or is it
+Ok this makes sense.  I need this explanation for a student so please say step by step again how to preprocess the data with padding how to build the RNN structure, how to ignore the padded values and fill gaps to a predefined grid
+say that nisp imaging is not optimal for wl because of undersampling and hence enhancing its resolution ...
+what are the advantages of deep learning super resolution over conventional image processing techniques
+but in the sweep I want to judge the psnr on the super res spectra not on noise
+what does the paper say about including wise in fits
+isnt the experiment showing, that with n=100 the network works fine on a galaxy it has seen and doesn't work fine on one it hasnt. so maybe the issue is n=100 is not covering the parameter space and has nothing to do with overfitting or memorization etc
+maybe change that sentence to something like super resolution DL models now easily handle 2-4 times upscaling
+does this always be higher than the initial var image,
+improve this: UMAP of WISE W1 band unified with GP regression and learned with DTW metric color coded by mean brightness, redshift and mean fractional variation from left to right. As expected, given the normalization in the preprocessing and a single waveband used to learn the manifold we don't see trends with brightness and redshift, but a strong trend with mean fractional variation.
+Are the accompanying ground-based images on the same tessellation as the VIS images? what does tesselation mean here
+do I create two separate samples a highres and a low res  hdf5 file and keep the same label to identify pairs?
+the different output can then also point to training data not representing the whole input space well or that the data space is not covered?
+say nicer Spectro Non-linearity with PF 6.1.0 is validated from my point of view. The change we added to the code was to improve the fits and it does so as expected, plots shown in my slides (ran on runs made by Cate) and added by Simon (on Marco F. runs) demonstrate this. The addition of F-009 (dropping the highest illumination) also improves the fits. You can decide on time to include.
+polarized emission in some type 2 reference?
+the. group images are needed to estimate the linear flux, the fitted slope is the non-linear and from both one measures the nonlinearity calibration coefficients
+how about More centrally concentrated light profiles in NISP compared to VIS, more so in the disk dominated structures where redder wavelength of NISP helps uncover the bulge
+is noise sqrt of variance
+read this paper and tell me why h2rg detectors have non linearity: https://arxiv.org/pdf/1703.08205
+i am sure about 40 to 66 but not sure how they rebinned their mosaics in nisp and nircam, so lets say nisp is 0.1" what would nircam be
+do i want to say we have to make a choice for normalization, while doing the normalization matters in the resulting manifolds the choice between normalizing by median after clipping outliers or maximum or changing bands does not affect the overall clustering etc
+what is euclid nisp grism resolution
+ok then does it matter that in training data sizes are the same, meaning what if i dont have all modes for all objects
+i want to do dimensionality reduction and visualization with umap to find correlations
+what is the ra dec of euclid deep field north
+here the sample was small so tests of completeness/accuracy would not be very meaningful future unbiased spectroscopi followups can help with that
+I have a proposal on using deep learning diffusion models to do super resolution help me with a paragraph on we split the data into training test and validation and say why I need these
+just get wavelength and flux as input and output waveleneght and smoothed flux
+does it do anything in training, I dont want this to affect inference because when i want to use the trained model i dont know the z_obj (redshift) and wont know where the lines will be
+chebyshev compared to a non parametric
+high resolution and darker edges
+how are the different modes aligned in the final embedding
+but times matter in this question and we can not just take into account flux
+ok improve this:  We have also performed temporal alignment, to combine the data into a structure easily readable by most ML routines. Some benefits of temporal alignment ... While this is a common practice in time series data integration it is somewhat of a simplifying assumption and can wash away important time features of data. Future work needs to look into either better models with custom multi-dimensional input or a smarter way of combining the data.
+why does a distance metric matter
+now if i want to have both this Euclid's spectroscopic data large scale flux correction and the Euclid nisp nonlinearity correction as two bullet points next to one another how do you change that its not repetetive
+why did galex not use ccds

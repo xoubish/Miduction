@@ -1,0 +1,491 @@
+make it more condensed into a two paragraphs
+no need for the key achievements section
+good i think we can actually remove the sentence about seyfert liner from the introduction its enough to say it here
+Did the ads in games got llonger in the last few years
+Ask me questions to see if I understood these
+make it a shorter dense paragraph
+lets imagine theres not time involved for now
+ok now shorter, and in a way that AI didnt write it
+your initial approach of partial derivative made more sense
+do you think it can be improved?
+condense all of this in one sentense
+is the above paragraph suitable for an academic journal? are there redundant sentences?
+in that same paragraph say it
+explain more so i understand, not because the above was difficult, but often i have to see something many times or from different view points to understand
+feel free to improve it
+even shorter than your short and still mention physics and if possible relate to timescales
+How about a marketbsearch, what exists along these linea already
+but i guess Ranga is concerned about the single band analysis no?
+a bit shorter, I want it to deliver the message of what I have done it doesnt matter if gain or saturation are not directly mentioned i think
+how do you get the paper wrong its not even that paper
+maybe dont mention the name in the first sentence it will be obvious from the end of the sentence
+do you understand why each of the things are mentioned? is it clear enough? do you think there are things missing and needed in this intro
+don't use meaningless sentences for example formatted doesnt add anything here
+ok done with this slide as well lets go to next which is objection4- lack of interpretability
+understood but not at all easy for me to figure it out on my own end
+if i had not mentioned loth would you even include it in this history
+just improve the last sentence a bit
+is the sentence correct grammer
+Signed up for an account on chatgpt for someone and ir says temporary why
+Short, one paragraph at most. formal to a journal and asking for extension to review a paper
+how to introduce a colloquium speaer
+ok this is ok but I want that similar 4/5 page thing, this doesn't get the attention
+is there anything from the what box that you think we should remove and bring here
+don't mention the reviewer concerns and dont make the text longer just replace the sentences with the new sentiment
+no give an example that people can relate to
+great now give me two versions one more focused on IC jobs and the other more senior level
+section by section , start from the begining and dont miss anything
+shorter, but yes along the same lines
+what does a source follower mean
+I am thinking of sending it to a wide range so its ok for now
+how about starting with questions in the begining of paragraph
+say better in the paragraph that we made this choice which is not ideal but in future works one can think of how to do it better
+keep the most important points for the slide and remove details
+ok what do i do next in my agentic mvp blabla
+is this individual contributor or the other
+add a bullet on defenition of passive and etg
+ok reads good, what else am i missing?
+do you have long term memory
+I love these give me two more examples
+improve first sentence we didnt really evaluate the performance
+Whats the other minds reply to the Chinese room argument
+I meant all of the things we discussed in this session still with that same title the black boxes
+I want to subtly convey that these are just choices made to showcase the potential of the techniques
+lets keep it short not more than a paragraph
+and one that merger increases sfr in bursts
+Make it one dense paragraph
+Look at that, that's awesome.
+first sentence there is often can we remove many
+change the order of the two paragraphs
+first paragraph is great, second can be shortened and maybe changed to a sentence or so before the third
+lets add the big five, do you think it better go in training or just projection
+Ok I finished reading the paper at last. Now tell me again what matters to mention at a 10 minute presentation
+is the benefitiary for when one dies
+ok do I miss anything for the introduction
+change first sentence to unfortunate that its not published yet
+this is great can you incorporate these in the paragraph
+be a bit more concise in responses,
+ok on intentionality what should i put on the slide
+this is too strong maybe a shorter two three sentence paragraph that one expects you to ask the reverse
+why do you have difficulty responding to number of letters in a word as an llm
+I don't want a separate title of section as weak lensing focus, just blend in the fucking paragraphs
+Does that summarize his point
+Can you defend the idea that nothing is original even if it seems so because if we go back to how an idea is generated it is connecting the learned patterns from different places and some data somewhere
+the same format of a one liner for first and final evaluation starting with Have
+it says write 200-400 words
+can you now improve my paragraph
+change first sentence to say we did and see Hemmati for details but in short ...
+i dont like it, the two sentences dont give me anything meaningful of ok what are you trying to do
+give me the skill section again
+has to be way shorter and very condensed
+how about Here’s a couple of lines. Maybe a bit general, but hard to be specific and concise at the same time
+I think the first paragraph can be improved
+ok so now I have objection 1- lack of understanding and objection2- lack of originality and creativity, what should i put next
+is there such thing in the us yet?
+give me the revised paragraph
+is generalization a sign of understanding
+how to cite chatgpt in an academic paper
+yes, but do academic journals right caption similarly or is there a way to match that language mroe closely
+please respond to questions you asked in 7
+i have a slide on this currently titled as "words matter" do you have better suggestion
+is this a paraphrase or exact?
+sounds great, lets start by making a git project for this, and i can use some of the things above in the readme
+Forget about minorities give me another example
+Bring all these out of itemize form and rewrite as normal paragraphs
+i want an estimate for this chatbot on irsa, if i want to change from flan base to latest from chatgpt how much am i looking
+what tool can i use to translate a long text without delay
+now imagine that my audience doesnt know much about llms what can I teach them
+remove unncessary adjectives such as state of the art
+I didn't get it explain simpler
+not quite yet, what is pretext
+remove the first bullet instead maybe mention that showcase student examples
+now that we are at it can we make the titles bold
+i already sent the previous suggestion
+did you mention h beta
+succinctly in technical skills please
+shorter answers please, I am short on time and can
+Now a box on rationale, what do you suggest
+change notably to something better
+The limits of my language are the limits of my world. True or false
+never add nonsense general sentences like the one in the last paragraph for the ending.
+how to match a person with what they want given assymetric information
+is the paragraph clear enough
+thanks, change the section titles to be written together now one word is written on the right side of the page one left, for example the professional and summary have a lot of space
+good but still add the suggestion part
+ok now teach me the musical parts, melody, inversion, canon, harmony and fugue is the order meaningful what about meanings
+mention llm in case people look for keywords
+is it repetetive to mention topology again while it was in the previous sentence
+great. now make it more as a suggestion than a must from a reviewer
+can we summarize a bit
+no i meant general sentence and grammer wise
+how to use ieee citation style
+no this is too much something simpler?
+dont write it in bold I just meant emphasizing
+let me ask better, if I want to give something very short to someone to ask their opinion, was what I copied enough? do they get the story?
+Is this a new feature to end with a question
+technical but simple avoid words that are not used often
+is it convincing? are sentences logically related?
+is there anything in results/discussions that is worth mentioning but is left out
+do you have any suggestion to improve this part before getting to bibtex
+what are the questions can you point me to it
+only one dense paragraph leading to that box of what we want to do
+give me a tweet about microsignals
+how about not including an example
+don't worry about 5 and 6 but add the rest to my paragraph
+Give me startup ideas regardless of the above
+transition to questions is not smooth
+looks good now shorten it without losing any information
+i don't like the middle section much,
+closer to mine just fix wiered sentences
+ok help me make a 15 minutes presentation from the Titans paper
+how to comment whole paragraph in latex
+stay closer to what I have but if grammer or english is wrong fix it
+can it be said better? like not repeating the TDE
+Show me an example of
+in front of the goal number directly put the goal title from the document
+Connect it to previous sentence better
+can we maybe change this to two major sections rather than three,
+how to remove enter after subsection title so text is followed after the subsection title
+Based on this would you improve my section
+is it enough information for a paper section?
+aha we are just naming it when building
+Good but a bit of an abstraction to go well with the previous ones like no table
+answer in a less general way, be unique in a way the answer is structured
+Can you organize all that we discussed in this session into an structured article
+give me an example of a stupid question
+and what is the opposite
+ok fixed, now do i open a screen session before calling the agent
+give me one slide from each, based on the paper summary and conclusion
+dont stick to my idea, how can we make the project cooler or better
+are the order of things right?
+would you select this abstract
+just the first paragraph and a bit shorter
+seems quite general to me, what is it that you can not do
+overall what was i good at and what was i terrible in
+these are very helpful but i will probably forget
+condense these into a couple of paragraphs with no bullet points no redundancy and straight to the points
+give me more examples feel free to change the term more given the explanation i gave above
+dont use sophisticated, its a proposal so avoid nonsense adjectives
+keep the last sentence as it was initially
+like this i mean https://chatgpt.com/c/67ad3fe2-5308-800a-a807-8ba43b1381d3
+Fix the end of that first paragraph, the idea is that we don't want to explain in detail things that are already in that paper so here we just list brefly
+what if we do your option one which was differentiable
+in that one paragraph give me the best strategy with cross validation
+and one paragraph description as above
+but where did you get the above info
+now this does not smoothly start given the previous paragraphs
+but this is mostly the same as objective box
+make it one condensed paragraph and have an active tense its the summary section in this same paper
+remove inefficiency and broader use it sounds negative
+can we go section by section with your suggestions, so I can read better
+can you combine the last two sentences by taking that diagnostic before line examples
+how to comment a paragraph in latex
+the second and third paragraph don't quite agree
+add the message is your sample as unique as you think in the sky
+ok lets go to the next section
+so is it zoobot or not at the end?
+both are good but dont worry if its a bit more than a couple of sentences and be more technical
+please summarize these in a paragraph without numbering
+no so mention the following things are examples in a nice way
+i meant through their webpage
+no this is good, I am learning. It seems like it takes a bit of practice to not fall for the simplest answer always. Like I just asked you a question and you looked at it from six different viewpoints while laziness would make one to find the easiest answer
+explain what the chinese room argument is
+sorry for distractions, lets go back to interpretability what should i put in
+can you edit my review to still have my way of writing, but no error
+ok this is too much, give me more summarised
+don't do numbering just paragraphs is fine
+can you suggest a better title given the idea and abstract
+ok lets go with originality from this list
+can you give me the section structured as above instead of mine, this reads better
+make those two paragraphs as if I wrote it, style and everything
+let's focus on 1 now, can you be more specifics on how
+which bibliography style does this
+does not have to be strict in this structure feel free to suggest better ways of showing this point in one slide
+summarize the points in the attached document in bullet points
+yes its good, now fix the section based on this new methodology
+i dont want to make it long or too wordy and want to keep professional and technical
+first sentence instead of generate say unify
+what are the strong points
+keep it short and technical
+without changing words, would you be able to format the resume so it looks more professional maybe latex? or adding some colors or bullets for better readability? not sure
+ok now lets start with the introduction you mentioned what should go in there
+changed itemize into well formed paragraph
+Slightly longer just to make it win and so no one on the panel can complain they didnt understand how or why. Dont get general or untechnical
+its good but make the last sentence more condensed
+give me bullet points for a slide
+help with the readme please
+but these have vastly different meanings
+no I mean for the title itself how can it be improved
+what are positive and negative points in the document
+feel free to expand include both the simpler analogical parts and more complex technical parts, anywhere that a reference is needed add it
+based on all these questions and answers how do you think we should change the slides
+which one was in the rodriguez paper
+is this sentence correct? And keep the papers coming 😄
+what does utilize mean in the above
+is originality different from creativity
+tense should be future as it is a proposal also make it shorter as there is space limit
+They didnt want to tell me who they had a plan with, if they didn’t have to like Ranga jot wanting to say no if he doesn’t like the paper
+if its broad it cant be stringent right?
+good but can we imply more indirectly
+ok give me more examples
+is this correct? a thought is a wave function that only collapses when its pour into words
+Shorter i will send it as text
+perfect replace it and give me the whole paragraph again
+good but make it shorter its for a slide
+less in comon with previous answer
+don't increase the length say as brief as it was just improve english
+can we start again fresh I don't like the way it turned out at the end, maybe have more of the recent AGN literature in mind and start similar to those introductions
+give me the email text, be short
+any overall suggestion on formatting
+change questoins to we will
+ok next comment from ranga
+but how long are the context windows i cant connect many papers
+maybe make it two points
+say its the first attempt or started this and ignore achieving competitive ...
+do I need to be more technical how does it read overall
+second paragraph starting with variability doesnt seem related to first how can i connect the two better so transition is smooth
+the last point is one specific example of the above general claims how to say that
+Tell me basics about today’s Super Bowl
+how do you know what i did?
+I think don't bother with saying time is limited etc
+maybe a bit vague is fine so if i decide to change later
+i have the professional summary right below it so how about not including this one liner
+maybe tell me what each of them work on
+Another friend was there with me and i had to explain all these because he had missed the micro expressions
+can you summarize all these points into one condensed paragraph
+can you make a graphic for human intentions maybe something similar to what you mentioned with concentric loops and then the central one being survival
+Did i simplify or mix things too much in this discussion?
+How do i design some space based idea
+improve this paragraph, make it more convincing improve the flow sell it better
+after complex calucations give a couple more sentences on why its so
+ok back to making a ui for the mvp
+say this better and shorter but keep the main idea
+can I cite chatgpt in the software section of an academic journal?
+change the formating of this to have more or less the same material but take less space the whole proposal is only two pages
+can you explain it simply to me what its trying to say
+first clarity, flow, gramer and spelling,
+do i want to add the three paragraph on the three projects? or can they be examples within the first
+make some of these bold in my paragraph or mention them in a way
+yes remove low level ones and focus on high level but still stay technical dont become too much humanities
+not so obvious in this one, I want a continuum
+are any extra explanations needed/
+shorter response on my behalf
+this is great, where are my cost functions though
+Any scientific study looking at this
+the second paragraph has too much repetition and its not clear
+ok back to the slide again,
+shorter dont say what im happy to do
+the architect of the barcelona building where they are on the roof
+doesnt read well feel free to change drastically but keep it short and retain academic journal language
+Are there other terms used for this concept
+Does this include questions I asked you
+no are these mentioned in the text?
+i mean link to a paper DES
+ok now can you give me the whole section with your suggestions incorporated, have in mind that I am short on space and can not add too muc
+this is good, maybe a bit shorter and mention password
+more ideas and no bullet point needed
+Difference between author and writer
+its on twitter so something shorter
+note to the editor as the reviewer of the paper that after the changes the paper is good for publication and no more comments
+Be more specific and unique
+correct I overslept. It might be that I joined while asleep and dont remember it now.
+this was great now make it a bit more technical but not long
+sounds good remove the very general ending of each paragraph
+Don't use big words like immerse be professional
+what does fidelity even mean
+Is this why chatgpt outperformed previous ones or something else
+No worries. No urgent matter you need to know.
+I want to use it in the webpage has to be professional no need for people
+make the deep learning part bolder
+dont make it wordy stay fully technical
+back to slides, give me your answer again please
+Make it more abstract don’t worry about the wheats it can be any golden field we don’t even need to know
+no but i am starting to overthink that he probably thinks the paper doesnt meet his standard?
+perfect, before starting each section will you add in the points you mentioned as subsubsections where needed or bulletpoints that we can then make into full paragraphs. I want to first know what exactly goes where and make sure everything needed is listed before starting to write and detail things
+only one paragraph and data is time series
+do you have suggestions to improve either in sectioning things or grouping etc
+good but scientific computing is both a subsection and a section
+bibliography style for academic proposal
+give me example to try it out
+if you have suggestions of improving for clarity or if you think this is not really relevant feel freen to edit more freely, but have the academic tone and make sure all you say is precise
+in bullet points to be shown in a presentation
+in this first paragraph below, avoid adjectives such as striking or things that are not really quantifiable also don
+can we go back to writing an abstract based on athe edited attached pdf
+don't subsection it, just write as a couple of paragraphs, professional tone
+better but still improve don't use nuanced maybe say comprehensive picture
+perfect now add more random things that I can not even think about in there
+but it doesnt read well
+Now you give some similar idea
+no i am the reviewer
+make them clear and use industry equivalent language when applicable
+no this is not enough, what stood out?
+give me in latex format and do not remove the citations,
+i dont have enough quotas
+both boxes end with scientific community change one of them
+yes i think its good to add the above sentence where does it go
+i am not saying rest frame so why would Ranga assume i took them to rest frame, and what was his comment again
+a short and general cover letter that goes with this
+wait lets go to Ranga's next comment
+this is good, does it have information not already covered in previous parts?
+no but include my earlier message in this
+no need for the last sentence no need for useful in fields like ...
+add some of this examples in the slide
+i don't want to point to paper because then all the rest also had papers
+perfect now make it one paragraph and have it as professional as it can be for the scientific community
+so improve my sentence towards the end with that
+yes give me a table of contents
+change crucial to something like neeeded or usually used
+what is the source for this?
+Is it clear for someone who has no idea? or does it feel more like adding some terms together
+change timeline to three years
+adjective less strong than crucial
+what if you want to respond in a very short one sentence answer
+This is more than great please right the section based on your explanations this is much better than what I had initially
+ask me questions that do not rely too much on memory
+what can i use instead of gained experience
+Let me give some hints on how to improve, the idea is having two three paragraphs for a section titled spotlight on a science case: CLAGNs
+how do i address all of these in a slide
+these are just some examples to showcase the wide range
+I think the text looks ok more or less but the formatting can be improved, do you agree? can you do it please
+this is now writing two section headings for references, how to fix \newpage  \pagenumbering{roman} \pagestyle{plain} \section{References} \bibliography{ref2} \newpage
+not sure, and dont say the word critical
+so if you want to tell me one sentense summarizing this in regard to originality and creativity what would it be
+what does flexing power mean
+ok then how do I say below are some points we can consider in the future
+what companies similar to neuralink can i check
+remove that gained significant attention from that sentence and bring it to the end and then I cite examples there in paranthesis
+improve it based on what you said, but I am already beyond page limit
+say cross functional instead of multi-institution and add the one line titles
+based on your knowledge of how these are done add in more details of how we will implement this in practice, this is a dual anonymous proposal so we can't say we have done this directly
+condense these into a paragraph
+there are some words that you use but people don't use often such as spearheaded remove them so it doesn't show its written or editted by you
+I want to give some examples of the attention it recieved over the last years at the end
+can you give me an accurate summary
+Is the sentence correct, doesn’t last long
+I edited, removed all mentions of protagonist being male or female lets leave it out for now. How does the rest read
+Combine into one paragraph remove unnecessary general statements
+improve my review of a doctor : He explained complex eye issues so well and so thoroughly that I feel like I can start diagnosing patients now
+this is too much maybe don't touch before the whatbox and only help improve the box, and if it helps to expand a bit on foundation models
+you give me more examples,
+condense into a long paragraph
+where you say notable also maybe say that it got a lot of attention more recently
+lets go back to your bulleted text and build from there
+good, do I need to make it non passive like I bring or I specilize or is it fine this way
+give me the full paragraph
+the whole paragraph every time
+I was just setting the tone dont start yet. We will go paragraph by paragraph with me asking you how to change or improve
+make it a bullet point,
+no ask me 1 by 1 and i answer then you assess
+maybe say i see your point with landscape and dinosaurs
+say better: Sorry for the long wait but I finally finished rewriting all sections. I did not touch the summary and will leave that up to you how to change it to reflect the most important points in the paper.
+nevermind you are not helpful here
+ok remove the experts, and just give me a bulleted list with title and topics
+what does the paper say
+do you agree with me or think it was ok to ask that initial question
+how to give ownership of overleaf project
+the first paragraph is good, lets concentrate on the second only
+where in overleaf do i get the submitable zip
+now this is too short, incorporate it in that previous text and make sure it has the correct flow
+no i mean the idea is that even when you think you are creating something original or imaginary at the end you. are using the symbols that you are already aware of
+instead of specifically say something like I will go through one specific usecase
+make it all into one paragraph
+stay close to my paragraph just fix wrong sentensing or gramer or wiered words
+is there any sentence you can improve for an academic journal maybe with saying more clearly
+more examples and more thoughtful and deep face
+make it way more simple
+I said in many paragraphs we also included or also included how I can say the same thing without repeating this phrase
+I have about a paragraph extra its more than the page limit how do I fit it in with latex?
+I don't like the added second paragraph
+how to underline a sentence in overlead
+higher sersic more disky or bulgy
+Do we still have the two paragraphs?
+help me review a paper. we don't want to be critical, but helpful. don't worry much about grammer or writing only if there are things conceptually wrong or not making sense etc. I will go almost paragraph by paragraph ok?
+should I add the cross attention?
+your suggested sections in here
+does chatGPT pass the turing test
+ok maybe we need to discuss more before making the slide. Lets first dig deeper into what originality is and what is really origina
+forget captions they are good, next comment
+what do you suggest to improve
+just one paragraph mentioning the most critical things not the whole structure
+is it possible to take the sentence somewhere else in the paragraph
+good, can the flow and connections get more smooth and logical in the second paragraph
+i dont see big five or machiavelinsm narcissm  in the columns
+are there repeated material with introduction?
+this is what i said: Hi George, I see your point about the landscape and dinosaurs. But given that the ICE team has already been through many rounds of revisions (before getting to you), do you think we might be able to move ahead with this version to avoid asking them for yet another round?   Thanks, [REDACTED]
+summarize this into one paragraph stay technical
+Great, but a bit longer maybe two pages is also fine expand on how it would be done so a non expert can understand
+how to comment some paragraphs with \begin{comment} what package should be included
+give me more examples of microsignal
+You didn't mention surprise factor and forgetting mechanism which were super cool
+give me examples were terminology and words matter for instance global warming vs climate change, one gives the sense of urgency while the other is just a change
+good can you add the references you mentioned, does it help
+is it possible to shorten it without losing any information
+give me one paragraph not listed
+go back to my original paragraph just fix grammer or wrong english
+What does op. Stand for
+do you think it helps if its written in one paragraph?
+do you have suggestions on expanding it without being too general or repetitive
+how to comment out a part of a paragraph in latex
+don't like the last sentence
+Title is in F and abstract in G
+Great can i leave last sentence out
+one paragraph on it, this is too much
+something like explain but not in detail
+what other thing is impressive from what i copied but missing here
+I think we can remove the boldfont titling of each paragraph and let them read the paragraph but if something is very important in a paragraph and we want a skimmer to see it we can make the sentence bold and colored
+lets say its matching a person to a job
+not sure, I think it still should match the rest of my resume style so it can be this long but maybe a bit longer than the previous ones
+don't break the paragraphs combine them
+improve last part I don't like which are diagnostic
+put it in that original paragraph
+perfect so six bullet points?
+concise and have it all
+bring the second point first
+would it help to add more explanation
+can say the same points more summarized to be shown in a presentation
+simple in words but still something more
+too spread all over, can you tell me what fornax is about
+so if i want to share this with someone what do i share
+so you removed the cross attention
+write it in two paragraphs just bold or number things
+simlar to enhance the legacy
+summarize all the points here
+good now shorten the sentences a bit
+don't do bullet points write in paragraphs
+perfect just make sure its read as I only give one example but we do a lot of these
+improve the flow so its not out of place
+too long keep in the more important notes specially from the last two paragraphs
+instead of multiple say something like different
+make the wording simpler so they easily understand the question
+one paragraph only, this is too long
+are there things that can be removed which are not needed any jargons
+understood 1 but not 2
+nevermind too much nonsense, be short in responding
+if you were a reviewer what would have been your major comment
+lets try not so general knowledge
+now in order to use this team to run projects how do i initiate things
+can you do your recommendation by adding concrete examples and references
+if anything can be improved or is unnecessary to the flow of the paragraph remove it
+Change cure to a word start with f or m
+does this include both my original and Dan's comment? or did you remove some
+what are some good us vs them examples
+can you give me a link
+great. now clean it up and remove all the instead of this that, and take off names of directors and all, so if someone reads this for the first time dont get confused
+is the order of things complicated and not logical?
+explain way more i am not understandin
+if possible be less biased by latest questions and represent the whole story
+the two paragraphs are not transitioning smoothly,
+something like explained but not in detail
+lets go section by section again. at the very top what do i put
+can you improve it based on things you mentioned
+only output the generated idea not the 10 papers in context
+is the paragraph written professionally and to a scientist audience?
+do you think i need to mention smart sheet directly
+reads very well yes on bibtex
+yes add it in the review but also make the review slightly shorter
+no i mean that details are in that paper, the list follows
+lets stick to the first paragraph for now
+how is the teacher better than the student
+improve and maybe mention SOM in the sentence as well
+give me the full section with your suggestions please
+Here's my list 1) True understanding 2) orginality/creativity 3) intentionality 4) interpretability 5) creator? 6) common sense

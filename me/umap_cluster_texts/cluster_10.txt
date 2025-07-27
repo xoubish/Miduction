@@ -1,0 +1,353 @@
+give me the full changed model.py
+where in the docker file do you tell it to run ingest first so data is created
+how to know which shell I am using
+wait before getting there too fast, what does it bring me beyond doing the pip installs
+should i do w&b kill before running again
+0.[REDACTED]2025336 0.[REDACTED]2025336 0.[REDACTED]2025336 0.[REDACTED]2025336 0.[REDACTED]2025336 0.[REDACTED]2025336 0.[REDACTED]2025336 0.[REDACTED]2025336 0.[REDACTED]2025336 0.[REDACTED]2025336
+push a local branch to remote
+keep everything in the train.py rather than a config file, and give me the whole edited version please
+change jupyter notebook logging level to error
+bash: kill: (284369) - Operation not permitted
+dont execute just give me the code adding this shade
+-0.[REDACTED]05489391 -0.[REDACTED]05489391 -0.[REDACTED]05489391 -0.[REDACTED]05489391 -0.[REDACTED]05489391 -0.[REDACTED]05489391 -0.[REDACTED]05489391 -0.[REDACTED]05489391 -0.[REDACTED]05489391 -0.[REDACTED]05489391
+no save the full jupyter notebook in a pdf
+is this said right? Georg, let me know if I missed something and I can share the code/file with you instead.
+in vs code tab suggests copilot i want it to do autocomplete for example for path etc what should i do
+how do i setup something like this for myself home = "/Users/emily_ramey" with open(f"{home}/secrets/dropbox_token") as token_file:     token = token_file.read()     dbx = dropbox.Dropbox(token.strip()) dbx
+Or name \end... illegal, see p.192 of the manual.  See the LaTeX manual or LaTeX Companion for explanation. Type  H <return>  for immediate help.  ...                                                                                                  l.17 \begin{document}                     Your command was ignored. Type  I <command> <return>  to replace it with another command, or  <return>  to continue without it.
+if I commit to a fork of a repo on github why does it not show up on my activity profile
+olive tree green hex code
+in a way i can copy please
+how to run a python program on ssh and disconnect
+now if i dont do sweep this is still fine, right?
+so give me the new model.py where it has the cross attention
+ok give me full ingest.py again
+push local branch to origin
+how to clone a fork
+give me the fixed code please
+remote: Invalid username or password. fatal: Authentication failed for 'https://github.com/xoubish/MOSDEFML.git/'
+in a previous project I also had these in my sweep, needed? command:   - ${env}   - python3   - train.py   - ${args}  method: bayes
+create a new branch git
+show me this color "#0047AB"
+seems like its working, now a question if sweep is working, and i change model.py does it read the latest when it goes to a new run?
+do i need a wandb finish?
+a hex code complementary to #116466
+ok give me the whole modified code
+what happens if all weights in the loss are 0 in a sweep
+give me the full changed train.py
+Other than make clean how do i make sure no previous build is in cache or something
+how do I save in a file
+ok, it runs, now how do i debug train_two_Stages before doing a bigger run
+same with  0.[REDACTED]66557686 0.[REDACTED]66557686 0.[REDACTED]66557686 0.[REDACTED]66557686 0.[REDACTED]66557686 0.[REDACTED]66557686 0.[REDACTED]66557686 0.[REDACTED]66557686 0.[REDACTED]66557686 0.[REDACTED]66557686
+does not seem right, please give me code for hist2d
+what are the differences between: hint:   git config pull.rebase false  # merge (the default strategy) hint:   git config pull.rebase true   # rebase hint:   git config pull.ff only       # fast-forward only
+error: the requested upstream branch 'origin/agent' does not exist hint:  hint: If you are planning on basing your work on an upstream hint: branch that already exists at the remote, you may need to hint: run "git fetch" to retrieve it. hint:  hint: If you are planning to push out a new local branch that hint: will track its remote counterpart, you may want to use hint: "git push -u" to set the upstream config as you push.
+how to use du -sh to see size of a directory
+how many entries were in my xml
+what now? (base) shemmati@Mac superNISP % git pull There is no tracking information for the current branch. Please specify which branch you want to merge with. See git-pull(1) for details.      git pull <remote> <branch>  If you wish to set tracking information for this branch you can do so with:      git branch --set-upstream-to=<remote>/<branch> main  (base) shemmati@Mac superNISP %
+stop a sweep that is currently running to start a new one given these changes
+maybe issue is i have these all in the retriever folder
+please give me the sweep again
+on gitlab there is a time to do the merge is it in my time? pacific
+is it possible to add also a different loss in the sweep, like a predefined mse or something
+write these numbers similar in format to the line below is:  -0.[REDACTED]246820709 -0.[REDACTED]246820709 -0.[REDACTED]246820709 -0.[REDACTED]246820709 -0.[REDACTED]246820709 -0.[REDACTED]246820709 -0.[REDACTED]246820709 -0.[REDACTED]246820709 -0.[REDACTED]246820709 -0.[REDACTED]246820709  [-3.62948212e-03 -2.35987013e-03 -1.21967480e-03 -1.41698737e-03 -1.20584952e-03 -1.74765803e-03 -1.86950792e-03 9.43423242e-05 -2.56930088e-04 2.42835983e-03]
+good Analyzchi, but should we also have cuda/torch on requirements for docker to work good elsewhere
+how to fix (base) shemmati@Mac Desktop % git clone https://github.com/aryana-haghjoo/euclid_som.git Cloning into 'euclid_som'... remote: Invalid username or password. fatal: Authentication failed for 'https://github.com/aryana-haghjoo/euclid_som.git/'
+so give me qa_tool.py with this change
+is sweep the best way of doing hyper parameter tuning with w&b
+how to load it then the pkl
+ok give me the query_region then
+ok so the http address is not hard coded anywhere in the codes in retriever?
+is it worth it? what line in my model.py does this happen
+ok how do i run again?
+with rebase do i get both?
+ok sounds good, now fix my train.py to use this accordingly
+are these good to put in gitignore? .ipynb* docs/ DS0001/ DS0002/ DS0003/ DS0004/
+when i use you to help me with code, do you use codex?
+ok give me the sweep.yaml
+I commited to the repo but i still don't see the folder structure
+w&b still not showing my latest run
+how to know what python my jupyter lab uses
+the full train.py with added changes
+ok now can you tell me basics of what is happening with gradio and fastapi
+does this include fits files inside directories and all?
+does close merge request mean merge or not
+ok give me the full code
+is there a benefit of connecting wandb to github
+give me a .gitignore file
+can you define a colormap in these same themes of colors so I can use it in imshow
+give me the code with the max spectra and memory clean up
+no i will run it, you just give me code
+i was looking for the word broom thank you
+==> No broken dependents found! (base) shemmati@ucr-guest-02-10-14-4-203 super_resolution % git filter-repo --path toy_model/matched_spectra.pkl --invert-paths  Aborting: Refusing to destructively overwrite repo history since this does not look like a fresh clone.   (expected freshly packed repo) Please operate on a fresh clone instead.  If you want to proceed anyway, use --force.
+give me code to read data
+read with the same names saved
+give the full revised code so I can copy no ...
+nbconvert failed: xelatex not found on PATH, if you have not installed xelatex you may need to do so. Find further instructions at https://nbconvert.readthedocs.io/en/latest/install.html#installing-tex.
+Illegal parameter number in definition of \mybox.
+how to look for a file
+ok first how to save an audio only from a .mov
+what should i save in my .py
+I dont have mm_cube I saved cu only
+where do i find my password in zoom
+i forgot how to start a sweep
+can i add hex in here \newmdenv[innerlinewidth=0.5pt, roundcorner=4pt,linecolor=mycolor,backgroundcolor=mycolor2!9,innerleftmargin=6pt, innerrightmargin=6pt,innertopmargin=6pt,innerbottommargin=6pt]{mybox}
+how do I merge my branch to main of my fork
+how do I download it in a data folder
+does this know all the uvicorn app module gradio etc are in retriever
+can you tell me which folder each file goes
+give me 8 colors in a homogenous sequence
+how to stop end a sweep that is going
+[shoobydesk:~/Desktop/super_resolution] shemmati% git pull remote: Invalid username or password. fatal: Authentication failed for 'https://github.com/aryana-haghjoo/super_resolution.git/'
+how to fork a branch other than main
+give me these hashcodes in a list
+nbconvert failed: xelatex not found on PATH, if you have not installed xelatex you may need to do so. Find further instructions at https://nbconvert.readthedocs.io/en/latest/install.html#installing-tex.
+can you help me make psnr a measure for sweep instead of loss
+what else should i know from this code
+i did git add before making sure wandb is in my gitignore and now too many files show up when i do git status, how to remove them
+give me full train.py again
+Your branch is up to date with 'origin/main'.  Changes not staged for commit:         modified:   ../../../process_data.ipynb  no changes added to commit
+give these to me in a one line list I can copy in my code
+wandb already saves some stuff like some images, etc. can i save the best and final model pth same folder directory of wandb somehow
+did u fix the uri problem
+i want to connect my github to opeb ai its giving me a qr code, what do i do with it
+shall we do a sweep to get entertained? :D
+0.[REDACTED]8442427 0.[REDACTED]8442427 0.[REDACTED]8442427 0.[REDACTED]8442427 0.[REDACTED]8442427 0.[REDACTED]8442427 0.[REDACTED]8442427 0.[REDACTED]8442427 0.[REDACTED]8442427 0.[REDACTED]8442427
+is sweep the thing that one cleans the floor with
+what creates the .virtual_documents repository
+hex code of a greenish color
+so help me fix it, because it seems to me this is a problem in the code
+can we just extract the bookmarks
+why unable to upload screenshot?
+how to save html as pdf in chrome
+how to find out mine in terminal
+give me the fixed sweep
+i mean should i put a picture of a sweep on the slide :D
+do i need new sweep settings?
+i want to pull everything and disregard local changes or stash them
+give me the code please
+lets now start a sweep
+what is the difference between creating a branch and asking for a merge with doing a fork from a branch and a pull request
+add the png file name as title of each
+i run the code myself, give it to me with skycoord
+is it possible for the docker to print where to access the chat UI at the end so user can click
+add wandb config parameters in my train.py so i can run a sweep
+i don't have dropbox in commandline not even brew
+no this i mean: docker build -t irsa-llm-agent .
+is it possible to give a notebook a dropbox link for some fits file image rather than downloading the file locally
+ok i killed the run, now how do i make sure next run will sync
+where do i find the api key
+this is cool, can i use the docker image somewhere on a website
+why did you remove figures from wandb
+ok i downloaded ICPSR 4652 and there are many files in the zip file
+how do I watch my model with wandb
+again the two commands where:
+is this in order of wavelength more or less: colors = ["#3F51B5", "#003153", "#0047AB", "#40826D", "#50C878", "#FFEA00", "#CC7722", "#E34234", "#E30022", "#D68A59", "#8A360F", "#826644", "#5C6BC0", "#002D62", "#0056B3", "#529987", "#66D98B", "#FFED47", "#E69C53", "#F2552C", "#EB4D55", "#E6A875", "#9F5A33", "#9C7C5B", "#2E37FE", "#76D7EA", "#007BA7", "#2E8B57", "#ADDFAD", "#FFFF31"]
+copy with check if exists
+bash: /usr/bin/rm: Argument list too long
+blue to red cmap in python
+ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+how to add pythonpath in bash
+I have zsh should I still do bin/bash?
+you dont have to run it, give me the codes and i will do , and i already got the pyreadstat
+i think issue is with git branches
+ok lets try the docker again
+forgot password of my linux machine what do i do
+can i put them on box and have jupyter notebook read the large files given a box share link
+is my path different from pythonpath
+how do i change branch in vs
+now how do i find the path to jupyterlab to add it to my. bashrc
+I seem to have lost some of the code can you give me the qa_tool_module and the other one we worked on to use with gradio
+do I call the dockerfile just the dockerfile? :D
+ok now how to start a new sweep
+how to fix: [shoobylap:~/Desktop/MOSDEFML] shemmati% git pull remote: Invalid username or password. fatal: Authentication failed for 'https://github.com/xoubish/MOSDEFML.git/'
+fix the code I copied
+I want to delete all files in this directory
+remove everything that is added with git add .
+but then for gradio/fastapi are they running somewhere? or do they start when i say run
+a bit too made up, i dont have the code to back this up
+how to know number of files in a folder in bash reminal
+there are three runs on my wandb showing tunning
+[shoobydesk:~/Desktop/MOSDEFML] shemmati% git pull remote: Invalid username or password. fatal: Authentication failed for 'https://github.com/xoubish/MOSDEFML.git/'
+so do i still need that border json or not
+can you help me step by step, first only in my model.py which I copy below, anything that you think is good to be configurable make it so, then I will copy my loss.py and finally my train.py in train.py I initial wandb
+how to know if your jupyter notebook is doing something, some kind of monitor of resources when a cell shows running
+is it possible to change parameters through wandb directly and rerun
+give me the train.py with recommended changes
+ok lets do sweep first  do you remember my sweep.yaml or do you want me to copy
+do I use it any differently in the train.py
+give me the full modified model.py then
+so with other files it syncs them when i double click
+so how does the docket addition work
+compress a folder in a terminal
+keep the number of repeats in this list of colors for each color, but change the color codes so its more diverse and covers approximately van goghs pallete
+hex code of strong yellow
+0.[REDACTED]88907208 0.[REDACTED]88907208 0.[REDACTED]88907208 0.[REDACTED]88907208 0.[REDACTED]88907208 0.[REDACTED]88907208 0.[REDACTED]88907208 0.[REDACTED]88907208 0.[REDACTED]88907208 0.[REDACTED]88907208
+make a branch off of the current branch
+ok now give me train.py
+ok yes lets do something that finds deep links also and there are too many so i dont want to do by hand copy link, what is a better way
+so give me the modified train with these added
+what if its a repo
+it didnt print just finished
+no need to print match or no match, also if i can find for example 50 sources in one file then opening them once is better than each time how to solve that
+so in my train i also need a         "optimizer":"AdamW" in setupconfig
+how to ask my agent to just run python instead of /usr/bin/env python train.py
+no gui needed for now, how do i export?
+it in fact might be that dropbox is not downloading files so .git is not fully there how do i ask it to sync
+all in one box to copy
+also .fits .fit .fits.gz and .DS_Store
+give me the whole code
+push a new branch to remote
+give me the whole code with the fix please
+just give me the fixed code, i run it
+how to go back to a previous commit
+how to do cp  in terminal checking if it exists so that if it gets disconnected in the middle I dont have to do again
+I am writing code in jupyter and someone is openning in VS and complaining about spaces
+help me with a .gitignore that ignores fits files
+how to do select all and delete in vim
+what is the best solution for user forum using a cloud platform to do science with jupyter notebooks
+i have this from openai, Scan the QR Code below using your preferred authenticator app and then enter the provided one-time code below.
+To https://github.com/xoubish/AGNzoo.git  ! [rejected]        paper_sample_plots -> paper_sample_plots (non-fast-forward) error: failed to push some refs to 'https://github.com/xoubish/AGNzoo.git' hint: Updates were rejected because the tip of your current branch is behind hint: its remote counterpart. Integrate the remote changes (e.g. hint: 'git pull ...') before pushing again. hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+ok what where the two commands i needed in two terminals again
+give me the full train.py with these changes and then i copy both model.py and then sweep
+how do i test it before starting a sweep
+now put in my initial colors and mass sfr etc in this structure
+push a local branch to remote
+lets do cpu only for now, maybe i think no docker version for gpu?!
+give me the full code
+now that we are at it, maybe give me also the PSF file name
+are jupyter notebooks being ignored with the .gitignore you gave me?
+give me the python code
+save in a text file
+can we add here device option also before moving to gradio
+does it makes sense to keep loss es in another .py and call them in train?
+how to stop the previous sweep
+during build i think, because if i share docker image with someone i want it to be light, and not carry data
+how do i come out of the code
+give me the whole train.py please
+give me two hex codes for two distinguishable red colors and two distinguishable blue color
+[shoobydesk:~/Dropbox] shemmati% git clone https://github.com/xoubish/superNISP.git Cloning into 'superNISP'... remote: Invalid username or password. fatal: Authentication failed for 'https://github.com/xoubish/superNISP.git/'
+set background color of each from an array
+what else can i say instead of path
+yes i downloaded 25281 give me code to get the variable names and match id etc
+command to start the sweep
+-0.[REDACTED]71545403 -0.[REDACTED]71545403 -0.[REDACTED]71545403 -0.[REDACTED]71545403 -0.[REDACTED]71545403 -0.[REDACTED]71545403 -0.[REDACTED]71545403 -0.[REDACTED]71545403 -0.[REDACTED]71545403 -0.[REDACTED]71545403
+let me check in other catalogs maybe theres something wrong with the catalogs
+wandb: Creating sweep from: sweep.yaml wandb: ERROR Error while calling W&B API: Invalid sweep config: Bayesian search requires "metric" section (<Response [400]>) wandb: ERROR Find detailed error logs at: /home/shemmati/Work/Projects/super_resolution/code/wandb/debug-cli.shemmati.log
+what are some goof cmaps in python
+is there an invisible color in python.
+how to copy the same text behind 500 lines of a text file
+how to show size of directory and files in ls
+sounds like a good idea, lets keep only URLs that end in .html can you give me the modified ingest.py
+ok now lets get to the langchain code again
+how to change my token in ~/secret/dropbox-token file
+should github show me the gitignore file
+ok now what goes in sweep
+I made a folder called Miduction how do i make it a git repository
+give me a hex code of a color between pink and orange
+give me a requirements.txt for pip installing it with needed packages for this
+ok lets go step by step, i went to the git project of irsa and made a branch called agent
+but i am trying not to distort color and thats why i divid by the same number
+how to remove things from commit
+similar to copilot for jupyter notebook
+C(half) D(half) C(half) D(half) E(full) D(full) C(half) D(half) C(half) D (half) C(full) B (full) short silence B(half) C(half) B(half) C(half) D(full) C(full) B(half) B(half) B(half) C (half) B(full) A (full)
+ok i got the revised train.py also give me revised model.py
+ok how do i now run it
+wandb/ in gitignore is enough or should i do */wandb/
+0.[REDACTED]88907208 0.[REDACTED]88907208 0.[REDACTED]88907208 0.[REDACTED]88907208 0.[REDACTED]88907208 0.[REDACTED]88907208 0.[REDACTED]88907208 0.[REDACTED]88907208 0.[REDACTED]88907208 0.[REDACTED]88907208
+add .virtual_documents folder to gitignore
+ok llm_agent it is lets go, let me know what to make in there, in addition to .py maybe we can also have a notebook to test things easier?
+even in textedit of mac it copies as a table
+how to change ipynb to md
+so can we just do this in train.py
+well let me ask something else, does this sit on top of existing libraries or stand alone, in other words if i have right cuda version already on my gpu machine and not in this docker would that be ok
+add gradio to the docker container, why not?!
+give me the full code
+its a .md file, is there a better way to save as pdf
+can you give me approximate hex code of it
+LaTeX Error: Command \longtable* already defined.
+ouch, can you check and see we are not overwriting object id? there shouldnt be multiple
+how do I run something locally? now
+where to check those parameters in the sweep
+ok on my laptop I get: (base) shemmati@Mac project_idea_agent % docker build -t irsa-llm-agent .  zsh: command not found: docker
+can i do this to put pdf s in a folder
+gzip a folder so i can download easier
+how to remove a directory in terminal it keeps telling me its not empty
+give me in a way i can copy in the .md file
+give me five colors for histograms
+what if its not json
+how do i get brew
+the file was created though
+wandb tutorial on sweep and hyper parameter tuning
+but i need more labels for coloring, like gender, some measure of success like work etc
+It might be the vpn trying to connect
+so give me the full qa_tool.py revised with this
+all of it in one file
+hex code of a dark green
+give me the code with this added
+how to check how much space I have when i ssh to a machine
+dont do fires and extra bold font and dont be overconfident, instead be precise and give me the full fixed code
+ignore the sweep change for now, and give me train.py with the modifications
+I have a link to a fits file and it opens in the browser instead of starting download what should i do https://euclidsoc.esac.esa.int/EUC_SIR_W-RELATIVEFLUX-SCALE_1_manual_newDM_2024Jan22_no_vignetting.fits
+when it asks if save as git crential
+I have something like  PATH=$PATH:/home/shemmati/.local/bin/ alias jl="jupyter-lab --no-browser --ip=0.0.0.0 --port=8080"  what i am doing wrong
+how does sweep handle it
+there are 113 lines and jupyter doesnt show all
+how to check how much space I have when i ssh to a machine
+what if I want to add this to the previous embedding, lets say I call it df_umapo how to use these colors there
+where is dropbox app cpnsole
+how to make a pdf out of some png files
+how to point to a large file on git repo
+-0.[REDACTED]766405664 -0.[REDACTED]766405664 -0.[REDACTED]766405664 -0.[REDACTED]766405664 -0.[REDACTED]766405664 -0.[REDACTED]766405664 -0.[REDACTED]766405664 -0.[REDACTED]766405664 -0.[REDACTED]766405664 -0.[REDACTED]766405664
+represent monet's colorpalette same number of repeats
+-0.[REDACTED]264843108 -0.[REDACTED]264843108 -0.[REDACTED]264843108 -0.[REDACTED]264843108 -0.[REDACTED]264843108 -0.[REDACTED]264843108 -0.[REDACTED]264843108 -0.[REDACTED]264843108 -0.[REDACTED]264843108 -0.[REDACTED]264843108
+how to fix the spacing in codes to be more pythonic and look right in visual studio
+wait i didnt understand, wouldnt running the docker just open the chat page for me
+help me reset my terminam github user pass
+is there a ls command to show all but files that have .fits in the name
+instead of cp in terminal to copy things better knowing which are already there
+now if I want to do the sweep, what is the best way
+fontcolor of colorbar change to white
+complicated shod analyzchi, remember that i initially wanted to run this on a machine that has gpu which is behind vpn and i connected through ssh, now if i make this docker on my laptop and do run without being connected to ssh where does this open
+how to change my code so it recognizes
+this is great try again and have the colors more like hydrogen line spectrum in the circular pattern
+can you help me put these into model.py train.py etc and add a good setup with wandb
+but i need to extract the codebood first
+lets try it before getting too excited, remind me how to add a dockerignore
+How do i know if I have python and which python in a bash terminal
+how to load that pickle i made
+can it be because this is in a notebook?
+hex code for a pink purple color
+back to business, do i run the docker command again?
+how to transfer color to texture in meshlab
+ok how do i try the code
+I didnt mean to run on macbook :D let me ssh
+I am asking because there is a subfolder which contains a .ipynb file but its not commited
+wandb: Creating sweep from: sweep.yaml wandb: ERROR Error while calling W&B API: Invalid sweep config: invalid hyperparameter configuration: lr (<Response [400]>) wandb: ERROR Find detailed error logs at: /home/shemmati/Work/Projects/super_resolution/code/wandb/debug-cli.shemmati.log Error: Invalid sweep config: invalid hyperparameter configuration: lr
+[shoobydesk:~/Desktop/super_resolution] shemmati% git pull fatal: refusing to merge unrelated histories
+great, lets go step by step again, i have the packages installed and i made a github repo, where and how do i save the openai key
+alltogether so i can copy please
+how to see how much my user shemmati has space when ssh ed
+0.[REDACTED]85957563 0.[REDACTED]85957563 0.[REDACTED]85957563 0.[REDACTED]85957563 0.[REDACTED]85957563 0.[REDACTED]85957563 0.[REDACTED]85957563 0.[REDACTED]85957563 0.[REDACTED]85957563 0.[REDACTED]85957563
+i dont have sudo options
+is there a way to stop an upload of a file, i have dragged it to a jupyter lab on a ssh machine and its taking for ever
+no separate environment, this used to work fine, can you please just give me pip commands to fix
+how to use google drive downloader in jupyter notebook without checking for virus scanner
+walk me step by step, where do i start? github? jupyter?
+repo is private but i should have access, maybe i need to let my terminal know who i am
+This site can’t be reached 127.0.0.1 refused to connect. Try:  Checking the connection Checking the proxy and the firewall ERR_CONNECTION_REFUSED
+so i sshed into a machine already and i have ran this gradio through the jupyter lab there
+what does it mean to set upstream tracking for a git branch
+or the other way around first start the fast api and gradio then print
+give me full train.py and sweep
+what do i need to install in order to see .md files as notebooks
+give me the full modified code with these
+yes give me full train.py with modified psnr to weighted and also the sweep.yaml
+when does a wandb sweep stop
+how do i change.md to .ipynb
+i cant touch the fits files
+give me the full changed train.py
+give me two hex codes that stand out on the background of cividis
+how to start a sweep
+/tmp/ipykernel_4084192/[REDACTED].py:107: LangChainDeprecationWarning: The method `BaseTool.__call__` was deprecated in langchain-core 0.1.47 and will be removed in 1.0. Use :meth:`~invoke` instead.   idea = generate_ideas_from_arxiv(state["keyword"]) Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+-bash: python: command not found

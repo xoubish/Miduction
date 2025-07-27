@@ -1,0 +1,339 @@
+1. If you make a custom deep learning network, do you also have to make a custom network for uncertainty quantification, or are there more standardized models you can use for that? 2. How do you train a network in uncertainty quantification if you don't know what the de-noised images are supposed to look like? Can this all be done with unsupervised learning, or can you only use observations that have matches from other surveys?
+improve the parts to get from shear to cosmology a bit refer to this paper https://arxiv.org/pdf/1710.03235
+what was the highest impact astronomy paper of the last two years
+Here are the downstream tasks:  Decoder to do super resolution of NISP images → better shapes, better deblending, better photometry, better redshifts, higher redshift objects and larger Neffective overall (specifically for weak lensing but also other galaxy science) Decoder to do super resolution of NISP grism spectra → separate Halpha from NII, better redshifts, (helps with galaxy clustering but also other galaxy science)
+so you mean instead of this last sentence or in addition? These manifold embeddings offer an interpretable, physics-informed framework for visualizing heterogeneous AGN populations, mitigating selection biases, and prioritizing rare or transitional states for spectroscopic follow-up.
+i think it mostly looks at different selection of AGNs and their overlaps/clustering etc
+add somewhere that we will incorporate uncertainty quantification into our model and will validate the results in several ways including a close comparison of detection and photometry of objects on enhnanced images to the existing and the high resolution ones
+so no talks about stars or cosmology?
+what is the known dual black hole system PG 1302-2102 / BZQJ1305-1033
+can you change it to a diffusion model for me
+if these points are not mentioned add them in: Highlight the scientific breakthroughs enabled by infrared space spectroscopy. Explore synergies across missions and shared methodologies to enhance efficiency. Address the community’s research and collaboration needs, particularly in the context of large and complex datasets. Promote the use of advanced data analysis techniques, big data and AI/ML Optimize future observational strategies
+Can you do some image processing for me
+point me to papers on this, maybe mostly on shear and ellipticity measurements
+lets get to score based models like diffusionmodels
+it is going to be multi-modal bringing in data from different telescopes/domains spectroscopic and imaging. learning the foundation latent space, and then using it for a variety of tasks on data from Euclid telescope alone
+ok for the section title which is LEARNING THE MANIFOLD OF GALAXY SEDS now is there a way to include reduced dimensions somehow
+similar to the previous one, this is a full model and software delivery for correction of this effect in the Euclid data. Euclid is a 600 million euro ESA cosmology mission, so i don't want this to look small
+if a student wants to do an astronomy deep learning project that uses the latest methods (e.g., multi-modals or transformers, ...)  what do you suggest, try to not suggest things i am already doing or have asked you about
+say this better: While the focus of this proposal is on providing detailed analysis of DL image enhancement capabilities, best validations of performance can come from the comparison of detection and photometry to those on previous products (i.e., AllWISE, unWISE) and higher resolution data (i.e. Spitzer).
+say better: This figure presents a reduced dimension projection of WISE light curves of a compilation of normal SDSS quasars in addition to MBHB and dual AGN candidates using UMAP. We use GP regression in preprocessing the lightcurves and a DTW distance metric to construct the manifold. Maps are colorcoded based on the density of each group on this projection and proximity on the map represents similarity of the lightcurves.
+I am trying to think of a project for a student. what do you think about this: train a multi-modal foundation model where each mode corresponds to images from a telescope, and then use the model to do domain transfer from one telescope to another where such data doesn't exist
+or something like This study addresses this need by demonstrating some applications of manifold learning and dimensionality reduction on the optical+NIR SED space of galaxies
+how are uncertainties quantified with conditional denoising probabilistic diffusion models
+fix this caption: MOSDEF galaxies mapped onto the trained SOM. Background color shows median  stellar mass of the CANDELS galaxies in each redshift bean. Normal star-forming MOSDEF galaxies are represented by purple circles, while MOSDEF AGNs are denoted by cyan 'x' marks.
+Give me an idea for an astronomical proposal with machine learning accept
+improve Development and finalization of a diffusion-based architecture model for deep field analysis.
+We will go with this one: Pioneering Astronomical Image Enhancement: Harnessing Deep Learning Diffusion Models to Match WISE Imagery with Spitzer's Resolution
+what does the below mean In the previous section, we briefly outlined different architectures of generative models. Here, we describe the process of generating a sample x, which typically6 begins with sampling from a centered isotropic Gaussian distribution z ∼ N(0, 1) (i.e., white noise) of dimension dℓ. For VAE/GAN-based models, dℓ ≪ d, while d = dℓ for flow-based and diffusion-based models.
+lets make it mode like the extragalactic sky like the hudf and then on each node of a deep learning network put a galaxy image
+ceers covers EGS and primer covers cosmos and uds
+Next section of the paper is about mapping the AGNs selected via different techniques to the trained som to see where they sit whether they cluster and/or biased towards galaxy hosts with some specific properties. I want to start with a paragraph of why this matters and need your help with it.
+i think its not learning the surrounding too much now, all around the galaxy is checker pattern
+how does my email sound Harry told me that we want to restart thinking about the spectroscopy from space meeting again.  Two years ago, we decided on the title: "Infrared Spectroscopy from Space: New Frontier from Exoplanets to the Early Universe" and a week in October. Harry mentioned that the new time would be ~Fall 2025 and asked me to double check with you for any thoughts.   thanks, [REDACTED]
+how many sources did mosted observe with keck
+something like The ability to enhance the resolution of NISP data therefore will be a signi...
+the example justification is great. can you expand on it a bit imagine a science case with a terabite data of time series data for a ml task to a foundation model trained on Euclid images and spectra
+the presentation is about a deep learning network to fill in the gaps in light curves of AGNs. In this slide the student wants to first say what AGNs are, what a light curve is how they can have variability in their light curve and why time information matters, and then also mention that this tool is not just useful for AGNs but other time variable objects such as ...
+If I add in a couple of telescope images can you put them all on a single picture with a dark background of space?
+write a couple of sentences on image preprocessing for deep learning, include things starting from the catalog getting the coordinates making multi-band cutouts in the low and high resolution images and saving in structures to be handled by pytorch dataloader
+how about: "Enhancing the Infrared Archive with AI: Deep Learning Diffusion Models to Refine WISE Images to Spitzer-Level Resolution"
+is there some similarities to GANs
+start with what are scaling relations and why they matter for galaxy evolution, then add in what spectroscopy and in particular strong optical nebular emission lines and their ratios bring to the table
+shouldnt optimizer get diffusion and not just model
+a donut with a galaxy inside and IPAC written on it
+What if my data lives in a non Reimannian manifold how do I do manifold learning then without a metric
+improve  to do an analysis of the properties of different types of AGN to something like push the analysis of ...
+reword these and suggest what else can be an aim here Our Key objectives aim to: Highlight science enabled by IR space spectroscopy uncover regions of overlap in techniques  Identify community needs for research and collaboration, particularly in the upcoming era of big data; Optimize observations for the entire community.
+paper title to improve: biases and contaminations in AGN selection in dwarf galaxies with unsupervised ML
+good, now make it a bit more general about all AGNs and specific classes like CLAGNs
+given my summary above do you think this is an undersell to just mention weak lensing here?
+how many galaxies in total did they use
+say this better:  We present a machine‐learning framework for exploring the multi‐wavelength variability of active galactic nuclei (AGNs) by constructing and analyzing high‐dimensional manifolds of archival time‐series photometry with the goal of uncovering physical similarities and differences among the various classes of AGN.
+when you say model advantages, this is compared to what GANs? out of the box DDPM? or a simple deconvolution or upsampling
+maybe something like convolution layers in a dl architecture essentially do the same and the training sample enforces learnin the prior distribution
+yes to your suggestions 1,2, and 3 on outcome, this matters significantly for astonomy where data from different telescopes instruments come with different characteristics (resolutions, noise, parts of sky, etc) and enhancing them by learning from the other saves potentially maybe millions dollar in new missions and enables science that needs high statistics like cosmology ( dont need to say all this of course but just to give a sense of why) and on 2 i use pytorch and wandb
+say more formal for a review: Finner et al. 2023 discussed temporal and SED dependence of PSF and its effects on shear measurements. Can be added to the intro when discussing how temporal variations of PSF can affect science.
+ok next one is simulating a roman photometric catalog that I published in this paper: https://ui.adsabs.harvard.edu/abs/2019ApJ...877..117H/abstract and the simulated data has been used in many other roman cosmology predictions I had previously: Designed a machine learning pipeline for the Roman Space Telescope, applying unsupervised learning for catalog simulations and distance calibration.
+it doesnt employ a uniform classification of AGNs but they are all classified as type 2 agns how to say that without mentioning type 2
+can you point me to some webpages that have nice graphics on spectroscopy or spectra
+what are the differences between direct and indirect measurements of gas phase metallicity in galaxies, why does oxygen abundance matter how to convert to o/h
+what other DL project can i do to be interesting for astrophysics along the same lines, with grism spectra over large area of the sky
+I want to do some science with globular clusters, doesnt have to be very new I would like to use GAIA catalogs, what do you suggest, something maybe involving colors?
+how about something like AI Diffusion Models to bridge the gaps of extragalactic surveys in NIRCAM and MIRI imaging surveys
+Can deep learninc be used instead of image differencing in finding transients
+say better Deep learning diffusion models have a great potential in astronomical image enhancement and require heavy compute to.
+what is an mlp, what do you mean by an embedding
+what else does one talk about in a deep learning project, beside model architecture and loss
+suggest paper for time domain gap filling with self superwised learning masking
+We query the WISE and Spitzer datasets using \fontit{astroquery}, and build multi-band and time cutouts from both low and high-resolution images centered on coordinates from the above mentioned catalogs. We save the data into hdf5 files
+The objective of this proposal is to enhance the resolution, depth, and scientific utility of WISE’s mid-IR single-epoch and coadd images for Galactic and extragalactic research. We achieve this by training a custom-designed deep learning (DL) network on the deeper and higher-resolution data from Spitzer IRAC Ch1-Ch2 with passbands closely corresponding to those of WISE W1-W2. The optimized models and enhanced datasets will be made publicly available, ensuring broad access and utility.
+suggest a github branch name for a deep learning architecture based on RNN that fills in missing parts of light curves
+what are some downstream tasks for a foundation model trained on images and other modalities
+i dont like this title: Scientific Imaging & Spectroscopy
+add in a way single or combined datasets Extracting optimal scientific information from these extensive datasets is unachievable without the develop- ment of new and innovative techniques.
+Lets have something in this order - We map AGN hosts already identified in MOSDEF papers onto our SOMs in the two redshifts - All these AGNs are type 2 which ... - The initial selections come from xray, ir, xray+ir, or optical emission line ratios
+write a paragraph with this idea but if something doesn't seem right or you have a better way of saying or better logic suggest: while a benefit of learning the manifold of high dimensional data and reducing it is to skip the need to describe the data with single, simplified, or limited variables or characteristics, we define here three basic parameters to color-code the projected manifolds with and verify that its working
+, we are instead able to use simple clustering algorithms (zero-shot) or MLP (few-shot) to extract photometric redshift. Specifically, for zero-shot training, we apply 𝑘-Nearest Neighbor (𝑘-NN) to regress the catalog-reported redshift of a galaxy from AstroCLIP’s embedding of that galaxy’s image
+change the model from diffusion to gan
+does my code use diffusion model?
+maybe change the last sentence when you say each mode take photometry and the MACC read and spectroscopy in that sentence
+i have a non diffusion model and it works ok, but i am wondering why this doesnt
+say better: The 8-dimensional photometric color space, namely: u-g, g-r, r-i, i-z, z-Y, Y-J, J-H, and H-H2 constitutes the high dimensional galaxy SED manifold that we learn in this work.
+this is much better maybe at the end say the transformer-based network adds in the rest of the SED as a prior and don't worry about lyman break or distant galaxies, if it helps add in a sentence on what transforemers are
+again fix this for an academic journal: In figure \ref{fig:massdistribution}, we map the MOSDEF targets on the SOMs in the two redshift ranges. There are a couple of points evident from this exercise, first that the MOSDEF targets are not randomly spread over the map and tend to cluster, second is that the parameter space is not fully covered and hence any conclusion driven from these targets is not representative of all galaxies (i.e., SED shapes) at these redshift ranges.
+the reason for choosing spitzer is that with IRAC instrument it covers the same wavelengths  as WISE
+Have exoplanets, early universe, space infrared spectroscopy in there
+conformal deep learning what is it
+much better, but in that sentence you say from planets to ... somehow say spectroscopic data
+maybe add in that we publicly release the foundation model to be used for a variety of downstream tasks such as (the ones I mentioned). But through this proposal we focus on one and then explain the weak lensing one as the one we will focus but a bit sumarized
+better laptops and computers and many more small galaxies rather than one large one and also distort galaxy images as if they are seen through a lens
+I want this to measure environment of galaxies so even though images are 2d there are depth information and i can slice the image based on that depth, now which method is better, I want it to be fast and given a point on an image I can get an estimate based on surroundings
+no but it doesnt make sense. lets say your two modes are text and image, they are of different nature you don't align them in resolution etc. two telescopes can be similar
+please give me the equations to select AGNs on a BPT diagram by Kewely and Kauffmann lines
+what do you think about: Axions with a mass around 1 eV can decay into near-infrared photons. Utilizing blank-sky observations from the James Webb Space Telescope, I search for a narrow emission line due to decaying dark matter and derive leading constraints on the axion-photon coupling in the eV-scale mass range.
+does reliability and image simulator make sense?
+are normalizing flows just deep learning or no
+improve wording: Diffusion-based network, inherently learn and evaluate probabilities (Sohl-Dickstein et al. 2015) across multiple layers or time steps.
+give me a list of nebular emissions for galaxies optical and near infrared
+what are the null hypothesis testing people do on a survey for weak lensing
+How to add a sentence like this to the above: We have a large photometric sample from the five CANDELS fields and a subset with spectroscopic measurements from the KECK MOSDEF survey.
+the idea of weak gravitational lensing is estiating the 3d maps of large scale structure of universe by measuring tiny fluctuations in shapes of statistically large samples of galaxies due to lensing. Lensing is bending of light as it passes through curved space and the space-time is curved due to matter in it.
+how is manifold learning and dimensionality reduction different from self supervised techniques
+say this better:  This strategy translates to a more precise lightcurve extraction and a higher sensitivity to longer-term variations, not just enhancing our selection ability and understanding of CLAGN dynamics, but all other infrared time-variable phenomena.
+I have explained the diffusion process before so lets just focus on the part below,  This ability to trace back from the noisiest to the clean state enables diffusion models to directly calculate posterior probabilities, providing detailed insights into the likelihood of various outcomes based on the observed data.
+what previous work has used ML/DL for joint processing two astronomy surveys, use those to write these couple of lines better
+This is great. But I also want to have the idea that this proposal provides a foundation model of galaxies trained on the combination of Euclids VIS and NISP as well as deep and high resolution HST and Keck therefore learning a joint representation of galaxies from these different viewpoints useful for a variety of downstream tasks. and then get to building on this learned latent space a super resolution of NISP imaging particularly useful for ...
+can we do forced photometry with deep learning, how is it better than classical
+I am not sure if someone has done dimensionality reduction on AGN light curves before, so maybe take that such as AGN lightcurve from the begining and only get to it after all the other examples
+Dr. Farnik Nikakhtar is a theoretical cosmologist and a member of the DESI collaboration. He is an expert in studying the effects of observational systematics on cosmological parameter measurements. His work on the theoretical side of optimal transport theory aligns with the backbones of deep learning optimization ...
+list all telescopes that can or will do spectroscopy from space in the infrared and the name of the instrument and science they enable
+I have been working on this in the past 5 years or so, it involved simulating the detector effects pre flight of euclid delivering codes to do measurement of the effect as well as correction of it then with the flight acquiring the calibration data in the right fluences check their validity remeasure model etc all of this is in a fully software heavy setting with git and data models matching and unit and validation test writing etc, with these in mind can you improve
+can i call this something to refer to later AI-powered JWST image synthesis simulator
+dont mention spitzer yet, background is on wise
+This is really not the hubble ultra deep field and the furthest it can be
+suggest a title for a presentation similar to this Super NISP with deep learning from JWST
+how to say both multiwavelenght time series and photometric in a sentence like this: learn the high-dimensional, multi-wavelength photometric manifold of AGN light curves
+getting much better, here change machine learning to AI we propose to use machine learning to correct the undersampling in the NISP IR data, enhancing the resolution and quality of these images.
+how about The growing volume of data produced by large astronomical surveys demands the development of efficient analysis techniques that can manage high-dimensional datasets effectively.
+add in the graphics the idea of convolutional deep neural networks with cool architectures
+say better: She published these findings on a subset of strongly lensed galaxies, where a higher spatial resolution could be reached.
+a galaxy spectra is a plot of its flux as a function of wavelength a 1d spectra which shows emission and absorption features
+improve this for a talk abstract: In the proposal world, there often are claims of how special one's proposed sample is and why such and such observations are needed. In this talk, I would like to discuss how generative AI can be used to validate such claims. I will describe benefits of data generation/augmentation and uncertainty quantification for various astronomy projects. I showcase overlaps and distinctions among AGN samples.
+transferring one photometric system to another with deep learning for example from CANDELS HST going to Euclid
+how do I make it larger {\large AI-Enhanced Infrared Imaging for Precision Weak Lensing:   A Multi-Modal Foundation Model for Euclid's NISP and VIS Integration}
+What are examples of conformal nn
+mention in first part that the improved wise imaging enables more precise science therefore directly support ... and somewhere mention the open science and publicly released products to the society
+ok given these, I want a section for the proposal its in the technical part, I have the section titled as From Enhanced imaging to Cosmology and I want to say what we do after we have nisp images with enhanced resolution, mostly I want to say we follow communities best practices but have to mention what those are, so maybe moment base shape  measurement with metacalibration and then how to constrain cosmological parameters
+this is the technical section and I have already discussed the scientific reasoning before. But you are right about validation can you add that in the uncertainty quantification part
+are these data still useful given there are newer telescopes like spitzer
+say better:  I am writing to introduce Emily (cc'ed) who is working with me the next six months. She will be training a DL model to transfer Euclid NISP (J band) to NIRCam (F115W). We will be needing your help towards the end to see how much better Euclid weak lensing can  get by pushing to the infrared and JWST resolution.
+how to improve  The objective of this proposal is to enhance the resolution, depth, and scientific utility of WISE’s mid-IR single-epoch and coadd images for Galactic and extragalactic research with an optimized Deep Learning (DL) network trained on the deeper and higher resolution data from the Spitzer Space Telescope.
+what is JWST nirspec difference between its prism and three grisms
+can a diffusion model have an encoder/decode  structure
+\textbf{Months 1-4} & Data preparation: collection and preprocessing of WISE/NEOWISE W1, W2 single epochs, and Spitzer IRAC Ch1/Ch2 train/test/validation datasets. \\ \hline \textbf{Months 5-8} & Development and optimization of a diffusion-based deep learning architecture for deep field analysis. \\ \hline \textbf{Months 9-12} & Performance quantification, comparison with other DL architectures and non-DL methods. \\
+how does this sound for a final to do slide Cosmos data from Euclid OTF and COSMOS Web were shown here, we are adding HUDF from Q1 and JADES  We are adding NISP PSF deconvolution to images before entering the DL We are considering replacing MER mosaics with NIR stacked images Fine tune again with sweep More validation measures, e.g., g1/g2 …  If you have a science case which prefers higher resolution NISP imaging be in touch!
+expand the below using above In this study, we investigated the potential of utilizing archival time-series data, demonstrating the efficacy of manifold learning in integrating disparate datasets and employing dimensionality reduction techniques to extract and extrapolate insights. However, several considerations emerged regarding the application and methodology:
+given the above give me in simplest yet academic terms why diffusion models can give posteriors by construct
+wait but we were not using diffusion models
+how many galaxies are in the candels catalogs
+one galaxy and some stars maybe
+say this better for starting a paper abstract: The increasing volume of data generated by large astronomical surveys necessitates the development and application of efficient analysis techniques capable of handling high-dimensional datasets.
+manifold learning and dimensionality reduction
+please use this from her webpage to inform the paragraph Hello! My name is Kate Grier and I am an Assistant Professor at the University of Wisconsin-Madison. I study supermassive black holes and quasars using a wide range of techniques and observing facilities. My research is focused on using variability in quasars to measure black hole masses and learn about the physics regulating the inner regions of active galactic nuclei.
+in the abstract there is this sentence which is not super clear, "noted for detailed optical emission line ratios" maybe change to something that means it has emission line measurements?
+how about this after: We note that the empty regions of the SOMs here (Figure \ref{fig:massdistribution}) do not necessarily translate to a poor spectroscopic target selection, rather they might indicate galaxy types which are more difficult or not possible to observe with MOSFIRE given faint or missing emission lines.
+change this to a paragraph with academic tones similar to the ones above The enhancement of WISE imaging with deep learning in particular helps with better deblending and better photometry in single epoch and coadds and hence enables even more accurate science. This proposal on enhancing WISE with DL also serve as a test for future missions such as SPHEREx.
+Ok lets go to the data and sample section. Here's how I want to start but say it better. Also add a sentense that we choose the mosdef sample as a good example but most parts of this work can be extended to other sample subsamples  In this section we present summary of the photometric and spectroscopic data from the CANDELS and MOSDEF surveys, respectively. For detailed information on each we refer to the extensive literature describing both in detail.
+The deep learning image enhancement can improve resolution and noise properties of image so maybe have a more blurry background and where the network architecture worked the enhance version. but along the same lines of the ones above galaxies should be small like the ones in the hubble ultra deep field
+can you tell me step by step how i can use ddpm for this, how do i treat different telescopes and filters
+does ergodicity matter in generative modeling
+say this better: ML/DL offers scalable pathways to systematically map CLAGN behavior,... focus on individual surveys rather than integrating multi-wavelength variability information.
+drop the third paragraph and in the second one have in mind that AGNs can be a phase in a galaxy lifetime
+The matematician who became a geometry before becoming a telescope
+mention these Highlight the scientific breakthroughs enabled by infrared space spectroscopy. Explore synergies across missions and shared methodologies to enhance efficiency. Address the community’s research and collaboration needs, particularly in the context of large and complex datasets. Promote the use of advanced data analysis techniques, big data and AI/ML Optimize future observational strategies
+this is my content slide for a talk i mean i will summarize 4 papers on galaxy morphology , 3 on ...
+maybe add for future large or all-sky surveys, and say future followup spectroscopic observations needed to fully measure the completness and accurace
+I wanted to use this as a deblender of hydrogen alpha from nii, but not sure if its worth
+some one made a comment that where we say in the second sample An additional motivation is the strong observed correlation between emission line strengths (e.g., [O\,\textsc{iii}]$\lambda5007$, a tracer of nuclear activity) and host galaxy properties such as stellar age. why is this a motivation, any idea?
+a bit more detailed not much, and remove cosmology as its not in legacy science but in main core sciences
+do better with the sky more realistic like the hubble ultra deep field
+what about shoubaneh, would that be more galactic or stellar
+how about making an accronym from something like this AI-powered JWST image synthesis simulator
+improve the title LOC zoom call on the space spectroscopy conference
+refer me to a paper on mcp and a data analysis pipeline in uv
+show me a spectra of a galaxy stretched inside a cube
+how about: Enhanced sample comparison and scaling relation analysis with manifold learning
+say better: In addition to Galaxy Clustering and Weak Lensing-the two main cosmology science drivers of the mission- Euclid data enables a wealth of galaxy science. I will summarize the papers below: 4 	Galaxy Morphology  3 	Star Formation / Quenching   6 	Active Galactic Nuclei / Quasars  3 	Galaxies: Little Red Dots, Red Dots, Dwarfs 4 	Galaxy Environment / Cosmic Web 7	Strong Lensing
+three sounds great, can you base it on the hubble ultra deep field
+what if i simulate numbers with polynomials about where i expect things to be and then learn that with deep learning
+maybe start with Among the science that WISE/NEOWISE data enable are the physics of AGNs and their variability.
+use more of the already published literature on AGNs to make this stronger
+give me an introductory but dense and in academic style for a section on data preprocessing before combining them to do manifold learning
+and then as a strong finale to this section I want to mention that many of the deep learning frameworks such as the foundation models are based on a similar idea of building a representative lower dimensional latent space or projection of the data which can then serve as a pool for other downstream tasks
+what is an example of ir variable phenomena
+name of the conference is Infrared Spectroscopy from Space it will take place Oct 06-08 in Pasadena
+is nirspec the only instrument capable of spectroscopy from space
+yes please mention reconstruction will be based on learned priors from high-res data and that this enables a better deblending of emission lines compared to stellar mass scaling
+what is the candels survey
+remove the large galaxy only keep small ones keep overall color to the dim dark attic
+give me a graphics for a conference webpage, the title is Infrared Spectroscopy from Space: New Frontier from Exoplanets to the Early Universe
+improve: While the lightcurve data described above are saved in consistent format and unit, there still needs to be further preprocessing steps before they can be used for any ML including manifold learning. These unification schemes include alignment and handling of different time grids, resolutions, and missing data as well as feature scaling, normalization, and noise removal of photometry.
+This sentence needs change: The primary goal of this proposal is to significantly advance the utility of WISE mid-IR imaging data for both extragalactic and galactic research through the integration of advanced deep learning techniques, informed by insights from the Spitzer Space Telescope.   what I mean is we use spitzer in training of DL to improve WISE
+lets concentrate on 1, I will start with all of GAIA catalog, how do I know which are globular clusters
+if a panel of astronomers read this, would they be convinced?
+for the redshifts, say its beyond the scope of this proposal to remeasure the redshifts given the enhanced images or to use a downstream task from the foundation model to improve on the quality of redshifts so we use the redshifts released by Euclid but there is an opportunity to improve upon those using the products from this proposal
+how do I make sure that the galaxies in the super resolution images have the accurate shape needed for weak lensing analysis
+dont mention GANs I want the student to find the best architecture for doing this
+how about : This approach results in more accurate light curves and enhanced sensitivity to long-term variations, thereby improving not only our ability to identify and understand the dynamics of CLAGN, but also enhancing our precision in studies of all varieties of infrared time-variable phenomena (e.g., YSOs, supernova, TDEs).
+how about: the other is a more homogeneous sample of Type-2 AGNs at $z\sim 0.1$, characterized by existing measurements of several optical emission lines.
+Maybe also mention somewhere appropriate that success of this implies possibility of doing future enhancements for missions like SPHEREx which offer a very high spectral resolution over all sky but a limited spatial resolution similar to WISE
+I don't want to mention the spectroscopic
+would variability of AGNs also add to this complexity
+give me example science use cases that statistics or number of objects matter for them in astronomy something similar to weak lensing that you get more precision with increased number of objects that you can measure the shapes of
+say a sentence of through this proposal we focus on wise learning from spitzer, but developing the network showcases the potential for future missions with lower spatial resolution such as spherex
+what do you think about finding a PSF using deep learning, I have images of thousands of stars and I want a PSF that when I convolve the stars with tractor I get residual that is consistent with noise rather than over broad or narrow psf that leaves some pixels flux poorly measured
+how much of the sky did spitzer irac covered and what was its spatial resolution
+I have done a bit of an llm work see https://github.com/xoubish/NEDAI this was fine tuning a model to do ner on astronomical archive
+these are galaxy images in one band/channel. I am interested in measuring their ellipticities after doing a super resolution with deep learning
+not sure if the name of a telescope does much for a non astronomer
+so lets go step by step, a space uv telescope observes something. what does it transfer to earth already time tagged or just time ordered, then what happens step by step,
+is the unet the main or the diffusion
+can we finish on nisp data? I don't want to keep repeating hence better cosmology in every paragraph
+in astronomy paper introductions people usually mention we assume a LambdaCDM cosmology with this H0 etc, how do I know if I assumed a cosmology somewhere
+improve wording Our architecture necessitates a reverse co-add process which split the high-resolution Spitzer images into a similar to wise time series single-epoch frames for training.
+fix : The objective of this proposal is to enhance the resolution, depth, and scientific utility of WISE’s mid-IR single-epoch and coadd images for both Galactic and extragalactic research. We will achieve this by learning from Spitzer's IRAC deeper and higher-resolution data in with a custom-designed deep learning (DL) network trained on the  from Spitzer's IRAC. Both W1 and W2 passbands have close correspondence with those of IRAC-1 and IRAC-2,
+sorry i meant in this sentence  Its large galaxy programs cover different regions, probing them to varying depths and using distinct broadband filters, creating a patchwork of invaluable, yet incomplete data.
+what jwst nircam imaging are public
+The idea is to have a conference focused on the science done and enabled by infrared spectroscopy from space from a couple of missions and the science includes all the way from exoplanets to early universe
+How about JAIRIS for JWST AI Reliability and Image Simulator
+can we move machine learning to tools and pipelines and cosmic dawn and reionization to galaxy evolution
+does optimal transport theory relate to machine or deep learning somehow?
+the group consists of mostly astronomers and software people
+please mention the conditional denoising diffusion be technical
+how about a name/title with these: JWST galaxy  or extragalactic observation simulator or unify observations ai diffusion base give full confidence on predictions
+I prefer to change the structure to say WISE data is good for both time-domain science and it also provides the full-sky mid-ir that is synergic with all these missions and they use it for source selection etc. Then say something like those time domain from this and that are not yet here maybe
+any english error: As the majority of objects won't be variable assuming a flat time response is also viable. This methodological choice is not overly critical and allows for flexibility, because the prior coming from the WISE lightcurve reinforces the shape and time variation in every step of the diffusion process
+out of 27 science papers how many are on cluster/filaments how many on AGNs how many on morphology and how many on strong lensing
+in the ... I want to say when combined with existing data or with added prior from existing data something like that This proposal seeks to bridge the gap between Euclid’s current capabilities and its full scientific potential ... , maximizing the mission’s impact on cosmological and galaxy science
+somehow i like to say we want to see if we also see a correlation on a manifold that is trained on photometric time series data but i dont want to say it directly, like the emission lines strong correlations with other physical properties make one curious to see them on the reduced manifold
+Ok let's start from the beginning. I want to make a tutorial science usecase notebook that reads in the GAIA catalog which is hipscat and large, and I want to show that if I have a science usecase that is non-spatial I can still efficiently filter the data with for example colors eventhough they are saved based on their coordinates. I would like to do a machine learning maybe dimensionality reduction to select or cluster globular clusters based on colors or something else
+umap and pca I think need to be spelled out and cited in this first time they are introduced in the paper  Non-linear algorithms such as UMAP preserve complex relationships between samples that linear methods like PCA may not capture. By projecting AGNs into a reduced variability space, it becomes possible to identify groupings, transitions, or outliers—including CLAGNs—based on time-domain behavior alone.
+Infrared Spectroscopy from Space: New Frontier from Exoplanets to the Early Universe how to emphasize science over technique
+don't make up things how do I discover high redshift galaxies with my proposal
+I want to do my own clip for astronomy, where multi modes come from different telescopes, that is HST imaging, JWST imaging, Euclid grism, and Euclid image, so four modes total
+say this better: With the increased precision from the enhanced datasets through this proposal all these science can be done more robustly.
+how are they helpful for cosmology
+in sentence below mildly mention these are choices that have to be made so it implies that each choice has a consequence Although we stored the lightcurve data in a consistent format and unit, additional preprocessing is essential to make a combined analysis possible. These unification schemes include alignment and handling of different time grids, resolutions, and missing data as well as feature scaling, normalization, and noise removal in photometry.
+all good but does depth catalog simulation have a meaning
+say better:He will advise the project in ways the WISE enhanced products can help the simulated catalogs for cosmology missions such as SPHEREx.
+same with: Some mention of color information is given in discussion and for future works. Separation of blended objects with no color information is tricky and clumps in high redshift galaxies can be mistaken by globular clusters or the other way around.
+how about this one: This study demonstrates the application of manifold learning, specifically Self-Organizing Map (SOM), for analyzing high-dimensional data.
+but doesnt self supervised learning try to learn a lower dimensional representation of the data in a latent space or an embedding
+then why is it that we have better resolution optical telescopes compared to uv
+maybe no need to name the telescopes, say something that means with recent and upcoming
+why would one want to preprocess or unify data before any ML such as manifold learning
+yes, on max_trials and lets do bayes for search and what do you think we should optimize can we get a measure of emission line features
+maybe go simpler like jwst image generator
+what science has jwst spectroscopy enabled give me example papers
+make it more general than the score-based diffusion, because all of section 2 is like that ( the author did the same for VAEs, GANs, normalizing flows, and diffusion models) I want to say something like its great theoretical deep etc but its not really needed for an astronomy paper to go into this much detail but in a way you said above
+what astronomical objects have interesting light curves
+by over traditional methods I meant non deep learning can also do image enhancement but deep learning is faster and can lear more non linear transformation etc
+no I don't like the last sentence its too general, I want the reader to understand how the large foundational models or very deep learning models which pass data through bottle necks are similar to SOMs or manifold learning and dimensionality reduction that I used here
+what if we say allowing for measurements of diagnostic rest-frame optical emission lines such as ...
+lets only have galex in mind. start listing steps after time stamp data is transfered to the science ground segment
+would it help to say manifold learning
+give a laptop to some of them add more stars to the sky
+another similar, no telescope and more spacey maybe even the hudf in the background and then this n dimensional emission spectrum of hydrogen lines
+how about a title like: Reducing the Dimensions of the  Astronomical Archive Manifolds
+start with what are scaling relations and why they matter for galaxy evolution, then add in what spectroscopy and in particular strong optical nebular emission lines and their ratios bring to the table
+how do cosmologists say an even cant be random with such and such condifence what is their method
+mention this physics in the last sentence somehow The learned manifold reflects known physical distinctions in variability behavior, such as timescale and emission mechanism, suggesting a path toward more interpretable organization of AGN populations.
+some more maybe hydrogen lines
+instead of Utilizing conditional diffusion models, what can i say to emphasize we build the architecture
+how does glow compare to gan
+its too big of a claim universe or astro knowledge be more specific
+what does O32 show in galaxies
+what do you mean compared bayesian networks, but we have bayesian deep learning
+how did they measure visual morphologies
+is simulator better than synthesiser
+then how are the lensing ones identified
+say better: In this talk, I will present work from two students enhancing the spatial and spectral resolution of Euclid NISP data using deep learning diffusion models. The increased spatial resolution of NISP imaging empowers better photometry and better photoz as well as making shape measurement in the infrared a possibility for weak lensing. Improved spectral resolution enables a better deblending of spectral lines such as Halpha and NII, a possible asset for clustering analysis.
+concentrating on extragalactic only, what are example findings
+whats the difference between primer cosmos and cosmos web
+a goat in a data center coding on her laptop to improve the resolution of high redshift galaxies painted by Caravaggio. Extreme realism yet a mixture of old clothing and a night sky with the new coding and deep learning CNN codes
+instead of one galaxy add many smaller galaxies
+give me more citations for this: Active Galactic Nuclei (AGNs) are among the most luminous and dynamic phenomena in the universe, pow- ered by the accretion of matter onto supermassive black holes at the centers of galaxies. This accretion pro- cess releases vast amounts of energy across the elec- tromagnetic spectrum, making AGNs invaluable probes of galaxy evolution and black hole physics
+When are the best times to see northern lights in alaska
+is this galactic or equtorial
+have the goat coding in this cluster data center the master of deep learning network architectures
+couple of things is that its not just ratios it can be the lines themselves or their ratios, then there is a distinction between stellar lines or nebular from H2 regions
+difference between ssl and foundational models
+correct: The gaol of this proposal is to enhance the resolution, depth, and scientific utility of WISE’s mid-IR single-epoch and coadd images for both Galactic and extragalactic research. We will achieve this with a custom-designed deep learning (DL) network trained on the deeper and higher resolution Spitzer's IRAC data.
+I want to design a poster titled infrared spectroscopy from space, this would be to talk about different results on galaxy evolution and planet atmospheres with missions such as euclid jwst roman etc. what can i put on a poster to reflect this
+this is great. only thing to make sure to mention is that while wise lacks the resolution of spitzer it has a long time baseline which is crucial for transient science and it also covers most of the sky while spitzer coverage is much smaller
+remove traditionally and say in front of diffusion models (explained in technical section)
+Say something like data augmentation can be performed using simple interpolation to state of the art flow or transformers based deep learning architectures in this project we aim to figure out what the optimal way is to minimize losing information
+no first say another downstream task ... by resolving ... this enhancement
+This is great I just want there to be an emphasis maybe early on, that the whole idea of a foundation model is that once trained it can be used for many down stream tasks and while in this proposal we focus on the down stream task of super resolution for nisp imaging to be used for weak lensing science, there is much more that a learned galaxy distribution from combined HST/Keck/Euclid dataset enables something like this. I don't want to undersell the idea
+I kind of think that reliability should come after image generation in the acronym is there a way to do that
+and this: I have been hearing about different kinds of Active Galactic Nuclei (AGNs) for many years as an astronomer. These kinds are based on mostly how these active black holes are detected or selected (e.g., x-ray detected ones, radio loud ones, broad nebular emission ones, ...). I recently came up with a way to combine the data from various instruments/archives together and using manifold learning and dimensionality reduction found the overlaps and similarities among the groups.
+Write based on these: all data from this project once fully validated will be public for the science community, while our trained network can be used to produce enhanced time-series data at a coordinate of an object, we will release the enhanced single epoch and co-add images as well as the photometry catalogs in the CANDELS and GLIMPSE fields
+blend two galaxies into one another
+graphics for title slide  Enhancing Euclid NISP Data with Deep Learning
+I like graph transformers but not the local things, what about something that can be applicable to medium redshift galaxies
+how much of the sky did SpIES cover
+is this meaningful? Query the dataset to find and create figures for galaxies, QSOs, and stars with quality fluxes, redshifts, and morphology.
+does ISAI exist? image synthesis with AI
+can you tell me about the SpIES program on spitzer
+its better but not fully, try again, mention diffusion mention posterior don't say negative thing about wise but emphesize on this proposal enhancing the value and also mention neowise ending
+something on conditional generative models that can help with image enhancement
+uncertainty quantification deep learning reference
+do you know how mosdef selected their target from the candels fields
+disperse lights maybe hydrogen into this circular pattern then get a 1d spectrum from it and connect it to galaxies and starts image
+how about this: While the conclusion highlights the advantages of using DNNs, the rationale provided in this paragraph appears more as a justification. Convolutional neural networks with custom wavelets seem to be able to do what is presented in this work in addition to bringing in prior from a learned distribution.
+read this again, does it say the same? An interesting question arises: if we train two generativemodels of the same architecture and feed them with identicallatent variables sampled from the same Gaussian distribution,will the generated images be identical? This could occur ifthe models have learned the same transformation process tomap π(z) to p(x), or if they simply replicate images from thetraining dataset, which is not the intended purpose.
+beautiful, maybe add other kinds of telescopes of different sizes and not all looking at the same direction
+change this sentence Improving the resolution of NISP data is therefore crucial for unlocking the full potential of Euclid’s infrared capabilities, not only for weak lensing but also for advancing broader cosmological investigations. its not crucial but its a big step and don't say not only for weak lensing
+there is a notebook which queries spectroscopic data from different archives does a bit of preprocessing and plots them what can the notebook be called
+ok lets start with background information the significance of WISE and its resolution limitations
+reference for the time of variation in optical infrared and xrays
+how is it done in proper diffusion
+how do i read this  A data-driven, non-model-dependent approach, on the other hand, leverages the already observed populations, with deep learning (DL) generating broad-band images by fitting the rest of the observed SED using network weights trained on prior data.
+please rephrase: JWST imaging improves our understanding of galaxies, from resolved properties to integrated and population-wide characteristics. With this AI image generation tool the community will be able to have JWST prediction+reliability of specific targets of interest and will be able to prioritize future and followup observations where uncertainty of our synthesis is high.
+how would interfermotry with oct shows or confirms this
+great can the background galaxy be blending into another one
+can we say we train this downstream task as an image enhancer that can bring the NISP image to an HST or to Euclid VIS resolution (so have it as an option?)
+can you give me papers that suggest zscore ing helps with training deep learning or ssl
+Both low res and high res 1D spectra that I have are noisy, but I am interested in the higher resolution to better deblend some emission lines. therefore I am interested in training a DL on a subset of galaxies which have both and learn to generate the higher res for the ones lacking such observations. Can you give me your thoughts and suggestions, precisely and with the reason but not too long and maybe bulleted
+any other optical data they used?
+ok lets now simplify these into a paragraph without getting to the ai or super resolution yet, just that shape of galaxies is affected by ... and theoretic limit of nyquist...
+great thanks. how about my title: Filling in the Gaps: An AI-Powered JWST Simulator for Supplementing Extragalactic NIRcam and MIRI Observations
+change this maintains a consistent classification of AGNs
+I have a talk on using deep learning to fill in gaps in astronomical time series data, give me an exciting title
+who to cite for cnn and then visual transformers
+instead of this technique say manifold learning or som or the reduced dimension space
+do you know about the lens equation for microlensing? if i want to solve it with deep learning how do you suggest i design my architecture
+no the idea is not to simulate I actually have both photometries and I want to learn the correspondence so I can transfer from one to the other with DL
+in this sentence say that a broad spectrum of science can be done with a higher precision This enhancement will facilitate a broad range of science from stellar transients to AGNs and cosmology.
+lets concentrate on Men 30-60 yrs old approximately, we first need a cnn trained on public data with hair labels (bald, thin, good, wow or something like that), then need two large sets one with musicians and one without to pass through and compare their median
+lovely remove all telescopes and focus on that central thing
+suggest some other versions of this title, especially I am not happy with pioneering  Pioneering Astronomical Image Enhancement: Harnessing Deep Learning Diffusion Models to Match WISE Images with Spitzer's Resolution
+what to say instead of validate an AI diffusion model
+did they look at 2674 galaxies visually?
+can this be improved: AI-powered JWST image synthesis simulator
+what is difference between gas phase metallicity and stellar metallicity
+what depth did IRAC achieve in the cosmos field
+start with that part about the nasa science platform and bigdata ml etc, then say we have an ongoing project about agns ... and we will be spectroscopically targeting AGNs which have similar multi-band light-curve properties to changing looks and we need someone to do precise examination of the spectroscopic sample
+in this i mean: These manifold embeddings offer an interpretable framework for visualizing heterogeneous AGN populations, mitigating selection biases, and prioritizing rare or transitional states for spectroscopic follow-up.
+comment: We propose to design and prototype methods based on Machine Learning (ML) that facilitate thederivation of an astrometric and photometric concordance mapping between Euclid and Rubin-LSSTimage data. Public data will be available from both surveys which will be used to demonstrate theability to generate that concordance, an efficiency multiplier and a starting point for JSP and analysisover the thousands of square degrees of sky where data from both surveys are available.
+maybe a bit of domain knowledge helps with better decisions, I am trying to learn galaxy images, a lot of the pixels are just background noise, and the galaxy is usually at the center of the cutouts covers around 20% of the whole image, so learning can be misleading if it learns only the background, can we maybe define a better cost? or learning using this knowledge
+how about this \textbf{Months 5-8} & Incorporation of uncertainty quantification into the network structure. \\ \hline \textbf{Months 9-11} & Fine-tuning model structure for crowded galactic fields. \\ \hline \textbf{Months 11-12} & Release of updated code and publication of results on galactic fields; comparison with initial deep field results. \\
+make the sky way more empty less red/pink more blue/black and more deep learning compute than astro
+what is metacalibration in the context of weak lensing
+say better: It was great seeing you in person as well. The proposal reads very well and I am excited to see how well we can do this soon. Minor comment is that in the future section, similar to Euclid Roman also has grism spectra and the super resolution applies to both similarly.    cheers, [REDACTED]
+I am writing a paper on using dimensionality reduction on the light curves of AGNs so one can see how different labels of AGNs compare.  I want to start the intro by saying a bit about agns the very different ways they are classified/labeled and the vast glossary that the various properties and selections create. help me with that
+what is WISE and NEOWISE data useful for
+Start with variability in AGNs needs time series data and mention WISE is critical given the long baseline for CLAGN
+There are some parts of the Q1 data which have highest resolution HST and Keck and if I learn a latent space distribution there, can I extend this learning to other parts of the sky where such HST or other high resolution data don't exist and only Euclid NISP exists so I improve NISP NIR images?
+subject? Wrapping Up the AGN light curve dimensionality reduction Paper

@@ -1,0 +1,369 @@
+change breakthroughs so it is more inclusive
+Read the attached file and let me know what strengths and weaknesses you find in the proposed work
+i have kind of decided on all of these already by myself:D just need them to decide and vote on abstracts and suggest panelists
+a sentence meaning: Agentic AI here we go
+what are the weak points in the proposal attached and what are the strenghts
+how about doing this randomly with 10 random papers from arxiv and then comming up with a suggestion using those
+ok all solved, now if i am not the host, can i still use my ai companion to take notes
+teach me about agentic ai or ai agents
+what are ways of making a specified ai chatbot
+yes lets customize, in the arxiv read get as input a keyword which has to be in the summary, for example galaxies or weak lensing
+Can you read an article to me if i give you the website
+give me an abstract for the attached proposal, be accurate academic and avoid unnecessary conclusions
+the job was at the reality lab research scientist position,
+overall whats the best way to organize my resume, I did way too many projects and i am not looking for a specific job, i want to apply broad from data analysis jobs to ai research to consultant/advisor or project manager
+try again I want it to be convincing to an academic reviewer that if they don't use AI now they are missing out and that image processing, super resolution, .. is better done with AI and by adding uncertainty quantification we have a measure on where our priors are working
+edit: For me, it was nothing but playing dice. In Iran, I studied  Physics in undergrad. After moving to the U.S. I considered neuroscience in graduate school, but the field needed more biology background. My friends were living in California at the time. One of them, who was pursuing astrophysics, wrote a letter to her advisor introducing me as a prospective student...And here I am.
+Whats the word things became something towards philosophy rather than technology
+Android Inc. was founded in Palo Alto, California, in October 2003 by Andy Rubin, Rich Miner, Nick Sears, and Chris White.
+say better I am interested in AI and in Cosmology. I would like to see in my career some more clue about dark matter and dark energy and I wouldn't be surprised if these clues found or guided in part by AI. I try to do my research in this intersection as much as possible and contribute to the field even incrementally.
+neuralink is asking: Please provide 1 example highlighting your exceptional ability, using quantitative metrics and technical details to display the impact on a product or project related to the position you are applying for. The example should capture the problem, solution, and result and start with an action word (e.g., built, led, launched).
+dont focus on universes instead focus on whatever thing you can imagine is deeply rooted in reality and try to create things that dont exist really something in the styles that Dali did with his relativity painting where clocks were bended and such
+i think scientific data systems can be fully removed and just add the needed ones in ml&ai also scientific applications of ai seems not necessary. instead something that hints problem solving mathematical modeling etc
+no but AIRIS  stands for AI Reliability and Image simulator
+now how do i respond to this? Most useful for now would be to propose one or two short sentences where I indicated in the text to expand a bit on the potential for ML to tackle  that concordance build.
+what are good examples where AI combines learned features to create or predict something new if example is in science then the better
+What does it mean that we need a socratic revolution in ai
+I together with a couple of other phd holders who are good in data analysis are looking to start a business to make money give us some ideas
+say this better This is a difficult question to answer. I am not sure if I would do something differently. But if a student comes to me and asks whether they should pursue astronomy I will tell them to choose a career which pays better, e.g., computer science or medical.
+how about this one: https://arxiv.org/pdf/2503.15322
+discovery science ai forefront work with smart people, people first, environment matters alot for work, aligns with my background of science
+on discourse what to call the page for users to discuss science or open source where they help each other  What should we call "chat", "User Discussion", "Random"?
+the opposition or objection that says AI can't be as good as us because we made it how do I name it
+As you know, I am already part of the science platform team and enjoy working with them and look forward to learning more together.
+the journal club is meant to discuss ML/AI from pure theory to applications in astronomy to recent AI news etc
+by shared methodologies I mean from cosmology to planets etc as these are very ditinct groups
+why is it easier to pass the bar exam than the turing test
+summarize this paper and comment on overall idea, validity, etc
+remember my starting agentic ai project?
+how about: Dear Chris,  I hope you're doing well. I'm nearly finished with my review of the manuscript titled [“CSST Slitless Spectra: Target Detection and Classification with YOLO”] and just need a bit more time to wrap it up properly. I hope it's alright if I submit it by next week instead. Apologies for missing today’s deadline, and thank you.   Best regards, [REDACTED]
+how about adding in something like often scientists are proposing for observations without learning from previous existing data ...
+what is this paper about, if you were to title it differently what would it be https://arxiv.org/pdf/2410.07354
+can you be a bit more specific when discussing AI evolution like, do you mean from perceptron to transformers or am i missing it
+can there be an ai somewhere
+what famous scientist or philosopher or computer expert discussed this before
+maybe say research scientist position at reality labs
+correct english: I gave a talk today on ML/AI for SED fitting, and missed parts of a nationwide celebration on the passing of the Butcher of Tehran.
+Diana is leading the Cosmos-web weak lensing effort, she is working on a Euclid deep learning project with me, and at the same time working on observations of some faint galaxies, among other things. I .... (now say I think she is doing a variety of things and should continue to do this excellend job)
+what else is considered open science
+I have already mentioned in introduction that there are many science one can do with the products from this proposal, but I want to explain one example science application in this subsection, can you now suggest better
+be technically precise but also not too focused on one task, I am concerned with all of the above and the goal is to bring something that works better than traditional methods. It can be a foundational model, a cnn, agents whatever
+instead of earlier work you should put a lable like researcher or something
+Maybe also a point about how I can define personality and stay precise and refer to real astronomer if answer not found
+I am thinking of having these 11 objecting groups as individual slides and within each category introducing relevant ai advancements similarity to humans etc
+along the lines of data enhancement, but I need a good scientific question to motivate it
+I have a student who is very new to these where should she start in reading to perform this project using ddpms
+do you remember about the ai journal club i mentioned?
+Why do you want to work on the Anthropic interpretability team? (We value this response highly - great answers are often 200-400 words. We like to see deeper and more specific engagement with Anthropic and our interpretability agenda than simply interest in AI or LLMs.) *
+can I assign a delegate from the LOC for each task
+Please describe a few of the ways you’re using the latest AI technologies in your own workflows?*
+you keep repeating its a tool, but we use our brains in mostly the same way, does that make us also a tool?
+Make a cartoon with message people are taking the shit out of ai
+are there any recent nature papers in astronomy that used ai
+dont say academic because its for my own joy really maybe something like I am an astrophysicst and have been thinking of applying the same techniques on ...
+can you do a broader search in the web
+how about this paper: https://arxiv.org/abs/2503.15313 what did they do? what did they find?
+when compared to human it matters to take into account that 1) we evolve to be what we are today in millions of years, 2) our brains develop when we are born and learning doesnt happen overnight, 3) we can also augment ourselves either with technology like augmented reality or added sensory data like telescopes or biologically in the future what kind of objection or opposition would these claims respond to
+how about: How do you keep up with the latest AI/ML and where do you start for deciding what model works best for a specific problem.
+be more vague in data techniques maybe just mention advanced and don't say ai ml and also say something like we aim for exploring strategies ... rather than the participants will
+What are good examples in people that we think we do intentionally but in reality it’s just our cost function set by evolution
+I kind of dont like the name simulator or synthesis too much
+what were the objections to turing test based on turing himself
+who to cite for foundation model
+can you say this better as an extra objective of the proposal Quantification of gains over traditional methods and applicability regime.
+was this after allen turing's imitation game
+this for space science is kind of wiered at the end, as i want to apply for jobs elsewhere change it
+but the black box does not neccesarily have to be ai, it might be a scientist human
+great, does this imply that they could have built their own architecture instead of this? is it fair to say something like this
+any errors: An experience I enjoyed as a volunteer was teaching a class of 5th graders python and astronomy. By the end of the year, what stood out was their pure joy of being able to work with the data taken by the Hubble space telescope. I think it really matters for kids to learn programming early on and to learn it through ways that does not seem intimidating to them.
+what point from the abstract can you add to this
+say this nicely meaning send me the draft first so I can think about ml Sure, let me think about ML science use cases for your Euclid proposal after reading the draft. I also am thinking of putting in a weak lensing proposal for Euclid but have not started yet and might decide not to given the time left.
+now give me an example that is not really llm or question based but a task like pattern recognition or image enhancement or something as such
+Do you have ideas that have astro themes
+stay closer to my initial writing: I am very enthusiastic about AI, have some experience with it to judge the practicality and I try to follow the latest from industry to be able to comment on that front. I was part of an incubator as a start-up leader a couple years ago and have some experience on judging pitches and on bringing an idea into an MVP and a full product/project/paper in a fast-pace.
+Totally understand, I’ll include you in the acknowledgements. Your comments were genuinely helpful — many would’ve needed more focused work than I could invest in this exploratory method paper. I really appreciate you taking the time to read it. Hopefully we’ll get to work on something more science-focused in the future.   thanks, [REDACTED]
+same thing with this: How do you feel your involvement in the coordination team will provide value for IPAC projects and archives?   I am very enthusiastic about AI, have some limited experience with it to judge practicality and I follow the latest from industry to be able to comment on that front. I was part of an incubator as a start-up leader a couple years ago and have some experience on judging pitches and on bringing an idea into an MVP and a full product/project/paper in a fast-pace.
+Data driven simulation of political systems
+ok now review this attached proposal and tell me strengths and weaknesses you find in the proposed work
+Were there some standards for ops or could anything count as a published work
+when ai takes all our jobs can we get the ubi and just enjoy life
+did you use https://www.annualreviews.org/content/journals/10.1146/annurev-astro-[REDACTED]28 please add in parts related
+how about spotlight on a science
+what if i dont use astrollama and use a non astro llm that reads the 10 abstracts and comes up with an idea similar to them
+Teach me different political systems
+this is great, but can we add some suspence, like starting mostly with AI and how it works the best and foremost state of the art etc and why its not great and why people doubt and why they say black box in lets say half of the slides and then go back one by one and show hey we (our brains) are nothing more. I am just thinking here so feel free to disagree
+this: Member of the IPAC Technology Initiative Coordination Team
+give me paper link please
+great, so let's start with a slide on what is the turing test first so that the audience have an idea
+ok the only remaining thing for my slide is on interpretability, and I want to somewhat say for science what you really need is validation and uncertainty quantification rather than interpreting what happens at every layer of DL give me ideas on this
+Maybe agentic enables more back and forth with the user?
+no give me this section again, also make sure yang is rightfully presented all her recent works on clagn as well and then I think Graham's student might have a deep learning paper recent on this
+can you give approximate number of abstracts in each in front of them also
+yes, more specifically on what a ML research scientist does in this field
+What were alan turing predictions of objections to his imitation game and how did he respond
+i still dont understand why this is an agent or is called agentic AI
+write me a jwst proposal
+Safer to stay an astronomer it seems
+change order maybe have the gerenal ai statistics as first point and examples at last and change happy to discuss to something else
+i dont want to emphasize on astrophysicist
+this is too much for one slide, but maybe mention bayesian networks when mentioning statistics, validation of science on output rather than understanding what happened inside a complex system, and the ones that you think matter more from the list above
+this is great, but maybe also mention research
+lets say i want to present this in a 15 minute fun talk to astronomer audience what can be a fun title
+ok good, now maybe frame this as coming up with the idea which in practice saves millions in telescope time proposal mentoring student working with student and publishing
+discovery is to big of a word again
+what ai can i use to make image to movie
+nasa budget is cut by a big fraction and there s also a chance of losing my current job
+how did the recent AI and LLM advancements help with this argument
+Ok but would you go for agentic AI for something like this or would you do a more deterministic path with an AI pipeline, my understanding so far from this (starting) project is that the difference is on AI deciding what action to take
+is reinforcement learning a good example to show how rewards dictate how ai works,  where do i find those videos where agents pass small walls to get something done
+Reading about titans and how they add to transformers by adding a long term memory, I was thinking its interesting that you get inspiration from human brain having different types of memory, then try to explain something not necessarily mathematical, with mathematics, you define a loss function or a factor for forgetting or updating etc. And all of that to train AI or DL which is a way to not depend much on a mathematical modeling. Not sure if clear
+does it respond the question: 8. Approach: Describe how you plan to implement this facility. Give specific tasks and milestones that will be accomplished. well or can it be improved
+point me to good papers on this
+also that she is interested in the coolest projects as I am :D  which is state of the art deep learning to enhance cosmology missions
+In the first sentense somehow express it more strongly meaning one can not do it without innovative techniques also do a better job of connecting to second sentense and say machine and deep learning ML/DL
+general title for a talk such as: "what science can we do with this data"
+how is this paper similar can something from here be used? https://arxiv.org/pdf/2404.00102
+does reinforcement learning not connect with the hofstadter quote
+now as an ai model can you be more creative and surprise me with powerpoint slides that covers all these topics in a structured kind of way
+If you read this section as a non ML/DL expert, would you understand it? Are there clarifications that can help this proposal win
+Are there areas of research you are particularly interested in? If so, please let us know which areas.
+why not? are these papers not on arxiv
+stay close to this just improve wording What’s your overall take on AI/ML in astronomy? What types of questions do you think it helps most (or doesn’t help) or where is there a lot of potential that is not as much explored.
+ok lets go 1 by 1, help me do as you suggested in 1, i want to add in introduction a more strong reason as mentioned for including kauffmann and in 4.2 the future work and other citation
+is a bias a prior we dont like :D
+read the attached proposal and give me a list of strenghts and weak points
+how to title these skills better than "software" Data Analysis, Machine Learning, Deep learning, Computer vision, Cloud  Computing (e.g., AWS EC2, SageMaker), Image processing, Astronomical data reduction, Data visualization, Template FITting (TFIT), SED fitting, LATEX, git.
+something else for enhance our analysis above,  as its not really enhancing its more of trying
+how about data analysis and processing instead
+Instead of your proposal say this proposal and mention the strategic goal number, for instance aligns with goal 1.3 or ..
+What is the debate between the frequentist and the Bayesian schools of thought
+I want to bring three example science that JWST enables and that simulated data from this proposal helps with this is the starting paragraph to say jwst enables wealth of ... but we can do even more by just extending the learning and optimizing ...
+sure I didnt mean scientifically and more metaphorically. How does this connect with LLMs, AI and its thoughts
+i am tempted by that neuroscience though in midus 2
+who to cite for self supervised learning
+this is to be added to an astronomy archive page, questions might get specific and are not simple, so finetuning a pretrained model is preferential. I would like to add it to a webpage so some kind of api would be great and I need it to learn all the material the webpage points to and some q&a or readme documents give me step to step and challenges or benefits
+did we already check this paper for relevance? https://arxiv.org/pdf/2310.03024
+where did you get the sentence the unified model inherently assumes that ... I think a citation would be helpful
+two versions of ic and managerial
+this is the title of a conference. how to slightly modify the title to emphasize science over technique
+I want to develop an idea for a proposal overguide with use of AI on irsa
+give me the link of the paper where turing lists the oponents of his game
+i want to present it at a journal club, teach me how to do it start from basics i need to know
+summarize this for me first: https://www.annualreviews.org/content/journals/10.1146/annurev-astro-[REDACTED]28
+ok first start and emphasize that ipac has data and we have this cloud based etc then say the ml/dl uniqueness part and then agns
+change this to in this proposal with ... we do this The employment of advanced computational methods, particularly deep learning techniques, in conjunction with a vast amount of existing and upcoming data enables us to discern answers to such complex queries.
+this is for a science publication so I prefer to stay very accurate, have precise citations for every claim and avoid too many adjectives without reason
+and last question:  Are there areas you would like to see the Tech Initiative pursue?  Can we have robots in KS that bring tea to offices or a fine-tuned alexa in the kitchens we can ask about the latest data ingested in the archives? Kidding aside, I would like to see more big data practices with cloud technologies as well as moer AI/ML towards data enhancement and interactive archives.
+An image for a presentation asking whether the proposal got funded or not
+what is an app or website that can change a voice in a file to a singer's voice with ai
+what term can I use instead of a journal club to be more fancy sophisticated
+is this part of the scientific justification or before it
+expand a bit on technical parts of the project description add ideas of how this can be done
+how would self awareness relate to science such as astronomy
+back to the list of objections, can we make objections a bit more focused on the view that "AI can not do science" and try to respond to them one by one
+can you at least point me to name of articles maybe nature that did ai on human connectome data
+how about saying something like combining hwo with all previous observations, or have hwo as a mode, or even simulating hwo with ai using all the previous observatioins to inform the mission
+I want something like this but shorter as a section of my proposal titled state of AI, with the rationale that why now is the time to use AI to do better science. The AI in this proposal is diffusion models and uncertainty quantification
+whats the intention in doing science
+elaborate on interpretability, because at the end of the day we use our brains to interprete and how is that different from ai
+can you give me example research papers
+If ai can make great music does it imply that more than genetics music is learnable and environmental
+i have a 10 minute talk what slides do you think need to be in this presentation, stay very technical and for scientist audience
+how is this relevant: "The world is full of things for which one's understanding, i.e., one's ability to predict what will happen in an experiment, is degraded by taking the system apart, including most delightfully the standard model of elementary particles itself." —R. B. Laughlin, Nobel Lecture, 1999
+ok cool lets include aristotle hume and hofstadter in our slide
+how does the brain interprete that ai can not
+yes see if there is anything else worth including then also cite the paper somewhere
+dont mention nisp vis hst keck remember this section is state of AI, so I want to say what the state of ai is today and why we should use the foundation models now
+What excites you about this role at Google DeepMind?*
+good question but what is epistemic
+lets say I am desiging my own imitation game, claiming that AI can mimic a scientist and then I have to predict what would the objections be and try to answer them help me with that
+say better: There she expanded her research of resolved properties of galaxies, particularly the chemical compositions them.
+what is a good ai or ml paper to present at a super casual journal club maybe something that is recent and made a lot of noise but also not difficult to understand
+this is good but it needs more. for example one might think but to do science you need to know all details and the box cant be black, how do i respond
+without saying general things expand on technical sides or things you think are very important for this idea to be a winning proposal
+are there direct mentions of AI in this https://www.nasa.gov/wp-content/uploads/2023/09/fy-22-strategic-plan-1.pdf?emrc=ff1a1e document and can you relate it to my proposal
+fix this also: Format: We can have ~15-20 minutes for the presenter and the rest for discussion, shorter news, etc.. The presenter can decide to present any AI/ML related topic from a theoretical AI/ML paper, to ML in astro, to an AI algorithm/software, or even AI news.
+more sarcastic, maybe from the president's point of view like no need to look for dark energy anymore we are it
+regarding the slides I want less philosophy, more science. I would like the audience to learn through this talk what AI is capable of doing these days and by comparison to our own brain I mainly aim to help them be less judgmental of potential AI
+instead of historical say archival, mention connections of fornax to all the nasa archives and leveraging this data access with AI gives us the strength to model future missions
+ok when i do define the agent with the class do i need to train or something?
+yes, now help me write the abstract again
+it seems to me that what is dubbed as creativity just means the brain is more black than AI really. And also if the deep learning architectures are left less constrained and if they are trained like foundation models on vast and diverse data then they become closer to a human brain experience maybe?
+ok last sentence I want to change and say tremendous effort by the community has gone into calibrating the systematics so that cosmological inferences ...
+I have written some proposals with your help before, on applications of AI in astronomy mostly on image enhancement with generative networks. Can you use all those from before and give me two pages for a proposal on AI applications in astronomy
+perfect, will you please remove unnecessary adjectives, I don't think its appropriate for a science paper to say striking also, dont say a class of agns because they might not really be a class but merely transition
+These are mostly societal or external and non measurable points be more scientific is it genetics is it learnable does it reflect in number of synapses etc
+astrophysical journal, I want very profeesional tone and scientific check, completeness, relevance, logical flow and given the abstract related
+create an image for this text: You can create artificial universes, in which there can happen nonreal events with any amount of detail that you care to imbue them with. But the class symbols themselves, from which all of this richness springs, are deeply grounded in reality.
+Sure, feel free to send me the draft when you have it and I can think through potential ML science use cases. I’m also considering submitting a weak lensing proposal for Euclid, but I haven’t started yet and might opt out given the remaining time.
+seems to me its not quite powerful when summarized it does need a full science paper
+how about JWST AI Architect
+use ideas from here: https://arxiv.org/pdf/2310.03024
+this is in response to a nasa budget cut, so being funny like what can we do next
+Wouldnt it be biased towards more educated people
+i think 2022 is recent no? :D
+what can be classified as science connect it to the scientific process and if it matters to have a black or clear box in that process
+yes i want to use langchain  and i want it to come up with some paper ideas and then reason which is doable which is not and suggest one
+when do you say something is self aware
+do you think it helps to be more specific even in this short paragraph, our aim is to develop and prototype such dl/ml concordance methods
+Attached is what I have now, I would like to apply for research in AI/ML for senior scientist or manager level
+I will be on a panel talking to high school students in stem, what to have in mind how to have them excitted about science
+this is great, but do you think the 10 year thing might lower my chance in getting a simple machine learning researcher role? I want to use a general resume for all options from management to research positions
+say again Hi Peter, Hope you are doing well. I saw this research scientist position at the Reality Labs. Will you be able to refer me to this position please?
+If I want to add some AI capabilities using generative networks to IRSA what would it be, can you give me some suggestions. Either in terms of service or product
+this is what i am asked for: Most useful for now would be to propose one or two short sentences where I indicated in the text to expand a bit on the potential for ML to tackle  that concordance build.
+no keep the pivotal role for caltech/ipac and then say collaborated with several at jpl
+more along the lines of AI image generator but I want it to have a feeling like its precise and not a guess thrown at the user
+instead of generalization as key to originality I want something else, maybe pattern recognition?
+ok help me make another of my bullet points, on the fornax one, again give me two version one that points more to an individual contributor position another to more higher up Here is what fornax is: https://nasa-fornax.github.io/fornax-demo-notebooks/
+lets sat I want to do something like the turing test, to see if a black box is intelligent or not, how do I do that
+if you want to give me a history of AI what would you include
+deblending hydrogen alpha from NII suggest papers to read
+say better:Hi Lee,  A friend of mine, Nima Chartab, who is currently at Carnegie and a previous Asantha postdoc, has applied for a position advertised for Roman. I already introduced him to Patrick at the AAS. He said it might be good to talk to you there, but we didn't find you and hence I am writing this message.   I am not sure if that search is still ongoing, but in case you are looking for someone with experience in 1d spectroscopy he might be a very good fit.    cheers, [REDACTED]
+I love it, and then I want to similarly find the oppositions as Turing did in his paper and group them
+no if we want to attribute this ai compared to human where the opposing group didnt take into account the points I mentioned above. What would the objection be
+I have not read anything on political science would this be a good start
+what can be improved in this proposal or what are the weak points
+less formal and to scientist audience, dont say things like significant contribution to astronomy
+what are the latest AI advancements that I should talk about
+why did the nobel prize go to hopfield this year
+ok lets say I want to design something like a turing test to see if a black box is good to do science
+do you think weights and biases help?
+ok lets say I want to make an ai agent that comes up with an ai project for me to do, or better for us (ma and the agent) to do
+what have been the main objections oppositions to "AI is intelligent" and how have they been solved in recent years
+is there a theoretical limit for AI to match human intelligence
+if Turing, Hofstadter or people alike had ideas in this regard what were they
+James Webb AI simulator: JWAIS
+I actually delivered a prototype of the AI model and am now advising mostly on all others I bring insight on how/if AI can help for example in forced photometry, or with AIchatbots to help with archives for accessibility etc
+perfect, now before starting this maybe say a few lines about the scope, that this is an innovating idea and we have a great team who will focus on delivering in three years time line below
+first paragraph is not good it needs to better address what WISE imaging has brought us and continues to bring
+what do people mostly use for ai note taking on zoom
+how does this sound: Hope you are doing well. As I mentioned a week or two ago, I have recently been working with the IPAC science platform people to showcase the potential of archival data+ML for science. I am attaching a paper I started on this with not much text yet, but the figures are more or less finalized. I will be very happy to hear your insights on it, if you would be interested/have time.
+but this learning of agent, where is the cost function being optimized?
+do you think its against responsible AI to call AI "black box"
+what is this paper about https://arxiv.org/pdf/2501.00663
+how different from data engineer
+yes i want articles astro ai would be preferred
+does it mention in the proposal what are the backgrounds needed, like is it any engineering or science does it mention coding skills
+which paper found OJ 287
+what is a fascinating science result with ai
+but even with humans we know they have limitations we don't think they are not responsible etc
+if we know nothing about the human connectome project, and want to choose something to present at this short ai journal club what would be the most interesting result
+say this better: IPAC Machine Learning Journal Club Lead
+before i leave, is this what i am looking for or what i am? AI Researcher & Technical Lead | Machine Learning • Scientific Data Systems • Cross-Functional Innovation
+In designing an AI architecture one can use different pieces for example a simple connection recurrent connections drop outs, transformers parts etc you know better than me. I want to use an analogy of a lego with different pieces can you give me an image to give more or less this idea also tell me what you think of this analogy and if you have comments to improve
+you know what this project is about?
+not sure, first time I am hearing about ensemble learning, what are peoples ideas
+We are not entering but we are in the precision cosmology era, and dont say this is vital to achieve say something that means this is beyond great
+I want to write a paragraph like the one below giving some examples of each with citation can you help me with it  WISE data has been used from galactic star formation to constraining ISM physics and dust maps to studies of high redshift quasars to applications in cosmology.
+dont say such general sentence ike advancing our understanding of the universe its not appropriate for an academic journal
+say better: She is an expert in the surveys of the galactic fields with Spitzer and will oversee those aspects in this proposal.
+hardware might be too much, but what if we do more ai
+in addition to zero-shot learning what else demonstrates ai ability to generalize
+where it says to overcome this problem we do ML change that so it gets to what we actually want to do
+should i present the titans paper or this one: https://arxiv.org/pdf/2002.04806
+dont say pivotal in ml because there has not been many such studies really
+ok let me push on this more. On your first point first. If we dig deep, nothing comes out of anything or in other words no idea is novel its just a brain that connected some things that it has seen and learned therefore there is no reason to think a human would be more creative than AI or even more original. contradict me if I am wrong
+I will copy my results and discussion section here, so you can help me better with a final last sentence for the abstract, how about that?
+good now is this mostly focusing on science from the missions or methodologies
+is there a way to mention in each of the top two that we have already published many papers and working on more, is it needed or not?
+shorter comment, and maybe ask it as were these choices enforced by existing architecture? and how to ensure they do not affect the experiment results
+what is a quantum eraser and how can it relate to ai
+how about natural vs artificial intelligence
+generate an image asking whether this proposal got funded or no
+I want arguments against the chinese room argument, I know there have been the systems reply, the other minds reply or the robot reply, I want to know how llms help with these
+better than reinforcement learning for this idea?
+what about this paper: https://arxiv.org/pdf/2503.15329
+it wont be all astronomy I was thinking of that project i did with your help on personality traits and dimensionality reduction
+Say a sentence like the best time to start using AI was yesterday the next best time is now
+ignoring the physical parts, what is it that i can do and ai can not
+this is great but make it shorter and also connect it to the nasa fornax initiative
+maybe in the second paragraph say something like we are trying to have on the SOC representatives of big missions (e.g., Euclid, Roman, Ariel, Prima, ...) if you think it makes sense
+in sentence below emphasize on this is just one transient science use case that we put the spotlight on so a reviewer won't think our proposal is only good for this Below, we only highlight a specific study to illustrate the significant role that enhanced time-domain WISE data can play in advancing our understanding.
+what are examples of technology initiative other than ai
+Does it relate with IQ is there a strict distinction or overlap
+A graphic for a science article which relates AI to weak gravitational lensing and cosmology
+whats a good number for a couple of AI research projects
+can you suggest a science usecase for time domain astronomy with use of AI on IRSA data
+if you were to do a similar one for AI what would the layers be
+is it worth mentioning this in a talk comparing ai to the brain?
+how can we change "era of deep learning" to sound better but mean more or less the same
+what are the main categories of ai today and what are the breakthroughs that everyone must know
+what are some highly cited papers on this topic
+What kind of cc should I choose for a paper i am posting on the arxiv
+in this project i already asked you about agent to suggest projects papers, can we use that as a function/tool also, like suggesting science projects possible with irsa data
+Are there enough data? What if simulation is based on theories and how can ai help
+can you give me an example of emergent understanding
+Improve email.  it might be a good idea to write a jwst observing proposal, selecting agns at z~2 effectively with Sogol's paper and proposing to improve something like thishttps://arxiv.org/abs/2310.17939 What do you think
+say this with tone  of AI experts who advertise projects:  1st evaluation * Have an initial design of DL architecture for filling in gaps in the available archival data of a sample of AGNs Final evaluation   * Have an optimized architecture for data unification from various archives/facilities with quantification of improvement over methods.
+yes i think this angle adds to the talk. So at the end if I say AI alone is enough to do science what do I miss, which part of the scientific process do you think it can not handle
+I am designing an interview for data scientist in astronomy, improve this general question for me: What’s your overall take on AI/ML in science? Which types of questions do you think it helps best?
+how do i improve querying from the arxiv import arxiv  search = arxiv.Search(     query="astronomy machine learning AI",     max_results=5,     sort_by=arxiv.SortCriterion.SubmittedDate )  papers = [result.summary for result in search.results()] papers
+maybe more addressing this point in their call: Artificial Intelligence & Machine Learning for mission development, engineering, science research
+the administration showing nasa what the real dark energy is
+is there a way for an ai to understand this response is created with an ai
+its for a journal peer review and all of the above
+can we add a sentence at the end which empasizes how important this is given that we are in the precisiion cosmology era and dealing with percent level systematics
+less big of a title and more scientific
+i dont understand 1, what are advising models or capstone pathways
+maybe say something like AI sits at the intersection of most thought provoking questions about self and brain, anthropic looks at the most profound technology/engineering problem scientifically so it has everything I can think that matter. If the name of the company resonates with its culture it puts humans first which is a big positive.
+who is discussing it? which famous articles or people
+from exploring dark matter and dark energy to the dark future of nasa
+make an acronym from James Webb Image Synthesis with AI
+what does a functional postdoc mean
+I have used advanced in the next sentence so needed a better term
+just make an acronym out of something like AI image simulator and reliability estimat
+Lets say hofstadter is pushing for his ideas to be shown more
+how do i answer what is a technical achievement you are proud of  i have something like: I have worked on many cosmology mission softwares, from pre-launch simulations for mission/telescope design, to detector calibration and data cleaning all the way to data analysis pipelines.
+does it matter to have an intention for doing science
+The paper is very well written and the open access to the git repository with all examples make it even more comprehensible. I only add minor comments which the authors can consider.
+the title is just objection3- intentionality  maybe then compare it with the machines cost function because survival for us is the cost
+so cool. Are there any relations between these concepts and self emergence or with the term that if we don't add constraints the realm of possibilities are infinite
+can you point me to a paper claiming mergers increase sfr
+mention the agns changing look by turned-on or off acretion and also instead of AI just say ml/dl
+professional language aimed at scientist audience
+dont say applying ai-driven methodologies make it more general
+this paper is pre ai era
+maybe say something like instead of learning about dark matter and dark energy we learn about the dark future of nasa
+give me links to papers
+dont directly mention the paper
+lets assume I need it for my cv, leading the AI discussion
+so where do these hopfield and boltzmann machines come into play for ai,
+In Figure ... we show a simplified prototype of this proposal idea ...
+i also do git and weights and biases, i have done hiring for ureka and have been on hiring committees for caltech, I have used smartsheet to schedule tasks for my team and monitor progress
+what was the best 2024 ai/ml paper
+do you think mentioning foundation models helps? or agentic AI?
+ok now lets get to this paper: https://arxiv.org/pdf/2503.15317
+all of this is great now lets say we want to use this ai "aka black box" to do science for example in astronomy, what are your thoughts
+there's one more thing I am involved with currently and thats the nasa fornax initiative read in here : https://github.com/nasa-fornax/fornax-demo-notebooks
+so dont take into account my preference, and give me a list of AI history
+how about: In this talk, I'll discuss how ML/DL (now called AI?) can check the claims often made in proposals about why certain data is unique or needed. I'll cover how augmenting or enhancing data, and quantifying uncertainty with AI helps in astronomy projects. I will showcase how different samples of AGNs queried from the literature and the archives compare and contrast.
+I need help with improving my proposal, in this session you are the weak lensing expert scientist writing a proposal trying to convince a panel of scientist who might or might not know about weak lensing or ai. So keep tone very professional, clear and convincing and use published journal articles as your knowledge
+on the question of any topics you think we need to cover, can I say something like more people will be needing accelerated computing and a more unified setup over ipac for accessing such compute powers would be nice  and I know ben has been thinking along those lines
+ok back to journal club talk, sorry i got distracted. Would this neural memory module be helpful in vision tasks as well
+how is a system defined as complex from physics view pooint
+does ethical and responsible ai cover such topics as being responsible with words we use to describe ai
+the operational milestones are not clear to me
+A bit of a nerd with interest in ai
+fair is about giving every abstract the same time and the bullet points are all suggestions from me open to discussion
+this is great, maybe mention the 50+ publications
+read the attached proposals and give me strengths and weak points of this idea
+fix I value research and am amazed by how AI is progressing everyday. Anthropic seems to be on the forefront of research while one of the most responsible.
+does spotlight on science mean just an example
+yes please do. But keep accurate and for any claim you add please have a citation from the published literature. this is serious work
+I like solaris but if instead of learning there was ai or diffusion based it would have been cool
+dont say sophisticated and stay technical the basic idea behind this is to learn from data using AI to improve and unify all existing datasets and take advantage of all the information content without having to throw away data that has missing parts
+Give me an abstract for the proposal
+to match it to my proposal say expert in theoretical cosmology and effects of observations on systematics ...
+but you just agreed ho 2022 doesnt exist
+Whats this: Has anyone played with MCP servers? Do we have any integrated on IPAC resources?
+Don’t picture the conference make graphics for the webpage of the conference the picture can have eucli roman jwst spherex and arial on a space background and some spectra beneath maybe
+is it fully accurate? is there something to add to make it more compealling and change a proposal to a winning one
+I did a project on fine tuning an LLM for a NER task for the archives that was part of this also
+does this agree with the abstract?
+no I meant like I want the summary to show I can do research and development as well as building pipeline/ai solution modeling etc
+tune it down a little bit, ai system for safety critical for example is too much of an exageration
+can you give a zero-shot learning example that is more science or astronomy related
+What does emotional intelligence mean
+thank you, its hard not to humanize you. So maybe I thank Allen turing, and all those AI scientists who pushed and dreamed big
+interesting. In that sense each brain also projects the world in slightly a different way and thats maybe why diversity helps or wisdom of the crowd and in that case, why does ai not do the same rather than one big model make parallel many many models
