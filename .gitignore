@@ -1,10 +1,12 @@
 .ipynb_checkpoints/
+.DS_Store
 *.pyc
 *.pkl
 *.sav
 me/shoob*
 me/conver*
 docs/
+me/visuals
 DS0001/
 DS0002/
 DS0003/
