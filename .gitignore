@@ -3,6 +3,7 @@
 *.pyc
 *.pkl
 *.sav
+*.virtual_documents/
 me/shoob*
 me/conver*
 docs/
